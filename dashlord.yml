@@ -24,4 +24,43 @@ tools:
   budget_page: true
   betagouv: true
 urls:
-  - url: http://policenationale.ddev.site
+  - url: https://consulat.gouv.fr
+  - url: https://correze.gouv.fr
+  - url: https://corse-du-sud.gouv.fr
+  - url: https://cotes-darmor.gouv.fr
+  - url: https://certificat-air.gouv.fr
+  - url: https://culture.gouv.fr
+  - url: https://culturecheznous.gouv.fr
+  - url: https://cote-dor.gouv.fr
+  - url: https://cybermalveillance.gouv.fr
+  - url: https://cyberveille-sante.gouv.fr
+  - url: https://creuse.gouv.fr
+  - url: https://dares.travail-emploi.gouv.fr
+  - url: https://data.gouv.fr
+  - url: https://defense.gouv.fr
+  - url: https://demission-reconversion.gouv.fr
+  - url: https://datara.gouv.fr
+  - url: https://deux-sevres.gouv.fr
+  - url: https://devenirenseignant.gouv.fr
+  - url: https://dgse.gouv.fr
+  - url: https://diese.gouv.fr
+  - url: https://dila.premier-ministre.gouv.fr
+  - url: https://diplomatie.gouv.fr
+  - url: https://documentation-administrative.gouv.fr
+  - url: https://dordogne.gouv.fr
+  - url: https://douane.gouv.fr
+  - url: https://doubs.gouv.fr
+  - url: https://dpi.sante.gouv.fr
+  - url: https://drdjscs.gouv.fr
+  - url: https://drees.solidarites-sante.gouv.fr
+  - url: https://dreets.gouv.fr
+  - url: https://drogues.gouv.fr
+  - url: https://drome.gouv.fr
+  - url: https://ecologie.gouv.fr
+  - url: https://economie.gouv.fr
+  - url: https://edition-prod-police-nationalev2.minint.ate.info
+  - url: https://education.gouv.fr
+  - url: https://egalite-femmes-hommes.gouv.fr
+  - url: https://fr-alert.gouv.fr
+  - url: https://france-identite.gouv.fr
+  - url: https://enfance.gouv.fr
