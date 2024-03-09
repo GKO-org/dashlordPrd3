@@ -1,0 +1,106 @@
+# Nmap 7.92 scan initiated Sat Mar  9 14:22:46 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln dila.premier-ministre.gouv.fr
+Nmap scan report for dila.premier-ministre.gouv.fr (160.92.168.129)
+Host is up (0.15s latency).
+rDNS record for 160.92.168.129: dila-p-m-fr-prod.as8677.net
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE    VERSION
+80/tcp  open  http-proxy F5 BIG-IP load balancer http proxy
+|_http-server-header: BigIP
+443/tcp open  ssl/https
+| fingerprint-strings: 
+|   FourOhFourRequest, HTTPOptions: 
+|     HTTP/1.1 403 Forbidden
+|     X-Frame-Options: DENY
+|     X-XSS-Protection: 1; mode=block
+|     X-Content-Type-Options: nosniff
+|     Cache-Control: no-cache
+|     Connection: close
+|     Content-Security-Policy: default-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';
+|     Content-Type: text/html; charset=utf-8
+|     Pragma: no-cache
+|     Strict-Transport-Security: max-age=31536000; includeSubDomains
+|     X-Blocked: yes
+|     Content-Length: 4064
+|     <!DOCTYPE html>
+|     <html><head>
+|     <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+|     <title>
+|     Security Error
+|     </title>
+|     <style type="text/css">
+|     .content {
+|     background-color:#0066a1;
+|     width:900px;
+|     margin:0px auto;
+|     margin-top:40px;
+|     margin-bottom:10px;
+|     border:2px solid #DDDDDD;
+|     height: 250px;
+|     font-family:Tahoma;
+|     color:white;
+|   GetRequest: 
+|     HTTP/1.1 403 Forbidden
+|     Date: Sat, 09 Mar 2024 14:23:14 GMT
+|     Content-Type: text/html
+|     Content-Length: 162
+|     Connection: close
+|     <html>
+|     <head><title>403 Forbidden</title></head>
+|     <body bgcolor="white">
+|     <center><h1>403 Forbidden</h1></center>
+|     <hr><center>nginx</center>
+|     </body>
+|_    </html>
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=3/9%Time=65EC70D2%P=x86_64-alpine-linux-
+SF:musl%r(GetRequest,122,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Sat,\x
+SF:2009\x20Mar\x202024\x2014:23:14\x20GMT\r\nContent-Type:\x20text/html\r\
+SF:nContent-Length:\x20162\r\nConnection:\x20close\r\n\r\n<html>\r\n<head>
+SF:<title>403\x20Forbidden</title></head>\r\n<body\x20bgcolor=\"white\">\r
+SF:\n<center><h1>403\x20Forbidden</h1></center>\r\n<hr><center>nginx</cent
+SF:er>\r\n</body>\r\n</html>\r\n")%r(HTTPOptions,117F,"HTTP/1\.1\x20403\x2
+SF:0Forbidden\r\nX-Frame-Options:\x20DENY\r\nX-XSS-Protection:\x201;\x20mo
+SF:de=block\r\nX-Content-Type-Options:\x20nosniff\r\nCache-Control:\x20no-
+SF:cache\r\nConnection:\x20close\r\nContent-Security-Policy:\x20default-sr
+SF:c\x20'self'\x20'unsafe-inline';\x20style-src\x20'self'\x20'unsafe-inlin
+SF:e';\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nPragma:\x20no-ca
+SF:che\r\nStrict-Transport-Security:\x20max-age=31536000;\x20includeSubDom
+SF:ains\r\nX-Blocked:\x20yes\r\nContent-Length:\x204064\r\n\r\n<!DOCTYPE\x
+SF:20html>\r\n<html><head>\r\n<meta\x20http-equiv=\"content-type\"\x20cont
+SF:ent=\"text/html;\x20charset=ISO-8859-1\">\r\n\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20<title>\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20Security\x20Error\r\n\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20</title>\r\n\x20\x20\x20\x20<style\x20type=
+SF:\"text/css\">\r\n\t\x20\x20\.content\x20{\r\n\x20\x20\x20\x20\x20\x20\x
+SF:20\x20background-color:#0066a1;\r\n\x20\x20\x20\x20\x20\x20\x20\x20widt
+SF:h:900px;\r\n\x20\x20\x20\x20\x20\x20\x20\x20margin:0px\x20auto;\r\n\x20
+SF:\x20\x20\x20\x20\x20\x20\x20margin-top:40px;\r\n\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20margin-bottom:10px;\r\n\x20\x20\x20\x20\x20\x20\x20\x20border:
+SF:2px\x20solid\x20#DDDDDD;\r\n\x20\x20\x20\x20\x20\x20\x20\x20height:\x20
+SF:250px;\r\n\x20\x20\x20\x20\x20\x20\x20\x20font-family:Tahoma;\r\n\t\tco
+SF:lor:white;\r\n\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\r\n\x20\x20\x20
+SF:\x20\x20")%r(FourOhFourRequest,117F,"HTTP/1\.1\x20403\x20Forbidden\r\nX
+SF:-Frame-Options:\x20DENY\r\nX-XSS-Protection:\x201;\x20mode=block\r\nX-C
+SF:ontent-Type-Options:\x20nosniff\r\nCache-Control:\x20no-cache\r\nConnec
+SF:tion:\x20close\r\nContent-Security-Policy:\x20default-src\x20'self'\x20
+SF:'unsafe-inline';\x20style-src\x20'self'\x20'unsafe-inline';\r\nContent-
+SF:Type:\x20text/html;\x20charset=utf-8\r\nPragma:\x20no-cache\r\nStrict-T
+SF:ransport-Security:\x20max-age=31536000;\x20includeSubDomains\r\nX-Block
+SF:ed:\x20yes\r\nContent-Length:\x204064\r\n\r\n<!DOCTYPE\x20html>\r\n<htm
+SF:l><head>\r\n<meta\x20http-equiv=\"content-type\"\x20content=\"text/html
+SF:;\x20charset=ISO-8859-1\">\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20<title>\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20Security\x20Error\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20</title>\r\n\x20\x20\x20\x20<style\x20type=\"text/css\">\r
+SF:\n\t\x20\x20\.content\x20{\r\n\x20\x20\x20\x20\x20\x20\x20\x20backgroun
+SF:d-color:#0066a1;\r\n\x20\x20\x20\x20\x20\x20\x20\x20width:900px;\r\n\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20margin:0px\x20auto;\r\n\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20margin-top:40px;\r\n\x20\x20\x20\x20\x20\x20\x20\x20margin
+SF:-bottom:10px;\r\n\x20\x20\x20\x20\x20\x20\x20\x20border:2px\x20solid\x2
+SF:0#DDDDDD;\r\n\x20\x20\x20\x20\x20\x20\x20\x20height:\x20250px;\r\n\x20\
+SF:x20\x20\x20\x20\x20\x20\x20font-family:Tahoma;\r\n\t\tcolor:white;\r\n\
+SF:x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\r\n\x20\x20\x20\x20\x20");
+Service Info: Device: load balancer
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar  9 14:25:34 2024 -- 1 IP address (1 host up) scanned in 168.00 seconds
