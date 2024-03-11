@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sat Mar  9 14:40:02 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln drdjscs.gouv.fr
+# Nmap 7.92 scan initiated Mon Mar 11 19:21:43 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln drdjscs.gouv.fr
 Nmap scan report for drdjscs.gouv.fr (185.75.143.22)
 Host is up (0.15s latency).
 rDNS record for 185.75.143.22: MEN-MUTU-PROXY01.dedie.ate.info
@@ -8,4 +8,4 @@ PORT    STATE SERVICE  VERSION
 443/tcp open  ssl/http nginx
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sat Mar  9 14:40:32 2024 -- 1 IP address (1 host up) scanned in 30.75 seconds
+# Nmap done at Mon Mar 11 19:22:14 2024 -- 1 IP address (1 host up) scanned in 31.07 seconds
