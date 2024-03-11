@@ -339,7 +339,7 @@
               "ip"           : "dgse.gouv.fr/107.154.50.81",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "306 >= 60 days"
+              "finding"      : "304 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +542,7 @@
               "ip"           : "dgse.gouv.fr/107.154.50.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-342465 seconds from localtime"
+              "finding"      : "-532382 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
@@ -1161,6 +1161,6 @@
               "ip"           : "dgse.gouv.fr/107.154.50.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "202"
+              "finding"      : "198"
           }
 ]
