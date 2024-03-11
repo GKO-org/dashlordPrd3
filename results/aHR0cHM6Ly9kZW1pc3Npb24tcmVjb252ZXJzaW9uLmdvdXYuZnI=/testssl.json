@@ -556,7 +556,7 @@
               "ip"           : "demission-reconversion.gouv.fr/40.114.143.169",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "198 >= 60 days"
+              "finding"      : "196 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -675,7 +675,7 @@
               "ip"           : "demission-reconversion.gouv.fr/40.114.143.169",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1709993178"
+              "finding"      : "1710183267"
           }
 ,         {
               "id"           : "HSTS",
@@ -1261,6 +1261,6 @@
               "ip"           : "demission-reconversion.gouv.fr/40.114.143.169",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "100"
+              "finding"      : "102"
           }
 ]
