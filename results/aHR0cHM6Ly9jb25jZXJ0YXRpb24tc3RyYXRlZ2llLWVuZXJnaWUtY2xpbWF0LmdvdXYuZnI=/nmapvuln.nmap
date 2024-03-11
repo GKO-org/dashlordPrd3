@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Mon Mar 11 18:22:05 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln concertation-strategie-energie-climat.gouv.fr
+Failed to resolve "concertation-strategie-energie-climat.gouv.fr".
+WARNING: No targets were specified, so 0 hosts scanned.
+# Nmap done at Mon Mar 11 18:22:10 2024 -- 0 IP addresses (0 hosts up) scanned in 5.32 seconds
