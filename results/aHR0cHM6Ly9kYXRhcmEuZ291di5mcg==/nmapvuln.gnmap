@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sat Mar  9 14:09:30 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln datara.gouv.fr
+# Nmap 7.92 scan initiated Mon Mar 11 18:56:56 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln datara.gouv.fr
 Host: 217.70.184.38 (webredir.vip.gandi.net)	Status: Up
 Host: 217.70.184.38 (webredir.vip.gandi.net)	Ports: 80/open/tcp//http//nginx/, 443/closed/tcp//https///	Ignored State: filtered (998)
-# Nmap done at Sat Mar  9 14:09:47 2024 -- 1 IP address (1 host up) scanned in 17.51 seconds
+# Nmap done at Mon Mar 11 18:57:13 2024 -- 1 IP address (1 host up) scanned in 17.64 seconds
