@@ -521,14 +521,14 @@
               "ip"           : "certificat-air.gouv.fr/37.235.92.189",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "certificat-air.gouv.fr/37.235.92.189",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710182550"
+              "finding"      : "1710238855"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1119,6 +1119,6 @@
               "ip"           : "certificat-air.gouv.fr/37.235.92.189",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "98"
+              "finding"      : "96"
           }
 ]
