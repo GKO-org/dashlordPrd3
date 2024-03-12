@@ -75,7 +75,7 @@
 "intermediate_cert_badOCSP","concertation-strategie-energie-climat.gouv.fr/79.137.76.37","443","OK","intermediate certificate(s) is/are ok","",""
 "HTTP_status_code","concertation-strategie-energie-climat.gouv.fr/79.137.76.37","443","INFO","200 OK ('/')","",""
 "HTTP_clock_skew","concertation-strategie-energie-climat.gouv.fr/79.137.76.37","443","INFO","-1 seconds from localtime","",""
-"HTTP_headerTime","concertation-strategie-energie-climat.gouv.fr/79.137.76.37","443","INFO","1710181288","",""
+"HTTP_headerTime","concertation-strategie-energie-climat.gouv.fr/79.137.76.37","443","INFO","1710237680","",""
 "HSTS_time","concertation-strategie-energie-climat.gouv.fr/79.137.76.37","443","OK","730 days (=63072000 seconds) > 15552000 seconds","",""
 "HSTS_subdomains","concertation-strategie-energie-climat.gouv.fr/79.137.76.37","443","INFO","only for this domain","",""
 "HSTS_preload","concertation-strategie-energie-climat.gouv.fr/79.137.76.37","443","INFO","domain is NOT marked for preloading","",""

@@ -542,7 +542,7 @@
               "ip"           : "concertation-strategie-energie-climat.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710181288"
+              "finding"      : "1710237680"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1140,6 +1140,6 @@
               "ip"           : "concertation-strategie-energie-climat.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "66"
+              "finding"      : "60"
           }
 ]
