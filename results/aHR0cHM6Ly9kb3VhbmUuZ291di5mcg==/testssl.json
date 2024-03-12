@@ -339,7 +339,7 @@
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "184 >= 60 days"
+              "finding"      : "183 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -535,14 +535,14 @@
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710184525"
+              "finding"      : "1710240905"
           }
 ,         {
               "id"           : "HSTS",
@@ -1098,6 +1098,6 @@
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "72"
+              "finding"      : "125"
           }
 ]
