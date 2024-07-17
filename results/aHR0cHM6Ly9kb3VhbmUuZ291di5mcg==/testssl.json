@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "183 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (56)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-09-11 21:59"
           }
 ,         {
@@ -542,7 +542,7 @@
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710240905"
+              "finding"      : "1721229591"
           }
 ,         {
               "id"           : "HSTS",
@@ -1098,6 +1098,6 @@
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "125"
+              "finding"      : "69"
           }
 ]
