@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln complementaire-sante-solidaire.gouv.fr</pre>
-<p class="lead">Tue Mar 12 09:59:56 2024 – Tue Mar 12 10:00:21 2024<br>1 hosts scanned.
+<p class="lead">Wed Jul 17 14:27:13 2024 – Wed Jul 17 14:29:42 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,7 +76,7 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>213.186.33.40</td>
+<td>185.194.83.92</td>
 <td>complementaire-sante-solidaire.gouv.fr</td>
 <td>2</td>
 <td>0</td>
@@ -91,13 +91,10 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#213-186-33-40"><h3 class="panel-title">213.186.33.40 - complementaire-sante-solidaire.gouv.fr</h3></div>
-<div class="panel-body collapse in" id="213-186-33-40">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#185-194-83-92"><h3 class="panel-title">185.194.83.92 - complementaire-sante-solidaire.gouv.fr</h3></div>
+<div class="panel-body collapse in" id="185-194-83-92">
 <h4>Hostnames</h4>
-<ul>
-<li>complementaire-sante-solidaire.gouv.fr (user)</li>
-<li>cluster011.ovh.net (PTR)</li>
-</ul>
+<ul><li>complementaire-sante-solidaire.gouv.fr (user)</li></ul>
 <h4>Ports</h4>
 <div class="table-responsive"><table class="table table-bordered">
 <thead><tr>
@@ -115,75 +112,48 @@
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">http</td>
-<td title="Product">nginx</td>
+<td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  Apache
-  nginx</pre>
-<h5>fingerprint-strings</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  GetRequest: 
-    HTTP/1.1 404 Not Found
-    server: nginx
-    date: Tue, 12 Mar 2024 10:00:10 GMT
-    content-type: text/html; charset=utf8
-    x-ovh-webhosting-id: cc2674e3d2133ce26135bcefd0c1c6b2
-    pragma: no-cache
-    cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-    content-length: 4958
-    x-iplb-request-id: 142C407D:07C0_D5BA2128:0050_65F027A4_525BB:625E
-    x-iplb-instance: 51997
-    connection: close
-    &lt;html xml:lang="en-EN" lang="en-EN"&gt;
-    &lt;head&gt;
-    &lt;title&gt;Site not installed - OVHcloud&lt;/title&gt;
-    &lt;meta name="viewport" content="width=device-width"&gt;
-    &lt;meta http-equiv="refresh" content="90"&gt;
-    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
-    &lt;meta http-equiv="Content-Language" content="en-EN"&gt;
-    &lt;meta name="robots" content="noindex, nofollow"&gt;
-    &lt;meta name="description" qtlid="283606" content="Site not installed"&gt;
-    &lt;meta h
-  HTTPOptions: 
-    HTTP/1.1 404 Not Found
-    server: nginx
-    date: Tue, 12 Mar 2024 10:00:10 GMT
-    content-type: text/html; charset=utf8
-    x-ovh-webhosting-id: 72a86178e726fde4022e9ad62b164ea9
-    pragma: no-cache
-    cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-    content-length: 4958
-    x-iplb-request-id: 142C407D:07C4_D5BA2128:0050_65F027AA_5C286:1465
-    x-iplb-instance: 51966
-    connection: close
-    &lt;html xml:lang="en-EN" lang="en-EN"&gt;
-    &lt;head&gt;
-    &lt;title&gt;Site not installed - OVHcloud&lt;/title&gt;
-    &lt;meta name="viewport" content="width=device-width"&gt;
-    &lt;meta http-equiv="refresh" content="90"&gt;
-    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
-    &lt;meta http-equiv="Content-Language" content="en-EN"&gt;
-    &lt;meta name="robots" content="noindex, nofollow"&gt;
-    &lt;meta name="description" qtlid="283606" content="Site not installed"&gt;
-    &lt;meta h</pre>
+  FourOhFourRequest: 
+    HTTP/1.0 302 Moved Temporarily
+    Location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak
+    Connection: close
+    Content-Length: 0
+  GetRequest, HTTPOptions, RTSPRequest: 
+    HTTP/1.0 302 Moved Temporarily
+    Location: https:///
+    Connection: close
+    Content-Length: 0
+  SIPOptions: 
+    HTTP/1.0 302 Moved Temporarily
+    Location: https://sip:nm
+    Connection: close
+    Content-Length: 0</pre>
 </td></tr>
+<tr class="active">
+<td>113</td>
+<td>tcp</td>
+<td>closed<br>reset</td>
+<td>ident</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 <tr class="success">
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">http</td>
 <td title="Product">nginx</td>
-<td title="Version"></td>
+<td title="Version">1.18.0</td>
 <td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx">cpe:/a:igor_sysoev:nginx</a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
-</td></tr>
+<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx:1.18.0">cpe:/a:igor_sysoev:nginx:1.18.0</a></td></tr>
 </tbody>
 </table></div>
 </div>
@@ -202,23 +172,23 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>213.186.33.40 - complementaire-sante-solidaire.gouv.fr</td>
+<td>185.194.83.92 - complementaire-sante-solidaire.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
-<td>nginx</td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>213.186.33.40 - complementaire-sante-solidaire.gouv.fr</td>
+<td>185.194.83.92 - complementaire-sante-solidaire.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
 <td>http</td>
 <td>nginx</td>
-<td></td>
-<td>cpe:/a:igor_sysoev:nginx</td>
+<td>1.18.0</td>
+<td>cpe:/a:igor_sysoev:nginx:1.18.0</td>
 <td></td>
 </tr>
 </tbody>
