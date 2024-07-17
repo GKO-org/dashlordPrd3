@@ -262,7 +262,7 @@
               "ip"           : "corse-du-sud.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "24DF6A5579247E5F3127ED2546C5F5F7"
+              "finding"      : "97C61AB674EADDD4827E1F42BDF00C29"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "corse-du-sud.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "F5D6CBD9E431FC8480EBD04769B1E0D8C4F41C68"
+              "finding"      : "D57B9138CBE47022FEDB2D277FA5CB5BD6310C50"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "corse-du-sud.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "A1A54E20F0EFF341331EC773E3BDEE706E836068C73573DF8D5F57131629ED56"
+              "finding"      : "5D06F090A1D4C63B5E01738A314FF35C71E3A55D1635530EDA3100BBEDCA5B3D"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "corse-du-sud.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIIYzCCBkugAwIBAgIQJN9qVXkkfl8xJ+0lRsX19zANBgkqhkiG9w0BAQsFADB9MQswCQYDVQQGEwJGUjESMBAGA1UECgwJREhJTVlPVElTMRwwGgYDVQQLDBMwMDAyIDQ4MTQ2MzA4MTAwMDM2MR0wGwYDVQRhDBROVFJGUi00ODE0NjMwODEwMDAzNjEdMBsGA1UEAwwUQ2VydGlnbmEgU2VydmljZXMgQ0EwHhcNMjMwNDE2MjIwMDAwWhcNMjQwNTE1MjE1OTU5WjB4MQswCQYDVQQGEwJGUjEOMAwGA1UEBwwFUEFSSVMxITAfBgNVBAoMGE1JTklTVEVSRSBERSBMIElOVEVSSUVVUjEhMB8GA1UEAwwYd3d3LmNvcnNlLWR1LXN1ZC5nb3V2LmZyMRMwEQYDVQQFEwpTMjcwMDIzMzM0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt6s9K25654/grfjG8gwKabKnoaY8tqBC0aPQlAmI3TsC+WF/ecF6reIiFB+Ow2KfUPXJQFRg8L5Q6xx3t1Re4AecCA9gmQwwcUxqckWa8A3tJjdFFQYecOWUOrqdNFgz/+jG0dHE55c1u6Q1F7dDJ+0yuMcZicCs7WxuiHm8vCZZNSDsIf62CEmA2w5c8kZ8TfONVly17Qn2LmUTaXnKgS4kiWg1nciawMa+9HAM34CMBf0C5DIrnmX6/2/XxGBNxfnZ91BcPGksRgVGsY8gDeemfc3GHZN9iuItMg5ljxKnR31Z6yKppror1CVFaor/jhlTcw5kdAPAwdRGLMqJQQIDAQABo4ID4jCCA94wgeQGCCsGAQUFBwEBBIHXMIHUMDYGCCsGAQUFBzAChipodHRwOi8vYXV0b3JpdGUuY2VydGlnbmEuZnIvc2VydmljZXNjYS5kZXIwOAYIKwYBBQUHMAKGLGh0dHA6Ly9hdXRvcml0ZS5kaGlteW90aXMuY29tL3NlcnZpY2VzY2EuZGVyMDAGCCsGAQUFBzABhiRodHRwOi8vc2VydmljZXNjYS5vY3NwLmRoaW15b3Rpcy5jb20wLgYIKwYBBQUHMAGGImh0dHA6Ly9zZXJ2aWNlc2NhLm9jc3AuY2VydGlnbmEuZnIwHwYDVR0jBBgwFoAUrOyGj0s3HLh/FxsZ0K7oTuM0XBIwCQYDVR0TBAIwADBhBgNVHSAEWjBYMAgGBmeBDAECAjBMBgsqgXoBgTECBQEBATA9MDsGCCsGAQUFBwIBFi9odHRwczovL3d3dy5jZXJ0aWduYS5jb20vYXV0b3JpdGUtY2VydGlmaWNhdGlvbjBlBgNVHR8EXjBcMCugKaAnhiVodHRwOi8vY3JsLmNlcnRpZ25hLmZyL3NlcnZpY2VzY2EuY3JsMC2gK6AphidodHRwOi8vY3JsLmRoaW15b3Rpcy5jb20vc2VydmljZXNjYS5jcmwwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDgYDVR0PAQH/BAQDAgWgMDkGA1UdEQQyMDCCFGNvcnNlLWR1LXN1ZC5nb3V2LmZyghh3d3cuY29yc2UtZHUtc3VkLmdvdXYuZnIwHQYDVR0OBBYEFDryXTL5jQ+cI1rhq7+XBzwA7XyYMIIBfgYKKwYBBAHWeQIEAgSCAW4EggFqAWgAdgDuzdBk1dsazsVct520zROiModGfLzs3sNRSFlGcR+1mwAAAYePi3K7AAAEAwBHMEUCIQDdhxWspRW2I57VE/7HyExGpDSH9lY6jaiUjYNhMwOt6gIgWJglPaVCHgDrz7FJTeXadD/7c2fryLX2QeX2lMdyP9sAdgB2/4g/Crb7lVHCYcz1h7o0tKTNuyncaEIKn+ZnTFo6dAAAAYePi20BAAAEAwBHMEUCIGkpccdK27oarqsD7moGf/kNEO9Sk/lM0OoC8iPx49arAiEAzcLHYzW2Ad0o74wT74TOsf8wNxSdgAh4Zwh8WNuO4rkAdgBVgdTCFpA2AUrqC5tXPFPwwOQ4eHAlCBcvo6odBxPTDAAAAYePi3VZAAAEAwBHMEUCIQCeEKSwm8p2tB6UUEnvxaa4rtfMQWsTudxtZgnI8aAF/QIgXUWi1STlatWxUjJaBtK/CAWhJu8dd1wp4rmqQs8s/vUwDQYJKoZIhvcNAQELBQADggIBAEeR8aC5aQ9DLJpOQnI9c1crOH80cmJlcdNmrafETFarwuhyQhl/G4BbXxbgdS1TFw3UFywaTia6DynkYQN6+m4D2iZgtKUYC5YSSeVKKMDWfQvn1vj9sGAGTh3QCGCRKV4Op5r/NoPk53Wece8RckhsW8RAynFEX9Ul+6V09ulU/ExiAy/1kIsCj9AoIo02et/IESkQ/R6vMuIJRU9eHm5Nt6m7BrTkTWZz2wk8x7w/FAyDHK/fbuFxwuSUxnhwXkP9w4WdZvAebvenXMaew0Qw0lMdXNMjhM8EY4jRez+B4ApNqgA7/pLufCtZUP5eB42Fulr2rXD6QDSGkAvzoMXaJF9nmO/26bkrAyIHRPX7+qx4ZgYo9QzUfOazfNeKCbJejMLMR3K/VTd0cKei33v9MnH8+ytLvlf+w0d4TqPMzkpzEZyTMcskXtR1aDtZGJotT/onSd0VMSxW6+xbd1oF3cQeEFUMqb4HUsbW9myyd/EGAAuPSTg9Ybh9ID1AFaF6HqP114GPtxlapkBoQfy2do6MBevMSwBbtmjqPBLvNKKDeUwnLFQwSAMunC8NVa92AKoyJtR19L0radGj0eYRqud2ndgKqEyNAW+pmvA8BpXlYlgD4jahvIUAm9Dg8W4lL0J+bFAKqcEa+5Rt7T8zydRtYOioDsmhK0A3GbnI\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "corse-du-sud.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "corse-du-sud.gouv.fr www.corse-du-sud.gouv.fr"
+              "finding"      : "www.corse-du-sud.gouv.fr corse-du-sud.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -339,21 +339,21 @@
               "ip"           : "corse-du-sud.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "64 >= 60 days"
+              "finding"      : "304 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "corse-du-sud.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-04-16 22:00"
+              "finding"      : "2024-04-17 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "corse-du-sud.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-05-15 21:59"
+              "finding"      : "2025-05-17 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -500,7 +500,7 @@
               "ip"           : "corse-du-sud.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710238521"
+              "finding"      : "1721227090"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=A1A54E20F0EFF341331EC773E3BDEE706E836068C73573DF8D5F57131629ED56"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=5D06F090A1D4C63B5E01738A314FF35C71E3A55D1635530EDA3100BBEDCA5B3D"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1063,6 +1063,6 @@
               "ip"           : "corse-du-sud.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "102"
+              "finding"      : "56"
           }
 ]
