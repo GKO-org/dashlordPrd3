@@ -206,7 +206,7 @@
               "ip"           : "culturecheznous.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "valid for 299 seconds only (<daily)"
+              "finding"      : "valid for 300 seconds only (<daily)"
           }
 ,         {
               "id"           : "SSL_sessionID_support",
@@ -227,7 +227,7 @@
               "ip"           : "culturecheznous.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -262,7 +262,7 @@
               "ip"           : "culturecheznous.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "SHA256 with RSA"
+              "finding"      : "SHA384 with RSA"
           }
 ,         {
               "id"           : "cert_keySize",
@@ -290,7 +290,7 @@
               "ip"           : "culturecheznous.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "40DA5C4A84167DF303EBB36952DE111C"
+              "finding"      : "1105F54D1C25DB9070585574E2A3E97C"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -304,21 +304,21 @@
               "ip"           : "culturecheznous.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "B505C18F61E0641E77FE0FE48075E9D3CBEFDAD6"
+              "finding"      : "AA7FB8596955311B4E8F5B2B1B2EE1B811B6309B"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "culturecheznous.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "571896E7F4EE032AF03BC3B2DC0DF7380D1B7411188853149F57329ED99EFE26"
+              "finding"      : "FAD02033E49B8CCF794CA990D6F774F67FCE3FD5EB5B3FFE80A07F41303871B6"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "culturecheznous.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFbTCCBFWgAwIBAgIQQNpcSoQWffMD67NpUt4RHDANBgkqhkiG9w0BAQsFADBfMQswCQYDVQQGEwJGUjEOMAwGA1UECBMFUGFyaXMxDjAMBgNVBAcTBVBhcmlzMQ4wDAYDVQQKEwVHYW5kaTEgMB4GA1UEAxMXR2FuZGkgU3RhbmRhcmQgU1NMIENBIDIwHhcNMjMwMzIzMDAwMDAwWhcNMjQwNDIyMjM1OTU5WjAiMSAwHgYDVQQDExdjdWx0dXJlY2hlem5vdXMuZ291di5mcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABH6r70XbMK2sZregjkYIgfulSDSRXazijqZHDyoaUgWcDcBZXhcBCwZGeYYKiMMnPO0zMU5c44dtPVG6IJURiGejggMrMIIDJzAfBgNVHSMEGDAWgBSzkKfYya9OzWE8n3ytXX9B/Wkw6jAdBgNVHQ4EFgQUpFb1bZ/zZmuV7yqfKlMp+oGLzT4wDgYDVR0PAQH/BAQDAgeAMAwGA1UdEwEB/wQCMAAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMEsGA1UdIAREMEIwNgYLKwYBBAGyMQECAhowJzAlBggrBgEFBQcCARYZaHR0cHM6Ly9jcHMudXNlcnRydXN0LmNvbTAIBgZngQwBAgEwQQYDVR0fBDowODA2oDSgMoYwaHR0cDovL2NybC51c2VydHJ1c3QuY29tL0dhbmRpU3RhbmRhcmRTU0xDQTIuY3JsMHMGCCsGAQUFBwEBBGcwZTA8BggrBgEFBQcwAoYwaHR0cDovL2NydC51c2VydHJ1c3QuY29tL0dhbmRpU3RhbmRhcmRTU0xDQTIuY3J0MCUGCCsGAQUFBzABhhlodHRwOi8vb2NzcC51c2VydHJ1c3QuY29tMCIGA1UdEQQbMBmCF2N1bHR1cmVjaGV6bm91cy5nb3V2LmZyMIIBfQYKKwYBBAHWeQIEAgSCAW0EggFpAWcAdgB2/4g/Crb7lVHCYcz1h7o0tKTNuyncaEIKn+ZnTFo6dAAAAYcMD10mAAAEAwBHMEUCIQC820rqAPHVaNXkJkpmsbpG0IUZAC/zLe2N1eiYgidadQIgIGcc6s8Pq1sBgGlEs7uEN5Jj8GxioMl12/E0ocP5huUAdQDatr9rP7W2Ip+bwrtca+hwkXFsu1GEhTS9pD0wSNf7qwAAAYcMD12AAAAEAwBGMEQCIGKJeCNxQ8ZVZAw6xvuEM/5zmZIFfKhx8pTyk7e9/CwqAiAUAsS5tcRoTKXPm/UrVMZVRFr10eRMgMY7W5OntR/BIAB2AO7N0GTV2xrOxVy3nbTNE6Iyh0Z8vOzew1FIWUZxH7WbAAABhwwPXaIAAAQDAEcwRQIhAPMtDGYL0I1WtEUgxvbhXGb2DL+p6Knts0HUe3O1Kp5dAiB3S6HgiRuIeAnma1AdhkMq/UUFlcxRsztD7i/qAk52nDANBgkqhkiG9w0BAQsFAAOCAQEAKvuTGcxzoMq62lw4lr8B1HC7YlHlFL/FDCqRojHuKuIQB+1SgBLkFIv8K5erxx6jaJ1V7C31ALvs9K2AGpJYYejWMPH1L0oggStL9ycVsxXgunt0ykrHXNJvwOlIlBcLd/cyw/K7Ze6af6Niiye8jv6DRVR0vYAX4XjtcJU2oCpXzFf3OEAju8Nhab/ugrRR/w5ntmIoqySQ8vQeOxXimhmKi7T4RmgPkclV/UPZTuv6Jzx+Zxo/eQ8MJZBCpNGRbJEtWe0X0Z5sra5aZy09nDjbByEHjLqa/ZpIKSiAXC5L51zTDyVZPfTlFFuTZ4EG7LukWieMaL66G/ltoFTM7g==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFsjCCBBqgAwIBAgIQEQX1TRwl25BwWFV04qPpfDANBgkqhkiG9w0BAQwFADBWMQswCQYDVQQGEwJGUjEOMAwGA1UEChMFR2FuZGkxNzA1BgNVBAMTLkdhbmRpIFJTQSBEb21haW4gVmFsaWRhdGlvbiBTZWN1cmUgU2VydmVyIENBIDMwHhcNMjQwMzIzMDAwMDAwWhcNMjUwNDIyMjM1OTU5WjAiMSAwHgYDVQQDExdjdWx0dXJlY2hlem5vdXMuZ291di5mcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABOLYBU3oC8phCoMha46QiOGZN70QLLgbRCSxlYkRfLaP3URX2+vxqrcOtTJrsfD17N4wSjDWq1f9wz0/nVbnXEmjggL5MIIC9TAfBgNVHSMEGDAWgBSBEZLeZjKlsFszPWVDhfzUBC3xrjAdBgNVHQ4EFgQUNUvBqpRwtI6qO1LFhmvKcs1o5cgwDgYDVR0PAQH/BAQDAgeAMAwGA1UdEwEB/wQCMAAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMEkGA1UdIARCMEAwNAYLKwYBBAGyMQECAhowJTAjBggrBgEFBQcCARYXaHR0cHM6Ly9zZWN0aWdvLmNvbS9DUFMwCAYGZ4EMAQIBMIGDBggrBgEFBQcBAQR3MHUwTgYIKwYBBQUHMAKGQmh0dHA6Ly9jcnQuc2VjdGlnby5jb20vR2FuZGlSU0FEb21haW5WYWxpZGF0aW9uU2VjdXJlU2VydmVyQ0EzLmNydDAjBggrBgEFBQcwAYYXaHR0cDovL29jc3Auc2VjdGlnby5jb20wIgYDVR0RBBswGYIXY3VsdHVyZWNoZXpub3VzLmdvdXYuZnIwggF/BgorBgEEAdZ5AgQCBIIBbwSCAWsBaQB3AM8RVu7VLnyv84db2Wkum+kacWdKsBfsrAHSW3fOzDsIAAABjmjmlrMAAAQDAEgwRgIhAPrgJHH2qGqlKAJ20ke3hL8aow1iNEojC17YKGjPwP+dAiEAo6iZan3cuxBgVfSJcnV1Aowjmv0VTNgnjCY+HXK2JDkAdgCi4wrkRe+9rZt+OO1HZ3dT14JbhJTXK14bLMS5UKRH5wAAAY5o5pZNAAAEAwBHMEUCIHnhcgJn8BOKwS57A4OK6HWw757+6QbO7o5NcnZ9aIRTAiEAx6L+5lm9Ku3Yo6WHsSCVn5hlDWf8VIVi1nf1c6ZjYQ8AdgBOdaMnXJoQwzhbbNTfP1LrHfDgjhuNacCx+mSxYpo53wAAAY5o5pajAAAEAwBHMEUCIQC6etcGHHzKZYbt0AMSP3ZEyICXcIzudtjuGl6qYO9SKAIgFZeGU3yv2mGf+LZwS1hGYIhIDFHedQnqxgXH000mMXwwDQYJKoZIhvcNAQEMBQADggGBAHNpk2SNViV4n/e4GlJZfqaOA4PipMy9koadnXUAp6dKogvtPPVEF3BZ0R2uzSAEPOsAnfthi4vrITYxIxlQajQlYdsZcCYdrXoFhY1Y3c68uWlrHTWSYBRIOEcS5RfONUwWEsWyVxbuB/c472kmr9c2l7geew6hut4jA1DTPs4RmxnO8ZfGB8R+WIpNZiPd5HDfoua16nzEHKsGTS6Od7vCvlRotlp6aazRde1XUEiT4i5HR7HFmWEVExeOC5MxZ/pkbTUHWLf6OkBKIrGaE4nQEWc4yQ98j6r4ljJdT2JvI5LuSKRUsma7su5wZwfhlpVkQr67S7pIIKxjbnyUhHddujmnvHDrNU1dCtxaXTFWs2GCNbasjgLaJZQbbVUmcKN46RzIZWInOsChmSKfSkzkmDNJvJMNqowVQOyEJm8o7POSwU0Gt0UIRPCRBH7JeRf34+fzBoO+BxsbN/LNi7LivAcB92dSlGt1DPpdgYM2tZ4nu87RFw3LYnFbYw/+AQ==\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -366,22 +366,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "culturecheznous.gouv.fr/217.70.184.55",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (41)"
+              "severity"     : "OK",
+              "finding"      : "279 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "culturecheznous.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-03-23 00:00"
+              "finding"      : "2024-03-23 00:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "culturecheznous.gouv.fr/217.70.184.55",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "2024-04-22 23:59"
+              "severity"     : "OK",
+              "finding"      : "2025-04-22 23:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -402,14 +402,14 @@
               "ip"           : "culturecheznous.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.usertrust.com/GandiStandardSSLCA2.crl"
+              "finding"      : "--"
           }
 ,         {
               "id"           : "cert_ocspURL",
               "ip"           : "culturecheznous.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://ocsp.usertrust.com"
+              "finding"      : "http://ocsp.sectigo.com"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -465,35 +465,35 @@
               "ip"           : "culturecheznous.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Gandi Standard SSL CA 2 (Gandi from FR)"
+              "finding"      : "Gandi RSA Domain Validation Secure Server CA 3 (Gandi from FR)"
           }
 ,         {
               "id"           : "intermediate_cert <#1>",
               "ip"           : "culturecheznous.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
               "ip"           : "culturecheznous.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "B9F2164323638DCE0B92218B43C41C1B2B2696389329DB19F5CF7AD49B5CB372"
+              "finding"      : "F0104FF17274608F1A18A1E1EABF8E68A51F500A87E2EFA22ECB622763FEF4CF"
           }
 ,         {
               "id"           : "intermediate_cert_notBefore <#1>",
               "ip"           : "culturecheznous.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2014-09-12 00:00"
+              "finding"      : "2023-08-02 00:00"
           }
 ,         {
               "id"           : "intermediate_cert_notAfter <#1>",
               "ip"           : "culturecheznous.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-09-11 23:59"
+              "finding"      : "2033-08-01 23:59"
           }
 ,         {
               "id"           : "intermediate_cert_expiration <#1>",
@@ -507,7 +507,7 @@
               "ip"           : "culturecheznous.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Gandi Standard SSL CA 2 <-- USERTrust RSA Certification Authority"
+              "finding"      : "Gandi RSA Domain Validation Secure Server CA 3 <-- USERTrust RSA Certification Authority"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
@@ -1084,6 +1084,6 @@
               "ip"           : "culturecheznous.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "99"
+              "finding"      : "98"
           }
 ]
