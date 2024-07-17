@@ -297,7 +297,7 @@
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "7D7D8A703866245574AFFBEA6DB640FF"
+              "finding"      : "0183E56FA92F2C36D6FF260F1F01BE1C"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -311,21 +311,21 @@
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0E99F91B46190CC5FFDF8C115B95C9E30240102A"
+              "finding"      : "A546A2CEB19B33B556FA09C5952B8801E71DA387"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "4DA3088BE88A0C356F988D0025478FC0368C44A0A8EBA4162C7560A9D5BE3B59"
+              "finding"      : "57351AC77F27252B1DBCAA578CE60BBA99F5E88DD7193FB229DCAA2BF3BF3AA5"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -346,7 +346,7 @@
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "documentation-administrative.gouv.fr gestion.documentation-administrative.gouv.fr www.documentation-administrative.gouv.fr api.documentation-administrative.gouv.fr"
+              "finding"      : "gestion.documentation-administrative.gouv.fr documentation-administrative.gouv.fr www.documentation-administrative.gouv.fr api.documentation-administrative.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -374,21 +374,21 @@
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "212 >= 60 days"
+              "finding"      : "84 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-10-11 22:00"
+              "finding"      : "2024-03-21 23:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-10-10 21:59"
+              "finding"      : "2024-10-09 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -409,14 +409,14 @@
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
+              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
+              "finding"      : "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -577,7 +577,7 @@
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710240483"
+              "finding"      : "1721229275"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -764,7 +764,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=4DA3088BE88A0C356F988D0025478FC0368C44A0A8EBA4162C7560A9D5BE3B59"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=57351AC77F27252B1DBCAA578CE60BBA99F5E88DD7193FB229DCAA2BF3BF3AA5"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1147,6 +1147,6 @@
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "58"
+              "finding"      : "57"
           }
 ]
