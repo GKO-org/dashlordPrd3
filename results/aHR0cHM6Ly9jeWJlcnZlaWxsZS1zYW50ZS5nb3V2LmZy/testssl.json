@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "151 >= 60 days"
+              "severity"     : "HIGH",
+              "finding"      : "expires < 30 days (24)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "HIGH",
               "finding"      : "2024-08-10 21:59"
           }
 ,         {
@@ -535,14 +535,14 @@
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-8308 seconds from localtime"
+              "finding"      : "-69 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710230940"
+              "finding"      : "1721227882"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1133,6 +1133,6 @@
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "58"
+              "finding"      : "104"
           }
 ]
