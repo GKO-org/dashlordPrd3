@@ -1,139 +1,17 @@
-# Nmap 7.92 scan initiated Tue Mar 12 10:08:36 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln conseiller-numerique.gouv.fr
-Nmap scan report for conseiller-numerique.gouv.fr (185.42.117.108)
-Host is up (0.088s latency).
-Other addresses for conseiller-numerique.gouv.fr (not scanned): 185.42.117.109 91.208.207.215 91.208.207.214 46.252.181.103 46.252.181.104 91.208.207.217 91.208.207.218 91.208.207.216
-Not shown: 990 closed tcp ports (reset)
-PORT     STATE SERVICE    VERSION
-80/tcp   open  http
-| fingerprint-strings: 
-|   DNSStatusRequestTCP, DNSVersionBindReqTCP, FourOhFourRequest, GenericLines, GetRequest, HTTPOptions, Help, Kerberos, LDAPBindReq, LDAPSearchReq, LPDString, RPCCheck, RTSPRequest, SMBProgNeg, SSLSessionReq, TLSSessionReq, TerminalServerCookie, X11Probe: 
-|     HTTP/1.1 400 Bad Request
-|     Cache-Control: no-cache
-|_    Connection: close
-179/tcp  open  tcpwrapped
-443/tcp  open  ssl/https
-|_http-server-header: Apache
-1080/tcp open  socks?
-1081/tcp open  pvuniwien?
-3000/tcp open  ppp?
-| fingerprint-strings: 
-|   Kerberos: 
-|     U<WM
-|     \xab
-|     /pv1eX
-|     5M|$/
-|     .Wkt
-|     K#]Z
-|   TLSSessionReq: 
-|     '\xb0
-|     }>/mO_
-|     /6]W(
-|     ]+TI
-|     LbIq
-|     jT$dq
-|     O9gi
-|     tg5Z
-|     _-{M
-|     (Y'#
-|_    A%!N
-5002/tcp open  ssh        (protocol 2.0)
-| fingerprint-strings: 
-|   NULL: 
-|_    SSH-2.0-SFTPGo_2.4.4-dev
-5800/tcp open  amqp       RabbitMQ 3.12.13 (0-9)
-| amqp-info: 
-|   capabilities: 
-|     publisher_confirms: YES
-|     exchange_exchange_bindings: YES
-|     basic.nack: YES
-|     consumer_cancel_notify: YES
-|     connection.blocked: YES
-|     consumer_priorities: YES
-|     authentication_failure_close: YES
-|     per_consumer_qos: YES
-|     direct_reply_to: YES
-|   cluster_name: rabbit@e0668b795e4f
-|   copyright: Copyright (c) 2007-2024 Broadcom Inc and/or its subsidiaries
-|   information: Licensed under the MPL 2.0. Website: https://rabbitmq.com
-|   platform: Erlang/OTP 25.3.2.9
-|   product: RabbitMQ
-|   version: 3.12.13
-|   mechanisms: AMQPLAIN PLAIN
-|_  locales: en_US
-5962/tcp open  unknown
-9999/tcp open  tcpwrapped
-3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
-==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=3/12%Time=65F029AF%P=x86_64-alpine-linux-musl%r
-SF:(GetRequest,48,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCache-Control:\x2
-SF:0no-cache\r\nConnection:\x20close\r\n\r\n")%r(HTTPOptions,48,"HTTP/1\.1
-SF:\x20400\x20Bad\x20Request\r\nCache-Control:\x20no-cache\r\nConnection:\
-SF:x20close\r\n\r\n")%r(RTSPRequest,48,"HTTP/1\.1\x20400\x20Bad\x20Request
-SF:\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\n\r\n")%r(X11P
-SF:robe,48,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCache-Control:\x20no-cac
-SF:he\r\nConnection:\x20close\r\n\r\n")%r(FourOhFourRequest,48,"HTTP/1\.1\
-SF:x20400\x20Bad\x20Request\r\nCache-Control:\x20no-cache\r\nConnection:\x
-SF:20close\r\n\r\n")%r(GenericLines,48,"HTTP/1\.1\x20400\x20Bad\x20Request
-SF:\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\n\r\n")%r(RPCC
-SF:heck,48,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCache-Control:\x20no-cac
-SF:he\r\nConnection:\x20close\r\n\r\n")%r(DNSVersionBindReqTCP,48,"HTTP/1\
-SF:.1\x20400\x20Bad\x20Request\r\nCache-Control:\x20no-cache\r\nConnection
-SF::\x20close\r\n\r\n")%r(DNSStatusRequestTCP,48,"HTTP/1\.1\x20400\x20Bad\
-SF:x20Request\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\n\r\
-SF:n")%r(Help,48,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCache-Control:\x20
-SF:no-cache\r\nConnection:\x20close\r\n\r\n")%r(SSLSessionReq,48,"HTTP/1\.
-SF:1\x20400\x20Bad\x20Request\r\nCache-Control:\x20no-cache\r\nConnection:
-SF:\x20close\r\n\r\n")%r(TerminalServerCookie,48,"HTTP/1\.1\x20400\x20Bad\
-SF:x20Request\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\n\r\
-SF:n")%r(TLSSessionReq,48,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCache-Con
-SF:trol:\x20no-cache\r\nConnection:\x20close\r\n\r\n")%r(Kerberos,48,"HTTP
-SF:/1\.1\x20400\x20Bad\x20Request\r\nCache-Control:\x20no-cache\r\nConnect
-SF:ion:\x20close\r\n\r\n")%r(SMBProgNeg,48,"HTTP/1\.1\x20400\x20Bad\x20Req
-SF:uest\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\n\r\n")%r(
-SF:LPDString,48,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCache-Control:\x20n
-SF:o-cache\r\nConnection:\x20close\r\n\r\n")%r(LDAPSearchReq,48,"HTTP/1\.1
-SF:\x20400\x20Bad\x20Request\r\nCache-Control:\x20no-cache\r\nConnection:\
-SF:x20close\r\n\r\n")%r(LDAPBindReq,48,"HTTP/1\.1\x20400\x20Bad\x20Request
-SF:\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\n\r\n");
-==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port3000-TCP:V=7.92%I=7%D=3/12%Time=65F029E5%P=x86_64-alpine-linux-musl
-SF:%r(TLSSessionReq,23A,"xU\xb7\xba\|\xc0\xd8\x7fD\xac\xe1\xb6t\xe3\x1fF\x
-SF:cbM\t\x8d\xd3\x95\x1d\xcf\x82\]tx\xc1R<\xe3\xb8\xa8Q\x89\xfd\xee'\\\xb0
-SF:\xdf`w\xc1\x026\xe5Qx\xca\x88\xd4\x8bq\x89v\xc5x\xc4\x81\xf6\xd8TSR\x93
-SF:\x1e\xce2\x0e\tL\x1c\)\xe4\xd4\xfe\.\x83\xab\]\xaa:\xb3\xaf\x1f\xb1}>/m
-SF:O_\xcfo\x1b\x19\xb3\x08\xc0g\xa2\xc2\xa8\xd9p\x03\xf7\xbf8\x92Cdr\xc5x\
-SF:$\xf1\xdcn\xd3\x84\xf6\xd5\xc8\x1a\0\xd3\xbd\n\xf0\xa8ea\xaa\x9d\x97\x8
-SF:d\xf8\xdef\xf4\x169\xb3Q\xfe8\[\xfc/6\]W\(\xd4\xbco\xb1\x93\xf1\xe0\x8e
-SF:6\xab\t7\x89\x02:\xa4\x04\x1d\xeab@r\x15\xabN\x85\x9f\xf8\xd3\xd7\xe9\n
-SF:\x80\x90\xd1\^V\x9f\xe4\x88\x93\x9c\x7ft\xfa\xd6\xef\x9b\x10\xa16\x14R\
-SF:xe5\xe8M\xfe\x10\x02\xb3\x14\x0ee\xb2\xf1\x89\xa4\x01'/\x89\x0c\"\xa7\r
-SF:j\xd4\x99\xa9\xc3\x82\xc4\]\+TI\xd0\x02,\xe7\xe1\xab\xf8\x16\xf5\xfa\xa
-SF:2\x053\xddrh\xe9\x8a\x15L\x14\xab\?\xb9\x15\xaf\xbb/\*S\0\xb9\xfes4\xa3
-SF:\$\x1e=\[\x04LbIq\xbejT\$dq\x18;\$\.\x0b\x9ctw:\x10\xdd\.\xd6\+\xaa\$\x
-SF:b2m\0\xa2\x20Wn\xbf\xf2\xf2\xbe\x20\xb1\x0fJ,\x9a\"!\xabr\xf8\x89\xe4\x
-SF:e7\xc6\xdbK\xf6\xa2f\x95\xe3,\xc2\x181\(\x86_U\xb0\xd0\x88\xd4If\xe4\xc
-SF:9\x9f\.t\xdb\xbcm\xe66\x0b\x86v\xca\xc3\x038\x96NnK\xa2\xb7\xeaN\x0e7\x
-SF:cc\x90\xa4\x14fy\xd6O9\\gi\xef\xfbDo\x99\xd2\x18\x93\x89Z\xfc\xfa\x1atg
-SF:5Z\x07c\x97\x91\x8d\x88_-{M\x87\xbb3\x05\xe3:\xac\xdd\xf2\x1c\xaaJ\x8fs
-SF:\xd5\xcd\x15>\xffm\x85\x91;\x91\xad\x9e`\xf5d:\x05\x81h\x86\xb2\xcb3\x1
-SF:8\x81\xea~\x99l2\xd4\0\xe0\xe1\xc4\x9f\xeb\(Y'#\xbd\x9e\xd24\x97\x92\x1
-SF:5\xf8U\xf8W\xec#\xb7\x1aw\xe1\x84dK\xad\xfe\n\x04\xaf\xeb5C\xa7w\x0f<\+
-SF:\xab\t\xdcPF\xbb\xb0\xda0\x1bS\[\x83A%!N\xdb\x93\x15\xc1&=\x0b\xc9#\x20
-SF:T{\xb7\x04\xb2n\xe7\x93\xbeQ\x8f@j\xee\xe5\xcb\xed\x83\)KM\xa8A\xf7`\x9
-SF:6B\x15\xb9\xa4\xbf\x03\xee")%r(Kerberos,F5,"\x97\xb0\x0c;\xaa\x08\xb2\x
-SF:c9l\xbd\x8a\x87e\xc1\xc3\xb9\xfc\?\xc3\xc0x\xc2\nW\r\x96\xc9\xac4\x94\x
-SF:d9\x97\xf6~\xb1\x20\xb08\x95K\x1f\x83\x91\+\xa68\xfaU<WM\xae\xc8\xb6\xf
-SF:f6F\xd4\xd7\x85M\xd2\x7f\xf8\xf5\x96\x95\x86\xb1\xb1\x05\xa4O\xe4=E\x81
-SF:\x99Q\x05K\x83\x1d\x07\x9aC\|\x9e\\\xab\x88\xcc\xd1\x83\xdc\x83\x04\xf4
-SF:\x0b}\x14\xf1\x06J\x98\x91\xb4\xec\xbdo\xd5\x81\|\xc1\x9c\x9e\xe8\xf7\x
-SF:92\xcb\x95\xdc47y\x1c\xc2\xa6A\x1b~\xb9mG\xd3\xe7F\xca\x05y\x8e\x9d\)\x
-SF:a6k\xca\xfd\)\x05\x91\xc2#\xc03\x92hg\xe6\xb7~\x199\x18\x7f\x20\+hZ\x14
-SF:\xa7\x06\xa7\x1d\x8c\xf4\xd0\xccw\xcd\xbd/pv1eX\x97\xdc!\x86\xee\x06\t\
-SF:x08\x10\xe2_X\x0e\xc45M\|\$/\xb7\x93\x13\xc3\x8e\x81\.Wkt\x9d\"U\x9b%\t
-SF:\x9b\x10\x97\x07=\x08\xda\xaa\x9aK#\]Z\xde\xac\t\xbc\x0fA`e\xb3\x90n");
-==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port5002-TCP:V=7.92%I=7%D=3/12%Time=65F029AF%P=x86_64-alpine-linux-musl
-SF:%r(NULL,1A,"SSH-2\.0-SFTPGo_2\.4\.4-dev\r\n");
+# Nmap 7.92 scan initiated Wed Jul 17 14:27:59 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln conseiller-numerique.gouv.fr
+Nmap scan report for conseiller-numerique.gouv.fr (104.21.71.120)
+Host is up (0.0017s latency).
+Other addresses for conseiller-numerique.gouv.fr (not scanned): 172.67.144.206 2606:4700:3032::6815:4778 2606:4700:3037::ac43:90ce
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+443/tcp  open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+8080/tcp open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+8443/tcp open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Tue Mar 12 10:11:14 2024 -- 1 IP address (1 host up) scanned in 157.37 seconds
+# Nmap done at Wed Jul 17 14:28:17 2024 -- 1 IP address (1 host up) scanned in 18.51 seconds
