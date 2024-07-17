@@ -268,8 +268,8 @@
               "id"           : "cert_keySize",
               "ip"           : "certificat-air.gouv.fr/37.235.92.189",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "RSA 2048 bits (exponent is 65537)"
+              "severity"     : "OK",
+              "finding"      : "RSA 4096 bits (exponent is 65537)"
           }
 ,         {
               "id"           : "cert_keyUsage",
@@ -290,7 +290,7 @@
               "ip"           : "certificat-air.gouv.fr/37.235.92.189",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1CCBD0F2EE091404276E80EF"
+              "finding"      : "1F4412190EE14F5F4488727C"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -304,21 +304,21 @@
               "ip"           : "certificat-air.gouv.fr/37.235.92.189",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "6B21236E0686A6CABF09111FA310D1AAFC8B58D7"
+              "finding"      : "C580EF8F90E14E9737262FB77202EC4A30B1B09D"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "certificat-air.gouv.fr/37.235.92.189",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0A5B14147AA1B43FFC25295C1D97CE5DC70B9DD7B449799729211F457343DB98"
+              "finding"      : "3D9740091AA827269D5BEAD92089A8F5F0374D8CE21B3452C5094150362AE997"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "certificat-air.gouv.fr/37.235.92.189",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -366,22 +366,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "certificat-air.gouv.fr/37.235.92.189",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (22)"
+              "severity"     : "OK",
+              "finding"      : "278 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "certificat-air.gouv.fr/37.235.92.189",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-03-03 13:31"
+              "finding"      : "2024-03-20 14:51"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "certificat-air.gouv.fr/37.235.92.189",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2024-04-03 13:31"
+              "severity"     : "OK",
+              "finding"      : "2025-04-21 14:51"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -528,7 +528,7 @@
               "ip"           : "certificat-air.gouv.fr/37.235.92.189",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710238855"
+              "finding"      : "1721227360"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -598,7 +598,7 @@
               "ip"           : "certificat-air.gouv.fr/37.235.92.189",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "default-src 'self'; script-src 'report-sample' 'self' https://assets.app.smart-tribune.com https://audience-sites.din.developpement-durable.gouv.fr https://polyfill.io https://msvcdsiqzkcom.matomo.cloud 'unsafe-eval' 'unsafe-inline'; style-src 'report-sample' 'self' https://assets.app.smart-tribune.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://static.piste.gouv.fr 'unsafe-inline'; object-src 'none'; connect-src 'self' https://api-gateway.app.smart-tribune.com; font-src 'self' data: https://assets.app.smart-tribune.com https://cdnjs.cloudflare.com https://fonts.gstatic.com; frame-src 'self' https://www.bison-fute.gouv.fr https://www.youtube-nocookie.com https://www.youtube.com; img-src 'self' data: https://audience-sites.din.developpement-durable.gouv.fr https://static.piste.gouv.fr https://stv2-uploads-prod.s3.eu-west-3.amazonaws.com https://uploads.app.smart-tribune.com;"
+              "finding"      : "default-src 'self'; script-src 'report-sample' 'self' https://assets.app.smart-tribune.com https://audience-sites.din.developpement-durable.gouv.fr https://polyfill.io https://msvcdsiqzkcom.matomo.cloud 'unsafe-eval' 'unsafe-inline'; style-src 'report-sample' 'self' https://assets.app.smart-tribune.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://static.piste.gouv.fr 'unsafe-inline'; object-src 'none'; connect-src 'self' https://api-gateway.app.smart-tribune.com https://audience-sites.din.developpement-durable.gouv.fr; font-src 'self' data: https://assets.app.smart-tribune.com https://cdnjs.cloudflare.com https://fonts.gstatic.com; frame-src 'self' https://www.bison-fute.gouv.fr https://www.youtube-nocookie.com https://www.youtube.com; img-src 'self' data: https://audience-sites.din.developpement-durable.gouv.fr https://static.piste.gouv.fr https://stv2-uploads-prod.s3.eu-west-3.amazonaws.com https://uploads.app.smart-tribune.com;"
           }
 ,         {
               "id"           : "Permissions-Policy",
@@ -743,7 +743,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=0A5B14147AA1B43FFC25295C1D97CE5DC70B9DD7B449799729211F457343DB98"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=3D9740091AA827269D5BEAD92089A8F5F0374D8CE21B3452C5094150362AE997"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1077,14 +1077,14 @@
               "ip"           : "certificat-air.gouv.fr/37.235.92.189",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "90"
+              "finding"      : "100"
           }
 ,         {
               "id"           : "key_exchange_score_weighted",
               "ip"           : "certificat-air.gouv.fr/37.235.92.189",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "27"
+              "finding"      : "30"
           }
 ,         {
               "id"           : "cipher_strength_score",
@@ -1105,7 +1105,7 @@
               "ip"           : "certificat-air.gouv.fr/37.235.92.189",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "93"
+              "finding"      : "96"
           }
 ,         {
               "id"           : "overall_grade",
@@ -1119,6 +1119,6 @@
               "ip"           : "certificat-air.gouv.fr/37.235.92.189",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "96"
+              "finding"      : "71"
           }
 ]
