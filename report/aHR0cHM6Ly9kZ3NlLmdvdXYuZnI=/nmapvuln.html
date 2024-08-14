@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln dgse.gouv.fr</pre>
-<p class="lead">Wed Jul 17 15:08:20 2024 – Wed Jul 17 15:11:35 2024<br>1 hosts scanned.
+<p class="lead">Wed Aug 14 13:27:21 2024 – Wed Aug 14 13:30:56 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -78,7 +78,7 @@
 <td><span class="label label-success">up</span></td>
 <td>107.154.50.81</td>
 <td>dgse.gouv.fr</td>
-<td>1</td>
+<td>2</td>
 <td>0</td>
 </tr></tbody>
 </table></div>
@@ -129,6 +129,19 @@
 <td></td>
 <td></td>
 </tr>
+<tr class="success">
+<td title="Port">443</td>
+<td title="Protocol">tcp</td>
+<td title="State / Reason">open<br>syn-ack</td>
+<td title="Service">https</td>
+<td title="Product"></td>
+<td title="Version"></td>
+<td title="Extra Info"></td>
+</tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-trane-info</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">Problem with XML parsing of /evox/about</pre>
+</td></tr>
 </tbody>
 </table></div>
 </div>
@@ -145,7 +158,8 @@
 <th>CPE</th>
 <th>Extra info</th>
 </tr></thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>107.154.50.81 - dgse.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
@@ -154,7 +168,18 @@
 <td></td>
 <td></td>
 <td></td>
-</tr></tbody>
+</tr>
+<tr>
+<td>107.154.50.81 - dgse.gouv.fr</td>
+<td>443</td>
+<td>tcp</td>
+<td>https</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
 </table></div>
 <script>
             $(document).ready(function() {

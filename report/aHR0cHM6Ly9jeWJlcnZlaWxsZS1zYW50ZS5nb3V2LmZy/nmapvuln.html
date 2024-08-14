@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cyberveille-sante.gouv.fr</pre>
-<p class="lead">Wed Jul 17 14:53:15 2024 – Wed Jul 17 14:54:04 2024<br>1 hosts scanned.
+<p class="lead">Wed Aug 14 13:10:52 2024 – Wed Aug 14 13:11:28 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -132,16 +132,14 @@
     Your browser sent an invalid request.
     &lt;/body&gt;&lt;/html&gt;
   FourOhFourRequest: 
-    HTTP/1.1 302 Found
+    HTTP/1.1 301 Moved Permanently
     content-length: 0
-    location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak
-    cache-control: no-cache
+    location: https://cyberveille.esante.gouv.fr//nice%20ports%2C/Tri%6Eity.txt%2ebak
     connection: close
   GetRequest, HTTPOptions, RTSPRequest: 
-    HTTP/1.1 302 Found
+    HTTP/1.1 301 Moved Permanently
     content-length: 0
-    location: https:///
-    cache-control: no-cache
+    location: https://cyberveille.esante.gouv.fr//
     connection: close</pre>
 </td></tr>
 <tr class="success">
@@ -149,35 +147,32 @@
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">https</td>
-<td title="Product">Apache</td>
+<td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  GetRequest: 
-    HTTP/1.1 200 OK
-    date: Wed, 17 Jul 2024 14:51:22 GMT
-    server: Apache
-    cache-control: max-age=300, public
-    content-language: fr
-    x-frame-options: SAMEORIGIN
-    expires: Sun, 19 Nov 1978 05:00:00 GMT
-    vary: Cookie,Accept-Encoding
-    content-security-policy: default-src 'self'; child-src 'none'; connect-src 'self' https://use.typekit.net https://p.typekit.net https://cdnjs.cloudflare.com/ajax/libs/cropper https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js; font-src 'self' https://use.typekit.net; frame-src 'self' https://www.youtube-nocookie.com; img-src 'self' data: https://i.ytimg.com; media-src 'none'; script-src 'self' 'unsafe-inline' cdn.jsdelivr.net https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://p.typekit.net https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://use.typekit.net; worker-src 'self'; base-uri 'no
-  HTTPOptions: 
-    HTTP/1.1 200 OK
-    date: Wed, 17 Jul 2024 14:53:39 GMT
-    server: Apache
-    allow: GET, POST
-    cache-control: must-revalidate, no-cache, private
-    content-language: fr
-    x-frame-options: SAMEORIGIN
-    expires: -1
-    content-security-policy: default-src 'self'; child-src 'none'; connect-src 'self' https://use.typekit.net https://p.typekit.net https://cdnjs.cloudflare.com/ajax/libs/cropper https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js; font-src 'self' https://use.typekit.net; frame-src 'self' https://www.youtube-nocookie.com; img-src 'self' data: https://i.ytimg.com; media-src 'none'; script-src 'self' 'unsafe-inline' cdn.jsdelivr.net https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://p.typekit.net https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://use.typekit.net; worker-src 'self'; base-uri 'none'; frame-ancestors 'se</pre>
-<h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
+  DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, RPCCheck, tor-versions: 
+    HTTP/1.1 400 Bad request
+    content-length: 90
+    cache-control: no-cache
+    content-type: text/html
+    connection: close
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
+    Your browser sent an invalid request.
+    &lt;/body&gt;&lt;/html&gt;
+  FourOhFourRequest: 
+    HTTP/1.1 301 Moved Permanently
+    content-length: 0
+    location: https://cyberveille.esante.gouv.fr//nice%20ports%2C/Tri%6Eity.txt%2ebak
+    connection: close
+  GetRequest, HTTPOptions, RTSPRequest: 
+    HTTP/1.1 301 Moved Permanently
+    content-length: 0
+    location: https://cyberveille.esante.gouv.fr//
+    connection: close</pre>
 </td></tr>
 </tbody>
 </table></div>
@@ -211,7 +206,7 @@
 <td>443</td>
 <td>tcp</td>
 <td>https</td>
-<td>Apache</td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>
