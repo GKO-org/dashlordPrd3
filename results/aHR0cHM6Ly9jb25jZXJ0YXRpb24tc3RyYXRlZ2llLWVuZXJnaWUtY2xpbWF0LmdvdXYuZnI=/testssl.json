@@ -374,7 +374,7 @@
               "ip"           : "concertation-strategie-energie-climat.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "64 >= 30 days"
+              "finding"      : "36 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +542,7 @@
               "ip"           : "concertation-strategie-energie-climat.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1721226396"
+              "finding"      : "1723639332"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -594,25 +594,11 @@
               "finding"      : "0 at '/'"
           }
 ,         {
-              "id"           : "X-Frame-Options_multiple",
-              "ip"           : "concertation-strategie-energie-climat.gouv.fr/79.137.76.37",
-              "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "Multiple X-Frame-Options headers. Using first header: SAMEORIGIN"
-          }
-,         {
               "id"           : "X-Frame-Options",
               "ip"           : "concertation-strategie-energie-climat.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "SAMEORIGIN"
-          }
-,         {
-              "id"           : "X-Content-Type-Options_multiple",
-              "ip"           : "concertation-strategie-energie-climat.gouv.fr/79.137.76.37",
-              "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "Multiple X-Content-Type-Options headers. Using first header: nosniff"
           }
 ,         {
               "id"           : "X-Content-Type-Options",
@@ -1168,6 +1154,6 @@
               "ip"           : "concertation-strategie-energie-climat.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "59"
+              "finding"      : "58"
           }
 ]
