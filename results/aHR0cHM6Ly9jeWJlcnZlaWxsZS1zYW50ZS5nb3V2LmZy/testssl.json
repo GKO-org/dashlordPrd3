@@ -262,7 +262,7 @@
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "751FF3355FA0AE4ECC82F5D6B8F1CFB0"
+              "finding"      : "60A8E3E39BDA780AE5623591400AA9E2"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "9E571423CD203755EB9F275915FE6B81CFE440FF"
+              "finding"      : "2D1D8217E372E095D7555438858705A61E4F0D97"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "20FA660EFF3D8101C33BD807DDC17252E6B9656B0FD429B4F99C04F10D2035AB"
+              "finding"      : "466BE4927F1693E2CED94182D1B83097446210704ECD8C84F7B8777969444F60"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -338,22 +338,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (24)"
+              "severity"     : "OK",
+              "finding"      : "360 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-07-10 22:00"
+              "finding"      : "2024-07-08 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2024-08-10 21:59"
+              "severity"     : "OK",
+              "finding"      : "2025-08-09 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -374,7 +374,7 @@
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
+              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
@@ -528,42 +528,21 @@
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "200 OK ('/')"
+              "finding"      : "301 Moved Permanently ('/')"
           }
 ,         {
               "id"           : "HTTP_clock_skew",
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-69 seconds from localtime"
+              "finding"      : "Got no HTTP time, maybe try different URL?"
           }
 ,         {
-              "id"           : "HTTP_headerTime",
+              "id"           : "HSTS",
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "1721227882"
-          }
-,         {
-              "id"           : "HSTS_time",
-              "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "730 days (=63072000 seconds) > 15552000 seconds"
-          }
-,         {
-              "id"           : "HSTS_subdomains",
-              "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "only for this domain"
-          }
-,         {
-              "id"           : "HSTS_preload",
-              "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "domain is NOT marked for preloading"
+              "severity"     : "LOW",
+              "finding"      : "not offered"
           }
 ,         {
               "id"           : "HPKP",
@@ -577,7 +556,7 @@
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Apache"
+              "finding"      : "No Server banner line in header, interesting!"
           }
 ,         {
               "id"           : "banner_application",
@@ -591,42 +570,14 @@
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 at '/'"
+              "finding"      : "0 at '/' (30x detected, better try target URL of 30x)"
           }
 ,         {
-              "id"           : "X-Frame-Options",
+              "id"           : "security_headers",
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "SAMEORIGIN"
-          }
-,         {
-              "id"           : "X-Content-Type-Options",
-              "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "nosniff"
-          }
-,         {
-              "id"           : "Content-Security-Policy",
-              "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "default-src 'self'; child-src 'none'; connect-src 'self' https://use.typekit.net https://p.typekit.net https://cdnjs.cloudflare.com/ajax/libs/cropper https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js; font-src 'self' https://use.typekit.net; frame-src 'self' https://www.youtube-nocookie.com; img-src 'self' data: https://i.ytimg.com; media-src 'none'; script-src 'self' 'unsafe-inline' cdn.jsdelivr.net https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://p.typekit.net https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://use.typekit.net; worker-src 'self'; base-uri 'none'; frame-ancestors 'self'; report-uri https://cyberveille-sante.gouv.fr/report-uri/enforce"
-          }
-,         {
-              "id"           : "X-XSS-Protection",
-              "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "1; mode=block"
-          }
-,         {
-              "id"           : "Cache-Control",
-              "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "max-age=300, public"
+              "severity"     : "MEDIUM",
+              "finding"      : "--"
           }
 ,         {
               "id"           : "banner_reverseproxy",
@@ -702,10 +653,10 @@
               "id"           : "BREACH",
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
-              "severity"     : "MEDIUM",
+              "severity"     : "OK",
               "cve"          : "CVE-2013-3587",
               "cwe"          : "CWE-310",
-              "finding"      : "potentially VULNERABLE, gzip HTTP compression detected  - only supplied '/' tested"
+              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
           }
 ,         {
               "id"           : "POODLE_SSL",
@@ -757,7 +708,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=20FA660EFF3D8101C33BD807DDC17252E6B9656B0FD429B4F99C04F10D2035AB"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=466BE4927F1693E2CED94182D1B83097446210704ECD8C84F7B8777969444F60"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1126,13 +1077,20 @@
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "A+"
+              "finding"      : "A"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS is not offered"
           }
 ,         {
               "id"           : "scanTime",
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "104"
+              "finding"      : "54"
           }
 ]
