@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Wed Aug 14 12:53:11 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln consulat.gouv.fr
+# Nmap 7.92 scan initiated Sat Sep 14 12:51:36 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln consulat.gouv.fr
 Host: 51.254.177.49 (ip49.ip-51-254-177.eu)	Status: Up
 Host: 51.254.177.49 (ip49.ip-51-254-177.eu)	Ports: 80/open/tcp//http//nginx/, 443/open/tcp//ssl|http//nginx/	Ignored State: filtered (998)
-# Nmap done at Wed Aug 14 12:53:40 2024 -- 1 IP address (1 host up) scanned in 28.81 seconds
+# Nmap done at Sat Sep 14 12:52:05 2024 -- 1 IP address (1 host up) scanned in 28.74 seconds
