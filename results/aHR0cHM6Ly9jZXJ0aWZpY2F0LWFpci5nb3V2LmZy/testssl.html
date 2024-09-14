@@ -9,27 +9,23 @@
 <body>
 <pre>
 <span style="font-weight:bold;">
-###########################################################
-    testssl.sh       3.2rc3 from </span><a href="https://testssl.sh/dev/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/dev/</a>
+#####################################################################</span>
+  <span style="font-weight:bold;">testssl.sh</span> version <span style="font-weight:bold;">3.2rc3</span> from <a href="https://testssl.sh/dev/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/dev/</a>
 <span style="font-weight:bold;">
-      This program is free software. Distribution and
-             modification under GPLv2 permitted.
-      USAGE w/o ANY WARRANTY. USE IT AT YOUR OWN RISK!
+  This program is free software. Distribution and modification under
+  GPLv2 permitted. USAGE w/o ANY WARRANTY. USE IT AT YOUR OWN RISK!</span>
 
-       Please file bugs @ </span><a href="https://testssl.sh/bugs/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/bugs/</a>
+  Please file bugs @ <a href="https://testssl.sh/bugs/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/bugs/</a>
 <span style="font-weight:bold;">
-###########################################################</span>
+#####################################################################</span>
 
- Using &quot;OpenSSL 1.0.2-bad (1.0.2k-dev)&quot; [~183 ciphers]
- on fv-az973-539:/home/testssl/bin/openssl.Linux.x86_64
- (built: &quot;Sep  1 14:03:44 2022&quot;, platform: &quot;linux-x86_64&quot;)
+  Using <i>OpenSSL 1.0.2-bad </i>  [~183 ciphers]
+  on fv-az730-82:/home/testssl/bin/openssl.Linux.x86_64
 
-
-<span style="color:white;background-color:black;"> Start 2024-08-14 13:01:25                --&gt;&gt; 37.235.92.189:443 (certificat-air.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2024-09-14 12:59:08                --&gt;&gt; 37.235.92.189:443 (certificat-air.gouv.fr) &lt;&lt;--</span>
 
  rDNS (37.235.92.189):   --
  Service detected:       HTTP
-
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing protocols </span><u>via sockets except NPN+ALPN </u>
 
@@ -111,7 +107,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN</span> (same w/o SNI)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">250 &gt;= 60 days</span> (2024-03-20 14:51 --&gt; 2025-04-21 14:51)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">219 &gt;= 60 days</span> (2024-03-20 14:51 --&gt; 2025-04-21 14:51)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>--
 <span style="font-weight:bold;"> OCSP URI                     </span>http://ocsp.globalsign.com/gsrsaovsslca2018
@@ -140,15 +136,16 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                                 script-src &apos;report-sample&apos; &apos;self&apos;
                                 https://assets.app.smart-tribune.com
                                 https://audience-sites.din.developpement-durable.gouv.fr 
-                                ttps://polyfill.io
+                                ttps://polyfill.io https://polyfill-fastly.io/
                                 https://msvcdsiqzkcom.matomo.cloud
-                                &apos;unsafe-eval&apos; &apos;unsafe-inline&apos;; style-src
-                                &apos;report-sample&apos; &apos;self&apos;
+                                &apos;nonce-Z2pR5yT8wU1qO4iL7gE3hC6jX9kV0bN&apos;;
+                                style-src &apos;report-sample&apos; &apos;self&apos;
                                 https://assets.app.smart-tribune.com
                                 https://fonts.googleapis.com
                                 https://cdnjs.cloudflare.com
-                                https://static.piste.gouv.fr &apos;unsafe-inline&apos;;
-                                object-src &apos;none&apos;; connect-src &apos;self&apos;
+                                https://static.piste.gouv.fr
+                                &apos;nonce-Z2pR5yT8wU1qO4iL7gE3hC6jX9kV0bN&apos;;
+                                object-src &apos;none&apos;;connect-src &apos;self&apos;
                                 https://api-gateway.app.smart-tribune.com
                                 https://audience-sites.din.developpement-durable.gouv.fr; 
                                 ont-src &apos;self&apos; data:
@@ -156,8 +153,10 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                                 https://cdnjs.cloudflare.com
                                 https://fonts.gstatic.com; frame-src &apos;self&apos;
                                 https://www.bison-fute.gouv.fr
+                                http://www.youtube-nocookie.com
                                 https://www.youtube-nocookie.com
-                                https://www.youtube.com; img-src &apos;self&apos; data:
+                                https://www.youtube.com; media-src &apos;self&apos;;
+                                img-src &apos;self&apos; data:
                                 https://audience-sites.din.developpement-durable.gouv.fr 
                                 ttps://static.piste.gouv.fr
                                 https://stv2-uploads-prod.s3.eu-west-3.amazonaws.com 
@@ -242,7 +241,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Final Score                  </span>96
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A+</span>
 
-<span style="color:white;background-color:black;"> Done 2024-08-14 13:02:34 [  71s] --&gt;&gt; 37.235.92.189:443 (certificat-air.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2024-09-14 13:00:16 [  72s] --&gt;&gt; 37.235.92.189:443 (certificat-air.gouv.fr) &lt;&lt;--</span>
 
 
 </pre>
