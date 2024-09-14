@@ -345,8 +345,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.defense.gouv.fr/107.154.106.47",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "84 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (53)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -359,7 +359,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "www.defense.gouv.fr/107.154.106.47",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-11-06 19:15"
           }
 ,         {
@@ -507,14 +507,14 @@
               "ip"           : "www.defense.gouv.fr/107.154.106.47",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1754 seconds from localtime"
+              "finding"      : "-70640 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.defense.gouv.fr/107.154.106.47",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1723639512"
+              "finding"      : "1726248910"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -634,7 +634,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Cacheable: YESX-Cache-TTL: 604800.000X-Cache: HITX-Cache-TTL-Remaining: 603046.083X-Cache-Age: 1753X-Cache-Hits: 531"
+              "finding"      : "X-Cacheable: YESX-Cache-TTL: 604800.000X-Cache: HITX-Cache-TTL-Remaining: 549456.281X-Cache-Age: 55343X-Cache-Hits: 14021"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1133,6 +1133,6 @@
               "ip"           : "www.defense.gouv.fr/107.154.106.47",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "57"
+              "finding"      : "56"
           }
 ]
