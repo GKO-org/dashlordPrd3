@@ -240,8 +240,8 @@
               "id"           : "cert_keySize",
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "RSA 2048 bits (exponent is 65537)"
+              "severity"     : "OK",
+              "finding"      : "RSA 3072 bits (exponent is 65537)"
           }
 ,         {
               "id"           : "cert_keyUsage",
@@ -262,7 +262,7 @@
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1AECDCD78163188EB28B13820B79D0E1"
+              "finding"      : "C6ED781E572F52124861869DF156D28C"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "AD340E16430731C6E255A081455E8D43E9403265"
+              "finding"      : "6588B6CA7E883A0AA2A66DCE4F13413D28B391DA"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "FE4181A74A2F42B5353960430D29DBF9B2085315BEEDA19AF1D900DCFF4D2AF1"
+              "finding"      : "8BE60536AE12A866111C8CA607DF86EB89041079E454B5AE592C125A88BCC14A"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "www.douane.gouv.fr douane.gouv.fr"
+              "finding"      : "douane.gouv.fr www.douane.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -338,22 +338,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (28)"
+              "severity"     : "OK",
+              "finding"      : "361 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-08-16 22:00"
+              "finding"      : "2024-08-29 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2024-09-11 21:59"
+              "severity"     : "OK",
+              "finding"      : "2025-09-10 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -381,7 +381,7 @@
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
+              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -542,7 +542,7 @@
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1723642553"
+              "finding"      : "1726321041"
           }
 ,         {
               "id"           : "HSTS",
@@ -715,7 +715,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=FE4181A74A2F42B5353960430D29DBF9B2085315BEEDA19AF1D900DCFF4D2AF1"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=8BE60536AE12A866111C8CA607DF86EB89041079E454B5AE592C125A88BCC14A"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -724,7 +724,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2015-4000",
               "cwe"          : "CWE-310",
-              "finding"      : "RFC3526/Oakley Group 14"
+              "finding"      : "RFC3526/Oakley Group 15"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1098,6 +1098,6 @@
               "ip"           : "douane.gouv.fr/194.250.56.167",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "129"
+              "finding"      : "126"
           }
 ]
