@@ -20,9 +20,9 @@
 #####################################################################</span>
 
   Using <i>OpenSSL 1.0.2-bad </i>  [~183 ciphers]
-  on fv-az975-559:/home/testssl/bin/openssl.Linux.x86_64
+  on fv-az1315-54:/home/testssl/bin/openssl.Linux.x86_64
 
-<span style="color:white;background-color:black;"> Start 2024-09-14 13:03:06                --&gt;&gt; 178.33.22.50:443 (www.culture.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2024-10-14 13:07:20                --&gt;&gt; 178.33.22.50:443 (www.culture.gouv.fr) &lt;&lt;--</span>
 
  rDNS (178.33.22.50):    ip50.ip-178-33-22.eu.
  Service detected:       HTTP
@@ -103,7 +103,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">293 &gt;= 60 days</span> (2024-07-04 22:00 --&gt; 2025-07-04 21:59)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">263 &gt;= 60 days</span> (2024-07-04 22:00 --&gt; 2025-07-04 21:59)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>http://crl.dhimyotis.com/servicesca.crl
                               http://crl.certigna.fr/servicesca.crl
@@ -123,9 +123,9 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="text-decoration:underline;font-weight:bold;"> Testing HTTP header response @ &quot;/&quot; </span>
 
 <span style="font-weight:bold;"> HTTP Status Code           </span>  200 OK
-<span style="font-weight:bold;"> HTTP clock skew              </span>+4052 sec from localtime
-<span style="font-weight:bold;"> HTTP Age</span> (RFC 7234)          4053
-<span style="font-weight:bold;"> IPv4 address in header       </span><span style="color:#c05600;">x-forwarded-for: 20.102.199.111;</span>
+<span style="font-weight:bold;"> HTTP clock skew              </span>+7636 sec from localtime
+<span style="font-weight:bold;"> HTTP Age</span> (RFC 7234)          7636
+<span style="font-weight:bold;"> IPv4 address in header       </span><span style="color:#c05600;">x-forwarded-for: 172.200.181.132;</span>
                               (check if it&apos;s your IP address or e.g. a cluster IP)
 <span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#008817;">182 days</span>=15724800 s<span style="color:#008817;">, includeSubDomains</span>
 <span style="font-weight:bold;"> Public Key Pinning           </span>--
@@ -144,9 +144,9 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                                 *.google.com *.googleapis.com *.huma-num.fr
                                 *.ingest.sentry.io *.instagram.com
                                 *.maptiler.com *.readspeaker.com
-                                *.tarteaucitron.io *.tolk.ai *.twitter.com
-                                *.wikimedia.org *.wikipedia.org
-                                http://apis.syllabs.com
+                                *.tarteaucitron.io *.tiktok.com *.tolk.ai
+                                *.twitter.com *.wikimedia.org *.wikipedia.org
+                                *.x.com http://apis.syllabs.com
                                 http://infolettres-internes.culture.gouv.fr
                                 http://infolettres-ministere.culture.gouv.fr
                                 http://www.culture.fr
@@ -161,6 +161,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                                 https://www.culture.gouv.fr
                                 https://www.facebook.com
                                 https://www.google-analytics.com inline
+                                inte-std-mcc-lclo.rag-cloud.hosteur.com
                                 moz-extension &apos;self&apos; tarteaucitron.io
                                 &apos;unsafe-eval&apos; &apos;unsafe-inline&apos;
                                 wss://genii-messages.tolk.ai;
@@ -169,13 +170,14 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                                 *.g.doubleclick.net *.getwemap.workers.dev
                                 *.google-analytics.com *.google.com
                                 *.googleapis.com *.instagram.com *.maptiler.com
-                                *.readspeaker.com *.tolk.ai *.twitter.com
-                                *.wikimedia.org *.wikipedia.org data:
-                                https://fonts.googleapis.com
+                                *.readspeaker.com *.tiktok.com *.tolk.ai
+                                *.twitter.com *.wikimedia.org *.wikipedia.org
+                                *.x.com data: https://fonts.googleapis.com
                                 https://fonts.gstatic.com
                                 https://infolettres.duministeredelaculture.fr
                                 https://livemap.getwemap.com
-                                https://maxcdn.bootstrapcdn.com inline &apos;self&apos;
+                                https://maxcdn.bootstrapcdn.com inline
+                                inte-std-mcc-lclo.rag-cloud.hosteur.com &apos;self&apos;
                                 &apos;unsafe-inline&apos;; frame-src *.adform.net
                                 *.calameo.com *.culture.gouv.fr
                                 *.dailymotion.com *.doubleclick.net
@@ -185,14 +187,16 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                                 *.instagram.com *.jcloud.ik-server.com
                                 *.maptiler.com *.openstreetmap.fr
                                 *.pop.culture.gouv.fr *.readspeaker.com
-                                *.soundcloud.com *.tolk.ai *.twitter.com
-                                *.vimeo.com *.wikimedia.org *.wikipedia.org
+                                *.soundcloud.com *.tiktok.com *.tolk.ai
+                                *.twitter.com *.vimeo.com *.wikimedia.org
+                                *.wikipedia.org *.x.com
                                 http://platform.twitter.com
                                 http://s7.addthis.com http://www.instagram.com
                                 https://data.culturecommunication.gouv.fr
                                 https://livemap.getwemap.com
                                 https://www.facebook.com
-                                https://www.youtube.com inline &apos;self&apos;
+                                https://www.youtube.com inline
+                                inte-std-mcc-lclo.rag-cloud.hosteur.com &apos;self&apos;
                                 &apos;unsafe-inline&apos;; img-src *.adform.net
                                 *.culture.fr *.culture.gouv.fr
                                 *.doubleclick.net *.et-gv.fr *.facebook.net
@@ -200,9 +204,10 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                                 *.google-analytics.com *.google.com
                                 *.googleapis.com *.gouv.fr *.instagram.com
                                 *.maptiler.com *.picsum.photos
-                                *.readspeaker.com *.tarteaucitron.io *.tolk.ai
-                                *.twitter.com *.wikimedia.org *.wikipedia.org
-                                data: http://www.culture.fr
+                                *.readspeaker.com *.tarteaucitron.io
+                                *.tiktok.com *.tolk.ai *.twitter.com
+                                *.wikimedia.org *.wikipedia.org *.x.com data:
+                                http://www.culture.fr
                                 http://www.culture.gouv.fr
                                 https://ad.doubleclick.net
                                 https://analytics.getwemap.com
@@ -220,15 +225,17 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                                 https://www.culture.gouv.fr
                                 https://www.facebook.com
                                 https://www.google-analytics.com
-                                https://www.googletagmanager.com inline &apos;self&apos;
+                                https://www.googletagmanager.com inline
+                                inte-std-mcc-lclo.rag-cloud.hosteur.com &apos;self&apos;
                                 tarteaucitron.io &apos;unsafe-inline&apos;; script-src
                                 *.addthis.com *.adform.net *.doubleclick.net
                                 *.facebook.net *.g.doubleclick.net
                                 *.getwemap.workers.dev *.google-analytics.com
                                 *.google.com *.googleapis.com *.instagram.com
                                 *.maptiler.com *.readspeaker.com
-                                *.tarteaucitron.io *.tolk.ai *.twitter.com
-                                *.wikimedia.org *.wikipedia.org addthid blob:
+                                *.tarteaucitron.io *.tiktok.com *.tolk.ai
+                                *.twitter.com *.wikimedia.org *.wikipedia.org
+                                *.x.com addthid blob:
                                 http://connect.facebook.net
                                 http://platform.twitter.com
                                 http://s7.addthis.com
@@ -249,21 +256,24 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                                 https://www.google-analytics.com
                                 https://www.googletagmanager.com
                                 https://www.gouvernement.fr
-                                https://z.moatads.com inline moz-extension
-                                &apos;self&apos; tarteaucitron.io &apos;unsafe-eval&apos;
-                                &apos;unsafe-inline&apos;
+                                https://z.moatads.com inline
+                                inte-std-mcc-lclo.rag-cloud.hosteur.com
+                                moz-extension &apos;self&apos; tarteaucitron.io
+                                &apos;unsafe-eval&apos; &apos;unsafe-inline&apos;
                                 &apos;nonce-OWEzNDFjNzExNTZlMjczNWU0NjU1ZmNiYWIzYjdhZmU=&apos;; 
                                 tyle-src *.adform.net *.doubleclick.net
                                 *.facebook.net *.g.doubleclick.net
                                 *.getwemap.workers.dev *.google-analytics.com
                                 *.google.com *.googleapis.com *.gouv.fr
                                 *.instagram.com *.maptiler.com
-                                *.readspeaker.com *.tarteaucitron.io *.tolk.ai
-                                *.twitter.com *.wikimedia.org *.wikipedia.org
+                                *.readspeaker.com *.tarteaucitron.io
+                                *.tiktok.com *.tolk.ai *.twitter.com
+                                *.wikimedia.org *.wikipedia.org *.x.com
                                 https://fonts.googleapis.com
                                 https://infolettres.duministeredelaculture.fr
                                 https://sf1-eu.readspeaker.com
-                                https://tarteaucitron.io inline &apos;self&apos;
+                                https://tarteaucitron.io inline
+                                inte-std-mcc-lclo.rag-cloud.hosteur.com &apos;self&apos;
                                 tarteaucitron.io &apos;unsafe-inline&apos;
                               <span style="color:#008817;">X-Content-Security-Policy</span>: default-src
                                 *.addthis.com *.adform.net *.algolia.com
@@ -275,9 +285,9 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                                 *.google.com *.googleapis.com *.huma-num.fr
                                 *.ingest.sentry.io *.instagram.com
                                 *.maptiler.com *.readspeaker.com
-                                *.tarteaucitron.io *.tolk.ai *.twitter.com
-                                *.wikimedia.org *.wikipedia.org
-                                http://apis.syllabs.com
+                                *.tarteaucitron.io *.tiktok.com *.tolk.ai
+                                *.twitter.com *.wikimedia.org *.wikipedia.org
+                                *.x.com http://apis.syllabs.com
                                 http://infolettres-internes.culture.gouv.fr
                                 http://infolettres-ministere.culture.gouv.fr
                                 http://www.culture.fr
@@ -292,6 +302,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                                 https://www.culture.gouv.fr
                                 https://www.facebook.com
                                 https://www.google-analytics.com inline
+                                inte-std-mcc-lclo.rag-cloud.hosteur.com
                                 moz-extension &apos;self&apos; tarteaucitron.io
                                 &apos;unsafe-eval&apos; &apos;unsafe-inline&apos;
                                 wss://genii-messages.tolk.ai;
@@ -300,13 +311,14 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                                 *.g.doubleclick.net *.getwemap.workers.dev
                                 *.google-analytics.com *.google.com
                                 *.googleapis.com *.instagram.com *.maptiler.com
-                                *.readspeaker.com *.tolk.ai *.twitter.com
-                                *.wikimedia.org *.wikipedia.org data:
-                                https://fonts.googleapis.com
+                                *.readspeaker.com *.tiktok.com *.tolk.ai
+                                *.twitter.com *.wikimedia.org *.wikipedia.org
+                                *.x.com data: https://fonts.googleapis.com
                                 https://fonts.gstatic.com
                                 https://infolettres.duministeredelaculture.fr
                                 https://livemap.getwemap.com
-                                https://maxcdn.bootstrapcdn.com inline &apos;self&apos;
+                                https://maxcdn.bootstrapcdn.com inline
+                                inte-std-mcc-lclo.rag-cloud.hosteur.com &apos;self&apos;
                                 &apos;unsafe-inline&apos;; frame-src *.adform.net
                                 *.calameo.com *.culture.gouv.fr
                                 *.dailymotion.com *.doubleclick.net
@@ -316,14 +328,16 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                                 *.instagram.com *.jcloud.ik-server.com
                                 *.maptiler.com *.openstreetmap.fr
                                 *.pop.culture.gouv.fr *.readspeaker.com
-                                *.soundcloud.com *.tolk.ai *.twitter.com
-                                *.vimeo.com *.wikimedia.org *.wikipedia.org
+                                *.soundcloud.com *.tiktok.com *.tolk.ai
+                                *.twitter.com *.vimeo.com *.wikimedia.org
+                                *.wikipedia.org *.x.com
                                 http://platform.twitter.com
                                 http://s7.addthis.com http://www.instagram.com
                                 https://data.culturecommunication.gouv.fr
                                 https://livemap.getwemap.com
                                 https://www.facebook.com
-                                https://www.youtube.com inline &apos;self&apos;
+                                https://www.youtube.com inline
+                                inte-std-mcc-lclo.rag-cloud.hosteur.com &apos;self&apos;
                                 &apos;unsafe-inline&apos;; img-src *.adform.net
                                 *.culture.fr *.culture.gouv.fr
                                 *.doubleclick.net *.et-gv.fr *.facebook.net
@@ -331,9 +345,10 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                                 *.google-analytics.com *.google.com
                                 *.googleapis.com *.gouv.fr *.instagram.com
                                 *.maptiler.com *.picsum.photos
-                                *.readspeaker.com *.tarteaucitron.io *.tolk.ai
-                                *.twitter.com *.wikimedia.org *.wikipedia.org
-                                data: http://www.culture.fr
+                                *.readspeaker.com *.tarteaucitron.io
+                                *.tiktok.com *.tolk.ai *.twitter.com
+                                *.wikimedia.org *.wikipedia.org *.x.com data:
+                                http://www.culture.fr
                                 http://www.culture.gouv.fr
                                 https://ad.doubleclick.net
                                 https://analytics.getwemap.com
@@ -351,15 +366,17 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                                 https://www.culture.gouv.fr
                                 https://www.facebook.com
                                 https://www.google-analytics.com
-                                https://www.googletagmanager.com inline &apos;self&apos;
+                                https://www.googletagmanager.com inline
+                                inte-std-mcc-lclo.rag-cloud.hosteur.com &apos;self&apos;
                                 tarteaucitron.io &apos;unsafe-inline&apos;; script-src
                                 *.addthis.com *.adform.net *.doubleclick.net
                                 *.facebook.net *.g.doubleclick.net
                                 *.getwemap.workers.dev *.google-analytics.com
                                 *.google.com *.googleapis.com *.instagram.com
                                 *.maptiler.com *.readspeaker.com
-                                *.tarteaucitron.io *.tolk.ai *.twitter.com
-                                *.wikimedia.org *.wikipedia.org addthid blob:
+                                *.tarteaucitron.io *.tiktok.com *.tolk.ai
+                                *.twitter.com *.wikimedia.org *.wikipedia.org
+                                *.x.com addthid blob:
                                 http://connect.facebook.net
                                 http://platform.twitter.com
                                 http://s7.addthis.com
@@ -380,21 +397,24 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                                 https://www.google-analytics.com
                                 https://www.googletagmanager.com
                                 https://www.gouvernement.fr
-                                https://z.moatads.com inline moz-extension
-                                &apos;self&apos; tarteaucitron.io &apos;unsafe-eval&apos;
-                                &apos;unsafe-inline&apos;
+                                https://z.moatads.com inline
+                                inte-std-mcc-lclo.rag-cloud.hosteur.com
+                                moz-extension &apos;self&apos; tarteaucitron.io
+                                &apos;unsafe-eval&apos; &apos;unsafe-inline&apos;
                                 &apos;nonce-OWEzNDFjNzExNTZlMjczNWU0NjU1ZmNiYWIzYjdhZmU=&apos;; 
                                 tyle-src *.adform.net *.doubleclick.net
                                 *.facebook.net *.g.doubleclick.net
                                 *.getwemap.workers.dev *.google-analytics.com
                                 *.google.com *.googleapis.com *.gouv.fr
                                 *.instagram.com *.maptiler.com
-                                *.readspeaker.com *.tarteaucitron.io *.tolk.ai
-                                *.twitter.com *.wikimedia.org *.wikipedia.org
+                                *.readspeaker.com *.tarteaucitron.io
+                                *.tiktok.com *.tolk.ai *.twitter.com
+                                *.wikimedia.org *.wikipedia.org *.x.com
                                 https://fonts.googleapis.com
                                 https://infolettres.duministeredelaculture.fr
                                 https://sf1-eu.readspeaker.com
-                                https://tarteaucitron.io inline &apos;self&apos;
+                                https://tarteaucitron.io inline
+                                inte-std-mcc-lclo.rag-cloud.hosteur.com &apos;self&apos;
                                 tarteaucitron.io &apos;unsafe-inline&apos;
                               X-XSS-Protection: 1; mode=block;
                                 report=/nelmio/xss/report
@@ -402,10 +422,10 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                                 strict-origin-when-cross-origin, no-referrer,
                                 strict-origin-when-cross-origin
                               <span style="color:#c05600;">misconfiguration: </span><i>Cache-Control</i><span style="color:#c05600;"> 2x</span> -- checking first one only
-                              Cache-Control: public, s-maxage=1 jour,
-                                stale-while-revalidate=1 heure,
-                                stale-if-error=1 heure
-<span style="font-weight:bold;"> Reverse Proxy banner         </span>x-forwarded-for: <span style="color:#8a7237;">2</span><span style="color:#8a7237;">0</span>.<span style="color:#8a7237;">1</span><span style="color:#8a7237;">0</span><span style="color:#8a7237;">2</span>.<span style="color:#8a7237;">1</span><span style="color:#8a7237;">9</span><span style="color:#8a7237;">9</span>.<span style="color:#8a7237;">1</span><span style="color:#8a7237;">1</span><span style="color:#8a7237;">1</span>;
+                              Cache-Control: public, s-maxage=86400,
+                                stale-while-revalidate=3600,
+                                stale-if-error=3600
+<span style="font-weight:bold;"> Reverse Proxy banner         </span>x-forwarded-for: <span style="color:#8a7237;">1</span><span style="color:#8a7237;">7</span><span style="color:#8a7237;">2</span>.<span style="color:#8a7237;">2</span><span style="color:#8a7237;">0</span><span style="color:#8a7237;">0</span>.<span style="color:#8a7237;">1</span><span style="color:#8a7237;">8</span><span style="color:#8a7237;">1</span>.<span style="color:#8a7237;">1</span><span style="color:#8a7237;">3</span><span style="color:#8a7237;">2</span>;
 
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing vulnerabilities </span>
@@ -484,7 +504,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Final Score                  </span>81
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A+</span>
 
-<span style="color:white;background-color:black;"> Done 2024-09-14 13:04:17 [  73s] --&gt;&gt; 178.33.22.50:443 (www.culture.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2024-10-14 13:08:28 [  70s] --&gt;&gt; 178.33.22.50:443 (www.culture.gouv.fr) &lt;&lt;--</span>
 
 
 </pre>
