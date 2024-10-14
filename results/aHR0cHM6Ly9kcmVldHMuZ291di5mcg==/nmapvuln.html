@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln dreets.gouv.fr</pre>
-<p class="lead">Sat Sep 14 13:42:59 2024 – Sat Sep 14 13:43:40 2024<br>1 hosts scanned.
+<p class="lead">Mon Oct 14 13:49:18 2024 – Mon Oct 14 13:51:55 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -111,8 +111,8 @@
 <td title="Port">80</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http-proxy</td>
-<td title="Product">F5 BIG-IP load balancer http proxy</td>
+<td title="Service">tcpwrapped</td>
+<td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
@@ -139,7 +139,9 @@
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-trane-info</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">Problem with XML parsing of /evox/about</pre>
+<h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 200 OK
@@ -148,19 +150,19 @@
     Connection: close
     Content-Type: text/html
     Content-Length: 245
-    &lt;html&gt;&lt;head&gt;&lt;title&gt;Request Rejected&lt;/title&gt;&lt;/head&gt;&lt;body&gt;The requested URL was rejected. Please consult with your administrator.&lt;br&gt;&lt;br&gt;Your support ID is: &lt;10600432822497964697&gt;&lt;br&gt;&lt;br&gt;&lt;a href='javascript:history.back();'&gt;[Go Back]&lt;/body&gt;&lt;/html&gt;
+    &lt;html&gt;&lt;head&gt;&lt;title&gt;Request Rejected&lt;/title&gt;&lt;/head&gt;&lt;body&gt;The requested URL was rejected. Please consult with your administrator.&lt;br&gt;&lt;br&gt;Your support ID is: &lt;10600432825385218864&gt;&lt;br&gt;&lt;br&gt;&lt;a href='javascript:history.back();'&gt;[Go Back]&lt;/body&gt;&lt;/html&gt;
   GetRequest: 
     HTTP/1.1 503 Service Unavailable
-    Date: Sat, 14 Sep 2024 13:43:22 GMT
+    Date: Mon, 14 Oct 2024 13:49:38 GMT
     Expires: 0
     Cache-Control: no-cache, must-revalidate
     Pragma: no-cache
     X-Frame-Options: DENY
-    Last-Modified: Sat, 14 Sep 2024 13:43:22 GMT
+    Last-Modified: Mon, 14 Oct 2024 13:49:38 GMT
     X-Content-Type-Options: nosniff
     Connection: close
     Content-Type: text/html; charset=utf-8
-    Set-Cookie: BIGipServerpool-dreets2.cegedim.cloud-HTTP=!/1PGQNYwTzKnYERWDPlD0yXzT0UGhtJEwpMZj89Z7iCOVyeictKYbSvCkXlM8L02Sx0K2tm+w6KCZ6NPLopP1JRhYh8=; path=/; Httponly; Secure
+    Set-Cookie: BIGipServerpool-dreets2.cegedim.cloud-HTTP=!pym3TLUGHloM41hWDPlD0yXzT0UGhnQLk0rqB0wIdHen7sG5UHZlZefaQRrgJL8E8M/gfbJ3kAGLJqMklIukHSVpTUI=; path=/; Httponly; Secure
     Strict-Transport-Security: max-age=31536000; includeSubDomains
     &lt;!DOCTYPE html&gt;
     &lt;html class='ltr fr no-js' xmlns='http://www.w3.org/1999/xhtml' lang='fr' dir='ltr'&gt;
@@ -173,13 +175,13 @@
     faut par m
   HTTPOptions: 
     HTTP/1.1 403 Forbidden
-    Date: Sat, 14 Sep 2024 13:43:23 GMT
+    Date: Mon, 14 Oct 2024 13:49:39 GMT
     X-Frame-Options: DENY
     Content-Length: 199
-    Keep-Alive: timeout=5, max=99
+    Keep-Alive: timeout=5, max=30
     Connection: close
     Content-Type: text/html; charset=iso-8859-1
-    Set-Cookie: BIGipServerpool-dreets2.cegedim.cloud-HTTP=!GMnAmHsqjpXgnnpWDPlD0yXzT0UGhudLZAreHkiStQlV3AIXKrDZEqBonMh0Ibm5i/GqbQTTANoMZitWqEAbgamB7PY=; path=/; Httponly; Secure
+    Set-Cookie: BIGipServerpool-dreets2.cegedim.cloud-HTTP=!JaPdTyD2AeTA8EFWDPlD0yXzT0UGhrvuy3nw7SIyQkRJp8b8U4PE6dxflnyxZBG+kLE4pEtbnyNU/k1XFRkEzX3LmYY=; path=/; Httponly; Secure
     Strict-Transport-Security: max-age=31536000; includeSubDomains
     &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
     &lt;html&gt;&lt;head&gt;
@@ -188,8 +190,6 @@
     &lt;h1&gt;Forbidden&lt;/h1&gt;
     &lt;p&gt;You don't have permission to access this resource.&lt;/p&gt;
     &lt;/body&gt;&lt;/html&gt;</pre>
-<h5>http-trane-info</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Problem with XML parsing of /evox/about</pre>
 </td></tr>
 </tbody>
 </table></div>
@@ -212,8 +212,8 @@
 <td>185.194.83.84 - dreets.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
-<td>http-proxy</td>
-<td>F5 BIG-IP load balancer http proxy</td>
+<td>tcpwrapped</td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>
