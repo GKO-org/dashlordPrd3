@@ -339,7 +339,7 @@
               "ip"           : "complementaire-sante-solidaire.gouv.fr/185.194.83.92",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "276 >= 60 days"
+              "finding"      : "246 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -493,14 +493,14 @@
               "ip"           : "complementaire-sante-solidaire.gouv.fr/185.194.83.92",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-17704 seconds from localtime"
+              "finding"      : "-271433 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "complementaire-sante-solidaire.gouv.fr/185.194.83.92",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726300013"
+              "finding"      : "1728638746"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1091,6 +1091,6 @@
               "ip"           : "complementaire-sante-solidaire.gouv.fr/185.194.83.92",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "52"
+              "finding"      : "55"
           }
 ]
