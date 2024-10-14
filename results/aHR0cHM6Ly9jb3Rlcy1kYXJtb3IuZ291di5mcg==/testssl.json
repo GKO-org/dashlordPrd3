@@ -339,7 +339,7 @@
               "ip"           : "cotes-darmor.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "256 >= 60 days"
+              "finding"      : "226 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "cotes-darmor.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726318695"
+              "finding"      : "1728910994"
           }
 ,         {
               "id"           : "HTTP_headerAge",
