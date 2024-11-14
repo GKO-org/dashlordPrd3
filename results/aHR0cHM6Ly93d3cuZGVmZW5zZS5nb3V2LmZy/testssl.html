@@ -20,9 +20,9 @@
 #####################################################################</span>
 
   Using <i>OpenSSL 1.0.2-bad </i>  [~183 ciphers]
-  on fv-az2027-913:/home/testssl/bin/openssl.Linux.x86_64
+  on fv-az1016-203:/home/testssl/bin/openssl.Linux.x86_64
 
-<span style="color:white;background-color:black;"> Start 2024-10-14 13:18:02                --&gt;&gt; 107.154.103.47:443 (www.defense.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2024-11-14 13:49:06                --&gt;&gt; 107.154.103.47:443 (www.defense.gouv.fr) &lt;&lt;--</span>
 
  rDNS (107.154.103.47):  107.154.103.47.ip.incapdns.net.
  Service detected:       HTTP
@@ -96,20 +96,19 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>RSA 2048 bits (exponent is 65537)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication, TLS Web Client Authentication
-<span style="font-weight:bold;"> Serial                       </span>011D91151B2458B01E94E74A163D89D3 (OK: length 16)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 3D7F9ACA83A06D84B6E71C60C09151A03D36D740
-                              SHA256 A00716CD41D1AC6065230F748A3D79CFD10C5E8A59CDB5AB853ECD44247B04F0
+<span style="font-weight:bold;"> Serial                       </span>01062E9678034C764DE591ED3FEF2C7F (OK: length 16)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 21AB063DF8C1BC78B1F62F040DF44AE110E02E3F
+                              SHA256 13D9C74F98EADEB6E7D33B6E48CB9290AF54A55A693712E2B6C77E85FF9D68B7
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>imperva.com </i>
-<span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>www.devices4thedisabled.org
-                              www.tajmapawdogspa.com *.dr.secondmarket.com
+<span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>www.tajmapawdogspa.com *.dr.secondmarket.com
                               ronstavern.com www.ronstavern.com ansut.ci
-                              devices4thedisabled.org www.testgtusergroup.com
-                              defense.gouv.fr testgtusergroup.com
-                              *.optivmss.com dataviz.icis.com
-                              www.plmarketingsquare.com www.ansut.ci
-                              plmarketingsquare.com *.pro.secondmarket.com
-                              www.fabric-online.com *.poc.secondmarket.com
-                              imperva.com *.defense.gouv.fr tajmapawdogspa.com
+                              www.testgtusergroup.com defense.gouv.fr
+                              testgtusergroup.com *.optivmss.com
+                              dataviz.icis.com www.plmarketingsquare.com
+                              www.ansut.ci plmarketingsquare.com
+                              *.pro.secondmarket.com www.fabric-online.com
+                              *.poc.secondmarket.com imperva.com
+                              *.defense.gouv.fr tajmapawdogspa.com
                               dinnerflight.com www.pestkiller.com
                               *.qc.secondmarket.com *.uat-smp.secondmarket.com
                               fabric-online.com pestkiller.com *.activetrail.de
@@ -117,27 +116,27 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                               *.dev.secondmarket.com </i>
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN wildcard</span> (same w/o SNI)
                               <span style="color:#a86437;">wildcard certificate</span> could be problematic, see other hosts at
-                              https://search.censys.io/search?resource=hosts&amp;virtual_hosts=INCLUDE&amp;q=A00716CD41D1AC6065230F748A3D79CFD10C5E8A59CDB5AB853ECD44247B04F0
+                              https://search.censys.io/search?resource=hosts&amp;virtual_hosts=INCLUDE&amp;q=13D9C74F98EADEB6E7D33B6E48CB9290AF54A55A693712E2B6C77E85FF9D68B7
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#e52207;">expires &lt; 30 days (23)</span> (2024-05-10 19:15 --&gt; 2024-11-06 19:15)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">179 &gt;= 60 days</span> (2024-11-13 20:04 --&gt; 2025-05-12 20:04)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
-<span style="font-weight:bold;"> Certificate Revocation List  </span>http://crl.globalsign.com/ca/gsatlasr3dvtlsca2024q2.crl
-<span style="font-weight:bold;"> OCSP URI                     </span>http://ocsp.globalsign.com/ca/gsatlasr3dvtlsca2024q2
+<span style="font-weight:bold;"> Certificate Revocation List  </span>http://crl.globalsign.com/ca/gsatlasr3dvtlsca2024q4.crl
+<span style="font-weight:bold;"> OCSP URI                     </span>http://ocsp.globalsign.com/ca/gsatlasr3dvtlsca2024q4
 <span style="font-weight:bold;"> OCSP stapling                </span><span style="color:#008817;">offered</span>, <span style="color:#008817;">not revoked</span>
 <span style="font-weight:bold;"> OCSP must staple extension   </span>--
 <span style="font-weight:bold;"> DNS CAA RR</span> (experimental)    <span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> Certificate Transparency     </span><span style="color:#008817;">yes</span> (certificate extension)
 <span style="font-weight:bold;"> Certificates provided</span>        2
-<span style="font-weight:bold;"> Issuer                       </span><i>GlobalSign Atlas R3 DV TLS CA 2024 Q2</i> (<i>GlobalSign nv-sa</i> from <i>BE</i>)
-<span style="font-weight:bold;"> Intermediate cert validity   </span>#1: <span style="color:#008817;">ok &gt; 40 days</span> (2026-01-17 00:00). <i>GlobalSign Atlas R3 DV TLS CA 2024 Q2</i> &lt;-- <i>GlobalSign</i>
+<span style="font-weight:bold;"> Issuer                       </span><i>GlobalSign Atlas R3 DV TLS CA 2024 Q4</i> (<i>GlobalSign nv-sa</i> from <i>BE</i>)
+<span style="font-weight:bold;"> Intermediate cert validity   </span>#1: <span style="color:#008817;">ok &gt; 40 days</span> (2026-07-17 00:00). <i>GlobalSign Atlas R3 DV TLS CA 2024 Q4</i> &lt;-- <i>GlobalSign</i>
 <span style="font-weight:bold;"> Intermediate Bad OCSP</span> (exp.) <span style="color:#008817;">Ok</span>
 
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing HTTP header response @ &quot;/&quot; </span>
 
 <span style="font-weight:bold;"> HTTP Status Code           </span>  200 OK
-<span style="font-weight:bold;"> HTTP clock skew              </span>-783 sec from localtime
+<span style="font-weight:bold;"> HTTP clock skew              </span>-247 sec from localtime
 <span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#008817;">365 days</span>=31536000 s<span style="color:#008817;">, includeSubDomains</span>
 <span style="font-weight:bold;"> Public Key Pinning           </span>--
 <span style="font-weight:bold;"> Server banner                </span>(no &quot;Server&quot; line in header, interesting!)
@@ -153,9 +152,9 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Reverse Proxy banner         </span><span style="color:#8a7237;font-weight:bold;">X-Cache</span>able: YES
                               <span style="color:#8a7237;font-weight:bold;">X-Cache</span>-TTL: <span style="color:#8a7237;">6</span><span style="color:#8a7237;">0</span><span style="color:#8a7237;">4</span><span style="color:#8a7237;">8</span><span style="color:#8a7237;">0</span><span style="color:#8a7237;">0</span>.<span style="color:#8a7237;">0</span><span style="color:#8a7237;">0</span><span style="color:#8a7237;">0</span>
                               <span style="color:#8a7237;font-weight:bold;">X-Cache</span>: HIT
-                              <span style="color:#8a7237;font-weight:bold;">X-Cache</span>-TTL-Remaining: <span style="color:#8a7237;">6</span><span style="color:#8a7237;">0</span><span style="color:#8a7237;">4</span><span style="color:#8a7237;">6</span><span style="color:#8a7237;">1</span><span style="color:#8a7237;">2</span>.<span style="color:#8a7237;">4</span><span style="color:#8a7237;">6</span><span style="color:#8a7237;">2</span>
-                              <span style="color:#8a7237;font-weight:bold;">X-Cache</span>-Age: <span style="color:#8a7237;">1</span><span style="color:#8a7237;">8</span><span style="color:#8a7237;">7</span>
-                              <span style="color:#8a7237;font-weight:bold;">X-Cache</span>-Hits: <span style="color:#8a7237;">7</span><span style="color:#8a7237;">2</span>
+                              <span style="color:#8a7237;font-weight:bold;">X-Cache</span>-TTL-Remaining: <span style="color:#8a7237;">6</span><span style="color:#8a7237;">0</span><span style="color:#8a7237;">4</span><span style="color:#8a7237;">5</span><span style="color:#8a7237;">5</span><span style="color:#8a7237;">3</span>.<span style="color:#8a7237;">9</span><span style="color:#8a7237;">3</span><span style="color:#8a7237;">9</span>
+                              <span style="color:#8a7237;font-weight:bold;">X-Cache</span>-Age: <span style="color:#8a7237;">2</span><span style="color:#8a7237;">4</span><span style="color:#8a7237;">6</span>
+                              <span style="color:#8a7237;font-weight:bold;">X-Cache</span>-Hits: <span style="color:#8a7237;">7</span><span style="color:#8a7237;">1</span>
 
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing vulnerabilities </span>
@@ -175,7 +174,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services, see
-                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=A00716CD41D1AC6065230F748A3D79CFD10C5E8A59CDB5AB853ECD44247B04F0" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=A00716CD41D1AC6065230F748A3D79CFD10C5E8A59CDB5AB853ECD44247B04F0</a>
+                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=13D9C74F98EADEB6E7D33B6E48CB9290AF54A55A693712E2B6C77E85FF9D68B7" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=13D9C74F98EADEB6E7D33B6E48CB9290AF54A55A693712E2B6C77E85FF9D68B7</a>
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      <span style="color:#008817;">not vulnerable (OK):</span> no DH EXPORT ciphers, no DH key detected with &lt;= TLS 1.2
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     <span style="color:#008817;">not vulnerable (OK)</span>, no SSL3 or TLS1
 <span style="font-weight:bold;"> LUCKY13</span> (CVE-2013-0169), experimental     potentially <span style="color:#a86437;">VULNERABLE</span>, uses cipher block chaining (CBC) ciphers with TLS. Check patches
@@ -234,7 +233,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Final Score                  </span>81
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A+</span>
 
-<span style="color:white;background-color:black;"> Done 2024-10-14 13:18:58 [  58s] --&gt;&gt; 107.154.103.47:443 (www.defense.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2024-11-14 13:50:08 [  64s] --&gt;&gt; 107.154.103.47:443 (www.defense.gouv.fr) &lt;&lt;--</span>
 
 
 </pre>
