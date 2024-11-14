@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Mon Oct 14 13:37:40 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln diplomatie.gouv.fr
+# Nmap 7.92 scan initiated Thu Nov 14 14:07:18 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln diplomatie.gouv.fr
 Nmap scan report for diplomatie.gouv.fr (77.158.88.130)
-Host is up (0.15s latency).
+Host is up (0.086s latency).
 Not shown: 998 filtered tcp ports (no-response)
 PORT    STATE SERVICE    VERSION
 80/tcp  open  http-proxy F5 BIG-IP load balancer http proxy
@@ -25,14 +25,14 @@ PORT    STATE SERVICE    VERSION
 |     <link rel="shortcut icon" href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABKCAIAAACTslUmAAALkElEQVR4Ae2bBVxbVxfAHw5B6+469w23FB3tNuo+d6/M3SgRtASn7u4+wd0pnvdeQhyLEE++E5allkn6BXifnN/FCbz/79xzj17Ec1HiUCxSWAoSmY5EZSNRmfDlE35fvPDIa0nzl1yZ6o2PmTfgMUXpManfcxp39Gz4cuiWlfD+j/fKk29leq8vCljOWxSrWLxSvXz9wLpXeze+KVz9qiB2Iy98GefJMPb8p1gT7/nPwHOIyZyx8QD5k7Mfp/16/GRFY+l1USum4Au1YoleodRrNPpBgU90SqVOItXwBaqmFvnPBZKs3T0ffsELW8qe/Rjh8GY8y4jZfOS7nSXny3GUL1GoAONuBICVtQ1iRp5g5UvAOcJ4E6JToj88nHCgvKaVL1cCktVEp1Irq+r6vqVynggbJjyvRYmjwpPGRqaMiUgJemPfV9n5RX
 |   GetRequest: 
 |     HTTP/1.1 403 Forbidden
-|     Date: Mon, 14 Oct 2024 13:38:09 GMT
+|     Date: Thu, 14 Nov 2024 14:07:39 GMT
 |     Content-Length: 199
 |     Connection: close
 |     Content-Type: text/html; charset=iso-8859-1
-|     Set-Cookie: fdiplo-prst=!F+HkySSj5YGbaEOZWSdafiR+s13spt/RJmYi+7PgsRQ4CzxaqYWKgqt89k9x+EW2EaZ6r9Jcmy4nKA==; path=/; Httponly; Secure
+|     Set-Cookie: fdiplo-prst=!4pFl+Ns//iRlGJiZWSdafiR+s13spne40cDlhZ/LMdsK2UWajcgIPIgcrhdHFPRxb9fWZWtjTCl4FA==; path=/; Httponly; Secure
 |     X-XSS-Protection: 1
 |     X-Content-Type-Options: nosniff
-|     Set-Cookie: TS01947c6a=0118540908babf5406fdc8462c019dbe65196012786f9ab24b5021d56d44128ef74332696b849d71bff0b4b40878a4fba7d1b16076fa6ccf4809e38a0be7fde008ecf1edc4; Path=/
+|     Set-Cookie: TS01947c6a=0118540908169b6be06c174903cd1ef7aebbb6fc62e79718517451262156848f831f2a7e1a98906611173fa8af6ca17abb71f0d0ef2f1f121ca66d400e263dfa2c54d2bf3e; Path=/
 |     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 |     <html><head>
 |     <title>403 Forbidden</title>
@@ -42,14 +42,14 @@ PORT    STATE SERVICE    VERSION
 |     </body></html>
 |   HTTPOptions: 
 |     HTTP/1.1 403 Forbidden
-|     Date: Mon, 14 Oct 2024 13:38:10 GMT
+|     Date: Thu, 14 Nov 2024 14:07:40 GMT
 |     Content-Length: 199
 |     Connection: close
 |     Content-Type: text/html; charset=iso-8859-1
-|     Set-Cookie: fdiplo-prst=!ixWvlfnPuEkUKj2ZWSdafiR+s13spjnfIXAtDvNQ5ee1EbOh0QwmmIyWYnERPSoeJ2zT+HKeX9JlnA==; path=/; Httponly; Secure
+|     Set-Cookie: fdiplo-prst=!YgrX6pA47N1P3JqZWSdafiR+s13spqOQXfoKuNPjnYd8vA8oxxDT/L1vsO3BTcVE4wQI8c0WJydyzQ==; path=/; Httponly; Secure
 |     X-XSS-Protection: 1
 |     X-Content-Type-Options: nosniff
-|     Set-Cookie: TS01947c6a=011854090824fd259ab8d395871342bf21265e1a5e7a19f9a4046966b008ed3d89da10b932c7844ae2197920c619bb51de7fb0ca0f8c144b8af1ef330390f111b210c4dfb0; Path=/
+|     Set-Cookie: TS01947c6a=0118540908f604e956a832e145eb8d545cafb14428309df5e266ef59be709ff301b4b4251c2f7fa67ba3cc5b5c1b8b3b41434810a9a1985e9d2428680175a61e2d4c86669a; Path=/
 |     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 |     <html><head>
 |     <title>403 Forbidden</title>
@@ -58,48 +58,48 @@ PORT    STATE SERVICE    VERSION
 |     <p>You don't have permission to access this resource.</p>
 |_    </body></html>
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=10/14%Time=670D1EC1%P=x86_64-alpine-linu
-SF:x-musl%r(GetRequest,2C1,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Mon,
-SF:\x2014\x20Oct\x202024\x2013:38:09\x20GMT\r\nContent-Length:\x20199\r\nC
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=11/14%Time=6736042B%P=x86_64-alpine-linu
+SF:x-musl%r(GetRequest,2C1,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Thu,
+SF:\x2014\x20Nov\x202024\x2014:07:39\x20GMT\r\nContent-Length:\x20199\r\nC
 SF:onnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-
-SF:1\r\nSet-Cookie:\x20fdiplo-prst=!F\+HkySSj5YGbaEOZWSdafiR\+s13spt/RJmYi
-SF:\+7PgsRQ4CzxaqYWKgqt89k9x\+EW2EaZ6r9Jcmy4nKA==;\x20path=/;\x20Httponly;
-SF:\x20Secure\r\nX-XSS-Protection:\x201\r\nX-Content-Type-Options:\x20nosn
-SF:iff\r\nSet-Cookie:\x20TS01947c6a=0118540908babf5406fdc8462c019dbe651960
-SF:12786f9ab24b5021d56d44128ef74332696b849d71bff0b4b40878a4fba7d1b16076fa6
-SF:ccf4809e38a0be7fde008ecf1edc4;\x20Path=/\r\n\r\n<!DOCTYPE\x20HTML\x20PU
-SF:BLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>403
-SF:\x20Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<p>You\x20don
-SF:'t\x20have\x20permission\x20to\x20access\x20this\x20resource\.</p>\n</b
-SF:ody></html>\n")%r(HTTPOptions,2C1,"HTTP/1\.1\x20403\x20Forbidden\r\nDat
-SF:e:\x20Mon,\x2014\x20Oct\x202024\x2013:38:10\x20GMT\r\nContent-Length:\x
-SF:20199\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset
-SF:=iso-8859-1\r\nSet-Cookie:\x20fdiplo-prst=!ixWvlfnPuEkUKj2ZWSdafiR\+s13
-SF:spjnfIXAtDvNQ5ee1EbOh0QwmmIyWYnERPSoeJ2zT\+HKeX9JlnA==;\x20path=/;\x20H
-SF:ttponly;\x20Secure\r\nX-XSS-Protection:\x201\r\nX-Content-Type-Options:
-SF:\x20nosniff\r\nSet-Cookie:\x20TS01947c6a=011854090824fd259ab8d395871342
-SF:bf21265e1a5e7a19f9a4046966b008ed3d89da10b932c7844ae2197920c619bb51de7fb
-SF:0ca0f8c144b8af1ef330390f111b210c4dfb0;\x20Path=/\r\n\r\n<!DOCTYPE\x20HT
-SF:ML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<t
-SF:itle>403\x20Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<p>Yo
-SF:u\x20don't\x20have\x20permission\x20to\x20access\x20this\x20resource\.<
-SF:/p>\n</body></html>\n")%r(FourOhFourRequest,4097,"HTTP/1\.1\x20403\x20F
-SF:orbidden\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nConte
-SF:nt-Type:\x20text/html;\x20charset=utf-8\r\nPragma:\x20no-cache\r\nConte
-SF:nt-Length:\x2042680\r\n\r\n<!DOCTYPE\x20HTML>\r\n<html>\r\n<head>\r\n\t
-SF:<meta\x20name=\"viewport\"\x20content=\"width=device-width,\x20initial-
-SF:scale=1\.0\"\x20/><meta\x20charset=\"utf-8\"\x20/>\r\n\t<title>Minist\x
-SF:c3\xa8re\x20de\x20l'Europe\x20et\x20des\x20Affaires\x20\xc3\xa9trang\xc
-SF:3\xa8res</title>\r\n\t<link\x20rel=\"shortcut\x20icon\"\x20href=\"data:
-SF:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABKCAIAAACTslUmAAALkEl
-SF:EQVR4Ae2bBVxbVxfAHw5B6\+469w23FB3tNuo\+d6/M3SgRtASn7u4\+wd0pnvdeQhyLEE\
-SF:+\+E5allkn6BXifnN/FCbz/79xzj17Ec1HiUCxSWAoSmY5EZSNRmfDlE35fvPDIa0nzl1yZ
-SF:6o2PmTfgMUXpManfcxp39Gz4cuiWlfD\+j/fKk29leq8vCljOWxSrWLxSvXz9wLpXeze\+K
-SF:Vz9qiB2Iy98GefJMPb8p1gT7/nPwHOIyZyx8QD5k7Mfp/16/GRFY\+l1USum4Au1YoleodR
-SF:rNPpBgU90SqVOItXwBaqmFvnPBZKs3T0ffsELW8qe/Rjh8GY8y4jZfOS7nSXny3GUL1GoAO
-SF:NuBICVtQ1iRp5g5UvAOcJ4E6JToj88nHCgvKaVL1cCktVEp1Irq\+r6vqVynggbJjyvRYmj
-SF:wpPGRqaMiUgJemPfV9n5RX");
+SF:1\r\nSet-Cookie:\x20fdiplo-prst=!4pFl\+Ns//iRlGJiZWSdafiR\+s13spne40cDl
+SF:hZ/LMdsK2UWajcgIPIgcrhdHFPRxb9fWZWtjTCl4FA==;\x20path=/;\x20Httponly;\x
+SF:20Secure\r\nX-XSS-Protection:\x201\r\nX-Content-Type-Options:\x20nosnif
+SF:f\r\nSet-Cookie:\x20TS01947c6a=0118540908169b6be06c174903cd1ef7aebbb6fc
+SF:62e79718517451262156848f831f2a7e1a98906611173fa8af6ca17abb71f0d0ef2f1f1
+SF:21ca66d400e263dfa2c54d2bf3e;\x20Path=/\r\n\r\n<!DOCTYPE\x20HTML\x20PUBL
+SF:IC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>403\x
+SF:20Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<p>You\x20don't
+SF:\x20have\x20permission\x20to\x20access\x20this\x20resource\.</p>\n</bod
+SF:y></html>\n")%r(HTTPOptions,2C1,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:
+SF:\x20Thu,\x2014\x20Nov\x202024\x2014:07:40\x20GMT\r\nContent-Length:\x20
+SF:199\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=i
+SF:so-8859-1\r\nSet-Cookie:\x20fdiplo-prst=!YgrX6pA47N1P3JqZWSdafiR\+s13sp
+SF:qOQXfoKuNPjnYd8vA8oxxDT/L1vsO3BTcVE4wQI8c0WJydyzQ==;\x20path=/;\x20Http
+SF:only;\x20Secure\r\nX-XSS-Protection:\x201\r\nX-Content-Type-Options:\x2
+SF:0nosniff\r\nSet-Cookie:\x20TS01947c6a=0118540908f604e956a832e145eb8d545
+SF:cafb14428309df5e266ef59be709ff301b4b4251c2f7fa67ba3cc5b5c1b8b3b41434810
+SF:a9a1985e9d2428680175a61e2d4c86669a;\x20Path=/\r\n\r\n<!DOCTYPE\x20HTML\
+SF:x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<titl
+SF:e>403\x20Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<p>You\x
+SF:20don't\x20have\x20permission\x20to\x20access\x20this\x20resource\.</p>
+SF:\n</body></html>\n")%r(FourOhFourRequest,4097,"HTTP/1\.1\x20403\x20Forb
+SF:idden\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-
+SF:Type:\x20text/html;\x20charset=utf-8\r\nPragma:\x20no-cache\r\nContent-
+SF:Length:\x2042680\r\n\r\n<!DOCTYPE\x20HTML>\r\n<html>\r\n<head>\r\n\t<me
+SF:ta\x20name=\"viewport\"\x20content=\"width=device-width,\x20initial-sca
+SF:le=1\.0\"\x20/><meta\x20charset=\"utf-8\"\x20/>\r\n\t<title>Minist\xc3\
+SF:xa8re\x20de\x20l'Europe\x20et\x20des\x20Affaires\x20\xc3\xa9trang\xc3\x
+SF:a8res</title>\r\n\t<link\x20rel=\"shortcut\x20icon\"\x20href=\"data:ima
+SF:ge/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABKCAIAAACTslUmAAALkElEQV
+SF:R4Ae2bBVxbVxfAHw5B6\+469w23FB3tNuo\+d6/M3SgRtASn7u4\+wd0pnvdeQhyLEE\+\+
+SF:E5allkn6BXifnN/FCbz/79xzj17Ec1HiUCxSWAoSmY5EZSNRmfDlE35fvPDIa0nzl1yZ6o2
+SF:PmTfgMUXpManfcxp39Gz4cuiWlfD\+j/fKk29leq8vCljOWxSrWLxSvXz9wLpXeze\+KVz9
+SF:qiB2Iy98GefJMPb8p1gT7/nPwHOIyZyx8QD5k7Mfp/16/GRFY\+l1USum4Au1YoleodRrNP
+SF:pBgU90SqVOItXwBaqmFvnPBZKs3T0ffsELW8qe/Rjh8GY8y4jZfOS7nSXny3GUL1GoAONuB
+SF:ICVtQ1iRp5g5UvAOcJ4E6JToj88nHCgvKaVL1cCktVEp1Irq\+r6vqVynggbJjyvRYmjwpP
+SF:GRqaMiUgJemPfV9n5RX");
 Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Mon Oct 14 13:40:26 2024 -- 1 IP address (1 host up) scanned in 165.86 seconds
+# Nmap done at Thu Nov 14 14:09:50 2024 -- 1 IP address (1 host up) scanned in 152.30 seconds

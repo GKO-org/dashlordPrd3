@@ -290,7 +290,7 @@
               "ip"           : "diplomatie.gouv.fr/77.158.88.130",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "CE7756203A51E47AB12265CB89BB3D8F"
+              "finding"      : "E573C6E37CCAFBF665C1F04C70605DF1"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -304,21 +304,21 @@
               "ip"           : "diplomatie.gouv.fr/77.158.88.130",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "C02ED16867C8A12865473821358602E1F4B20AA1"
+              "finding"      : "0797BC71BFFC30732C33069357ED4C354D9D425A"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "diplomatie.gouv.fr/77.158.88.130",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "BC18F6AA27BD4FE05722AFA7C965EF821B549C5788B55844E02906FB28F95507"
+              "finding"      : "41259510027C4DD218FDC1A2D972B3BD31FBED17CD7AE06FD2DDE099A258CEA5"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "diplomatie.gouv.fr/77.158.88.130",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -366,22 +366,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "diplomatie.gouv.fr/77.158.88.130",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (12)"
+              "severity"     : "OK",
+              "finding"      : "348 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "diplomatie.gouv.fr/77.158.88.130",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-10-26 00:00"
+              "finding"      : "2024-10-04 00:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "diplomatie.gouv.fr/77.158.88.130",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2024-10-26 23:59"
+              "severity"     : "OK",
+              "finding"      : "2025-10-28 23:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -535,7 +535,7 @@
               "ip"           : "diplomatie.gouv.fr/77.158.88.130",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728912968"
+              "finding"      : "1731593186"
           }
 ,         {
               "id"           : "HSTS",
@@ -743,7 +743,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=BC18F6AA27BD4FE05722AFA7C965EF821B549C5788B55844E02906FB28F95507"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=41259510027C4DD218FDC1A2D972B3BD31FBED17CD7AE06FD2DDE099A258CEA5"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1156,6 +1156,6 @@
               "ip"           : "diplomatie.gouv.fr/77.158.88.130",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "146"
+              "finding"      : "78"
           }
 ]
