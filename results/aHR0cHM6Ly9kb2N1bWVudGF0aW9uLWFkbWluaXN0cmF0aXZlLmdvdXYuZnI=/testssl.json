@@ -374,7 +374,7 @@
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "352 >= 60 days"
+              "finding"      : "321 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -563,7 +563,7 @@
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "301 Moved Permanently ('/')"
+              "finding"      : "200 OK ('/')"
           }
 ,         {
               "id"           : "HTTP_clock_skew",
@@ -577,7 +577,7 @@
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728913144"
+              "finding"      : "1731593335"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -626,14 +626,42 @@
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 at '/' (30x detected, better try target URL of 30x)"
+              "finding"      : "2 at '/'"
           }
 ,         {
-              "id"           : "security_headers",
+              "id"           : "cookie_secure",
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "--"
+              "severity"     : "INFO",
+              "finding"      : "1/2 at '/' marked as secure"
+          }
+,         {
+              "id"           : "cookie_httponly",
+              "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "All (2) at '/' marked as HttpOnly"
+          }
+,         {
+              "id"           : "Content-Security-Policy",
+              "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "default-src 'self' https://documentation-administrative.gouv.fr https://www.documentation-administrative.gouv.fr https://piwik-hal.ccsd.cnrs.fr ;       frame-src  'self' https://www.documentation-administrative.gouv.fr https://documentation-administrative.gouv.fr https://static.addtoany.com ;       img-src 'self' https://documentation-administrative.gouv.fr https://www.documentation-administrative.gouv.fr https://thumb.ccsd.cnrs.fr/ data: ;       script-src 'self' 'unsafe-inline' 'unsafe-eval' https://documentation-administrative.gouv.fr https://www.documentation-administrative.gouv.fr https://cdnjs.cloudflare.com https://unpkg.com https://leaflet.github.io https://www.gstatic.com https://static.addtoany.com https://code.jquery.com/ https://piwik-hal.ccsd.cnrs.fr/ ;       style-src  'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://unpkg.com https://fonts.googleapis.com  https://www.gstatic.com/ ;       font-src  'self' https://documentation-administrative.gouv.fr https://www.documentation-administrative.gouv.fr https://fonts.gstatic.com ;"
+          }
+,         {
+              "id"           : "Cache-Control",
+              "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no-store, no-cache, must-revalidate"
+          }
+,         {
+              "id"           : "Pragma",
+              "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no-cache"
           }
 ,         {
               "id"           : "banner_reverseproxy",
@@ -709,10 +737,10 @@
               "id"           : "BREACH",
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "cve"          : "CVE-2013-3587",
               "cwe"          : "CWE-310",
-              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
+              "finding"      : "potentially VULNERABLE, gzip HTTP compression detected  - only supplied '/' tested"
           }
 ,         {
               "id"           : "POODLE_SSL",
@@ -1140,6 +1168,6 @@
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "104"
+              "finding"      : "63"
           }
 ]
