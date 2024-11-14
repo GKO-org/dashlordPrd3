@@ -297,7 +297,7 @@
               "ip"           : "concertation-strategie-energie-climat.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "04C6AF06B87F30CF723DAF1FDCCAE0862A0B"
+              "finding"      : "04E3C8C3DEBDB98B6111C70513C22B75E8F7"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -311,21 +311,21 @@
               "ip"           : "concertation-strategie-energie-climat.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "4AA6EB2BDE80D6DF8B5E9DC2F032463A162FD747"
+              "finding"      : "2C6A0DE6E5F47C74672308A86575EB1127DD9C7D"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "concertation-strategie-energie-climat.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "B607598F262DC9D511EBD5FE80854B44E23D697EBCA50D350C43C04C43ADB0AB"
+              "finding"      : "D0947DE7A0786B9869F87EA24803D49D1BD1DE791C7C6FC7EC9D3AA613B716E5"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "concertation-strategie-energie-climat.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFKzCCBBOgAwIBAgISBMavBrh/MM9yPa8f3MrghioLMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTEwHhcNMjQwODIwMjMwNjE5WhcNMjQxMTE4MjMwNjE4WjA4MTYwNAYDVQQDEy1jb25jZXJ0YXRpb24tc3RyYXRlZ2llLWVuZXJnaWUtY2xpbWF0LmdvdXYuZnIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDP3ryGV53DlXbchbIrmPxfH1Vru7gWKsrEpCpSCvFvNBCbj2/bgdLX1zGwmIXdhwyIK3kJZGj/6Y2qHjl8d/5MMla8j84GDFeWktQAkctOPMJfdDYa7hMRdrZ/0fniuzm+5MAVmH+/JrJ5nPYqct0UO1HgZJhHQUTbv/8hIH/gYbCXRBVnUWWzVoQWv7wK0eLsT4s+zQhOYgiH1FtDYNkfdU4mNxPjY/GYRk4YspLJFG+OOWmpWoaMu3nzTBdxyAn9Re11RPyIVdQGS9X3I3wCpJjECugtJ8nO1ffvuPM92ONs8wvQrcpmXpbqZvzRK482P8wWzRjYO6azTeyK+z9HAgMBAAGjggIyMIICLjAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFKTAn8aBKalZmYpeh/WIt89J4aBNMB8GA1UdIwQYMBaAFMXPRqTq9MPAemyVxC2wXpIvJuO5MFcGCCsGAQUFBwEBBEswSTAiBggrBgEFBQcwAYYWaHR0cDovL3IxMS5vLmxlbmNyLm9yZzAjBggrBgEFBQcwAoYXaHR0cDovL3IxMS5pLmxlbmNyLm9yZy8wOAYDVR0RBDEwL4ItY29uY2VydGF0aW9uLXN0cmF0ZWdpZS1lbmVyZ2llLWNsaW1hdC5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMIIBBQYKKwYBBAHWeQIEAgSB9gSB8wDxAHYASLDja9qmRzQP5WoC+p0w6xxSActW3SyB2bu/qznYhHMAAAGRckAbJQAABAMARzBFAiEAvnw/N5vw4blXAKqzlHLkVxIFSIB2iS8XvgssN/889P8CIEjwpIwRe8qALsy0lYqpAPWhX8GNKUibIfUikqze24WbAHcA7s3QZNXbGs7FXLedtM0TojKHRny87N7DUUhZRnEftZsAAAGRckAbLQAABAMASDBGAiEA00fOd8NW4znjdcP5Hu36Hg87lK+h5iJyuV5ai8HEAAcCIQCtPQVjOFBga2q6kK9aSraps0dL0S7e28XZVzf8VmKujTANBgkqhkiG9w0BAQsFAAOCAQEAuSnzLS7ctqbZpv0xGUTh8f/33W2azFi4xUD0uBoE8QSQgZJa4qOTlFoyMCFspTVs5dtChwd35NXFYh+eAD4v3TJNic7c8wWqVR0E4p/lQWypmYV2E3i3hxxBut4Ct/4zH1EeLHuYQ4vaPDUTLCR737cLVfYNI3Da5MjwWH/11OVJySLFQrBDoLVc0hcO/mBJgdnEv2MFo7HckmXPLHe2bWHDrX2x8PbzS8A33SBpH9m+4RWCNrvcc8/Lwcz10sVADd0jk0Keeb3RxR4IQCO9GxOokNP6/5uxuaM53iETazy7HkaXo08+Nc6yijUWP1HyfkdsVaen02A4nxUiSQ60og==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFKjCCBBKgAwIBAgISBOPIw969uYthEccFE8Irdej3MA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTEwHhcNMjQxMDE5MjMzODAyWhcNMjUwMTE3MjMzODAxWjA4MTYwNAYDVQQDEy1jb25jZXJ0YXRpb24tc3RyYXRlZ2llLWVuZXJnaWUtY2xpbWF0LmdvdXYuZnIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDbLWfM41bO5MmE9r2UshQexDuEDJTWk4u9xi5+d8GDfh21S0lDqX5eMKBveANJBnCe4/QnkCeOpG1EWIvBA7Fr0oRBwO9PMgYTFt++41VmCNcNAqiqGPMDVKmTOCl0RVwsFuW+8iucabwZl7J7VOJinTOV0A9ILks2Og5KdB/AFGPecgNDnBNoGl0fo+msTXA5IhXAOFzLgMOfx0iDSPYE/NyR182CnlFodUk6yznUDiFLAvne4zlXdTCMetBosumAZOSPENVFZz/NnSgQgsVlwWkFCk/vLtdOnbfrXYrOzqpnciaYX6t/LQUWJE7RAlE3oqoFiGHElinr52w3e4aFAgMBAAGjggIxMIICLTAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFBKv8pyJbBUuw9FUer+7MfQtmODcMB8GA1UdIwQYMBaAFMXPRqTq9MPAemyVxC2wXpIvJuO5MFcGCCsGAQUFBwEBBEswSTAiBggrBgEFBQcwAYYWaHR0cDovL3IxMS5vLmxlbmNyLm9yZzAjBggrBgEFBQcwAoYXaHR0cDovL3IxMS5pLmxlbmNyLm9yZy8wOAYDVR0RBDEwL4ItY29uY2VydGF0aW9uLXN0cmF0ZWdpZS1lbmVyZ2llLWNsaW1hdC5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMIIBBAYKKwYBBAHWeQIEAgSB9QSB8gDwAHcAPxdLT9ciR1iUHWUchL4NEu2QN38fhWrrwb8ohez4ZG4AAAGSp1q0nQAABAMASDBGAiEA6BE6f5pmmeOH9zU0J3yfhrHfbQaLt/iKpY0G/816f1MCIQCtmIszgf8EJ3l3ZZXi9gev1JVQY1chFQ1UFDu6yoTJSgB1ABNK3xq1mEIJeAxv70x6kaQWtyNJzlhXat+u2qfCq+AiAAABkqdatV4AAAQDAEYwRAIgdrKLzPa1Q0KIaH29KNOd8u2rKcAil2QxxeJbFCCrgqcCIFOW/kYTgFLW1JfB+nYIZo5EwHP15U+4NQO1ke8scfNSMA0GCSqGSIb3DQEBCwUAA4IBAQCbrXQurvbaZrMp7USNk1sKmMwfuPdPna3CetshWVEzyV7Cn7ZTTfp9IN/HycPyXcz5pu4IY/uH6okVjs+fq6URQR41uS8KzlSTdeYXTlGhcdDon5FuUdlNS3kGrpIcr+Q9r/kzi7teW9siECzwrnEjTxjPI8bSM3glfTKVW2gywVBln4tndb/CRT3a+YnICqXL4OfUaWD1JCgAXkcPvYdrHCt/jRvrcKDih9iwKjyrp40KJ2xgWM62h7dVv4lTJaRYHBLk70M6WveRQDEezyKZrrVCXiRKcRCBNZ/pqVqtV5NeLYNeGms6crCm3rI6z7N+rPnGrDj0l6mQsMbS5szm\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -374,21 +374,21 @@
               "ip"           : "concertation-strategie-energie-climat.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "35 >= 30 days"
+              "finding"      : "64 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "concertation-strategie-energie-climat.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-08-20 23:06"
+              "finding"      : "2024-10-19 23:38"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "concertation-strategie-energie-climat.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-11-18 23:06"
+              "finding"      : "2025-01-17 23:38"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -535,14 +535,14 @@
               "ip"           : "concertation-strategie-energie-climat.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "-4719 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "concertation-strategie-energie-climat.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728910097"
+              "finding"      : "1731585765"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -615,13 +615,6 @@
               "finding"      : "upgrade-insecure-requests"
           }
 ,         {
-              "id"           : "Permissions-Policy",
-              "ip"           : "concertation-strategie-energie-climat.gouv.fr/79.137.76.37",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "interest-cohort=()"
-          }
-,         {
               "id"           : "X-XSS-Protection",
               "ip"           : "concertation-strategie-energie-climat.gouv.fr/79.137.76.37",
               "port"         : "443",
@@ -634,13 +627,6 @@
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "strict-origin-when-cross-origin"
-          }
-,         {
-              "id"           : "X-UA-Compatible",
-              "ip"           : "concertation-strategie-energie-climat.gouv.fr/79.137.76.37",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "IE=edge"
           }
 ,         {
               "id"           : "Cache-Control",
@@ -778,7 +764,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=B607598F262DC9D511EBD5FE80854B44E23D697EBCA50D350C43C04C43ADB0AB"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=D0947DE7A0786B9869F87EA24803D49D1BD1DE791C7C6FC7EC9D3AA613B716E5"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1154,6 +1140,6 @@
               "ip"           : "concertation-strategie-energie-climat.gouv.fr/79.137.76.37",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "67"
+              "finding"      : "59"
           }
 ]
