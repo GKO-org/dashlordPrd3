@@ -199,7 +199,7 @@
               "ip"           : "creuse.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -262,7 +262,7 @@
               "ip"           : "creuse.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "A1476B15C731E1CE176DD863A5C3C81B"
+              "finding"      : "045D7C8559616F33764C5C2782900AEA"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "creuse.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "A2A41958017BE6A059AE18074AE2E13848E880DA"
+              "finding"      : "6809E82BEB65E9498F36626F34D7219223AE86CF"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "creuse.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "DD6BE6843CCB6C41E8BEA2E5D9E187D74331970D79542C5497ED6FFA6363D969"
+              "finding"      : "327DD5D9BB06F07EF26BA28CC08D63D74992541E640BE966E97075479C300F0A"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "creuse.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "creuse.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "www.creuse.gouv.fr creuse.gouv.fr"
+              "finding"      : "creuse.gouv.fr www.creuse.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -338,22 +338,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "creuse.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (16)"
+              "severity"     : "OK",
+              "finding"      : "337 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "creuse.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-03-22 23:00"
+              "finding"      : "2024-10-17 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "creuse.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2024-10-30 22:59"
+              "severity"     : "OK",
+              "finding"      : "2025-10-17 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -500,14 +500,14 @@
               "ip"           : "creuse.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728911815"
+              "finding"      : "1731592050"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "creuse.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds"
+              "finding"      : "1 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -557,7 +557,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "x-cache: Miss"
+              "finding"      : "x-cache: Hit"
           }
 ,         {
               "id"           : "heartbleed",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=DD6BE6843CCB6C41E8BEA2E5D9E187D74331970D79542C5497ED6FFA6363D969"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=327DD5D9BB06F07EF26BA28CC08D63D74992541E640BE966E97075479C300F0A"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1063,6 +1063,6 @@
               "ip"           : "creuse.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "92"
+              "finding"      : "94"
           }
 ]
