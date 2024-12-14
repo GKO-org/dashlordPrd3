@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Thu Nov 14 14:14:21 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln douane.gouv.fr
+# Nmap 7.92 scan initiated Sat Dec 14 14:18:25 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln douane.gouv.fr
 Host: 212.106.111.167 (167.111.106.212.in-addr.arpa.celeste.fr)	Status: Up
 Host: 212.106.111.167 (167.111.106.212.in-addr.arpa.celeste.fr)	Ports: 80/open/tcp//http///, 113/closed/tcp//ident///, 443/open/tcp//ssl|https///	Ignored State: filtered (997)
-# Nmap done at Thu Nov 14 14:16:24 2024 -- 1 IP address (1 host up) scanned in 123.23 seconds
+# Nmap done at Sat Dec 14 14:20:34 2024 -- 1 IP address (1 host up) scanned in 128.57 seconds
