@@ -1,11 +1,11 @@
-# Nmap 7.92 scan initiated Thu Nov 14 13:21:55 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln concertation-strategie-energie-climat.gouv.fr
+# Nmap 7.92 scan initiated Sat Dec 14 12:58:47 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln concertation-strategie-energie-climat.gouv.fr
 Nmap scan report for concertation-strategie-energie-climat.gouv.fr (79.137.76.37)
-Host is up (0.090s latency).
+Host is up (0.085s latency).
 rDNS record for 79.137.76.37: vps381334.ovh.net
-Not shown: 962 filtered tcp ports (no-response), 36 closed tcp ports (reset)
+Not shown: 998 filtered tcp ports (no-response)
 PORT    STATE SERVICE    VERSION
 80/tcp  open  tcpwrapped
 443/tcp open  tcpwrapped
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Thu Nov 14 13:22:22 2024 -- 1 IP address (1 host up) scanned in 26.67 seconds
+# Nmap done at Sat Dec 14 13:04:51 2024 -- 1 IP address (1 host up) scanned in 363.74 seconds
