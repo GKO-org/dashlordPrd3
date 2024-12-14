@@ -1,9 +1,9 @@
-# Nmap 7.92 scan initiated Thu Nov 14 14:18:20 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln dreets.gouv.fr
+# Nmap 7.92 scan initiated Sat Dec 14 14:23:23 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln dreets.gouv.fr
 Nmap scan report for dreets.gouv.fr (185.194.83.84)
-Host is up (0.081s latency).
+Host is up (0.14s latency).
 Not shown: 997 filtered tcp ports (no-response)
 PORT    STATE  SERVICE    VERSION
-80/tcp  open   tcpwrapped
+80/tcp  open   http-proxy F5 BIG-IP load balancer http proxy
 |_http-server-header: BigIP
 113/tcp closed ident
 443/tcp open   ssl/https
@@ -16,19 +16,22 @@ PORT    STATE  SERVICE    VERSION
 |     Connection: close
 |     Content-Type: text/html
 |     Content-Length: 245
-|     <html><head><title>Request Rejected</title></head><body>The requested URL was rejected. Please consult with your administrator.<br><br>Your support ID is: <10600432828822367105><br><br><a href='javascript:history.back();'>[Go Back]</body></html>
+|     X-Frame-Options: SAMEORIGIN
+|     X-XSS-Protection: 1; mode=block
+|     X-Content-Type-Options: nosniff
+|     <html><head><title>Request Rejected</title></head><body>The requested URL was rejected. Please consult with your administrator.<br><br>Your support ID is: <10853012110694146861><br><br><a href='javascript:history.back();'>[Go Back]</body></html>
 |   GetRequest: 
 |     HTTP/1.1 503 Service Unavailable
-|     Date: Thu, 14 Nov 2024 14:18:39 GMT
+|     Date: Sat, 14 Dec 2024 14:23:45 GMT
 |     Expires: 0
 |     Cache-Control: no-cache, must-revalidate
 |     Pragma: no-cache
 |     X-Frame-Options: DENY
-|     Last-Modified: Thu, 14 Nov 2024 14:18:39 GMT
+|     Last-Modified: Sat, 14 Dec 2024 14:23:45 GMT
 |     X-Content-Type-Options: nosniff
 |     Connection: close
 |     Content-Type: text/html; charset=utf-8
-|     Set-Cookie: BIGipServerpool-dreets2.cegedim.cloud-HTTP=!UfOXPxYTLR6EhGBWDPlD0yXzT0UGhgiSPZy72NwMRAOD3hewRi8wTwe6WE2oZN0t5TH6nk1Uh6jVNy3Gm76w/bGaRDE=; path=/; Httponly; Secure
+|     Set-Cookie: BIGipServerpool-dreets2.cegedim.cloud-HTTP=!/q+/8Xw9ANd4fm5Eb0fFdwp3a2v5lgev0H8aHeqhYd+isaMY65AIphvnLARO9Ml5bM/JXW2ENRgUEohEF4R+snWXYJQ=; path=/; Httponly; Secure
 |     Strict-Transport-Security: max-age=31536000; includeSubDomains
 |     <!DOCTYPE html>
 |     <html class='ltr fr no-js' xmlns='http://www.w3.org/1999/xhtml' lang='fr' dir='ltr'>
@@ -41,13 +44,13 @@ PORT    STATE  SERVICE    VERSION
 |     faut par m
 |   HTTPOptions: 
 |     HTTP/1.1 403 Forbidden
-|     Date: Thu, 14 Nov 2024 14:18:39 GMT
+|     Date: Sat, 14 Dec 2024 14:23:46 GMT
 |     X-Frame-Options: DENY
 |     Content-Length: 199
-|     Keep-Alive: timeout=5, max=89
+|     Keep-Alive: timeout=5, max=83
 |     Connection: close
 |     Content-Type: text/html; charset=iso-8859-1
-|     Set-Cookie: BIGipServerpool-dreets2.cegedim.cloud-HTTP=!a51/AC0TQFxIk6ZWDPlD0yXzT0UGhuin7tC59sIVgGmN+aAsArH2k87gpBTqa1blnXnVFnJY2Xfl6HrsJjmZHwMCejU=; path=/; Httponly; Secure
+|     Set-Cookie: BIGipServerpool-dreets2.cegedim.cloud-HTTP=!g4a2N2C9MyPYI1VEb0fFdwp3a2v5lpEg5p0R60lZoBJIeoRGLS9pVJOp+mBpKQlJKNxdpbQ2Z4IvindFt+PkRTblH5k=; path=/; Httponly; Secure
 |     Strict-Transport-Security: max-age=31536000; includeSubDomains
 |     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 |     <html><head>
@@ -57,42 +60,45 @@ PORT    STATE  SERVICE    VERSION
 |     <p>You don't have permission to access this resource.</p>
 |_    </body></html>
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=11/14%Time=673606BF%P=x86_64-alpine-linu
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=12/14%Time=675D94F1%P=x86_64-alpine-linu
 SF:x-musl%r(GetRequest,1255,"HTTP/1\.1\x20503\x20Service\x20Unavailable\r\
-SF:nDate:\x20Thu,\x2014\x20Nov\x202024\x2014:18:39\x20GMT\r\nExpires:\x200
+SF:nDate:\x20Sat,\x2014\x20Dec\x202024\x2014:23:45\x20GMT\r\nExpires:\x200
 SF:\r\nCache-Control:\x20no-cache,\x20must-revalidate\r\nPragma:\x20no-cac
-SF:he\r\nX-Frame-Options:\x20DENY\r\nLast-Modified:\x20Thu,\x2014\x20Nov\x
-SF:202024\x2014:18:39\x20GMT\r\nX-Content-Type-Options:\x20nosniff\r\nConn
+SF:he\r\nX-Frame-Options:\x20DENY\r\nLast-Modified:\x20Sat,\x2014\x20Dec\x
+SF:202024\x2014:23:45\x20GMT\r\nX-Content-Type-Options:\x20nosniff\r\nConn
 SF:ection:\x20close\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nSet
-SF:-Cookie:\x20BIGipServerpool-dreets2\.cegedim\.cloud-HTTP=!UfOXPxYTLR6Eh
-SF:GBWDPlD0yXzT0UGhgiSPZy72NwMRAOD3hewRi8wTwe6WE2oZN0t5TH6nk1Uh6jVNy3Gm76w
-SF:/bGaRDE=;\x20path=/;\x20Httponly;\x20Secure\r\nStrict-Transport-Securit
-SF:y:\x20max-age=31536000;\x20includeSubDomains\r\n\r\n<!DOCTYPE\x20html>\
-SF:n<html\x20class='ltr\x20fr\x20no-js'\x20xmlns='http://www\.w3\.org/1999
-SF:/xhtml'\x20lang='fr'\x20dir='ltr'>\n<head>\n<title>Site\x20en\x20travau
-SF:x</title>\n<meta\x20name=\"viewport\"\x20content=\"width=device-width\"
-SF:\x20/>\n<style\x20type='text/css'>:root\x20{--minipage-color-theme--h:\
-SF:x200;--minipage-color-theme--s:\x200%;--minipage-color-theme--l:\x2060%
-SF:;}\n:root\x20{\n\t/\*\n\tD\xc3\xa9finie\x20par\x20d\xc3\xa9faut\x20par\
-SF:x20m")%r(HTTPOptions,281,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Thu
-SF:,\x2014\x20Nov\x202024\x2014:18:39\x20GMT\r\nX-Frame-Options:\x20DENY\r
-SF:\nContent-Length:\x20199\r\nKeep-Alive:\x20timeout=5,\x20max=89\r\nConn
-SF:ection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r
-SF:\nSet-Cookie:\x20BIGipServerpool-dreets2\.cegedim\.cloud-HTTP=!a51/AC0T
-SF:QFxIk6ZWDPlD0yXzT0UGhuin7tC59sIVgGmN\+aAsArH2k87gpBTqa1blnXnVFnJY2Xfl6H
-SF:rsJjmZHwMCejU=;\x20path=/;\x20Httponly;\x20Secure\r\nStrict-Transport-S
-SF:ecurity:\x20max-age=31536000;\x20includeSubDomains\r\n\r\n<!DOCTYPE\x20
-SF:HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n
-SF:<title>403\x20Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<p>
-SF:You\x20don't\x20have\x20permission\x20to\x20access\x20this\x20resource\
-SF:.</p>\n</body></html>\n")%r(FourOhFourRequest,18F,"HTTP/1\.1\x20200\x20
-SF:OK\r\nCache-Control:\x20no-store,\x20must-revalidate,\x20no-cache\r\nPr
-SF:agma:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/html
-SF:\r\nContent-Length:\x20245\r\n\r\n<html><head><title>Request\x20Rejecte
-SF:d</title></head><body>The\x20requested\x20URL\x20was\x20rejected\.\x20P
-SF:lease\x20consult\x20with\x20your\x20administrator\.<br><br>Your\x20supp
-SF:ort\x20ID\x20is:\x20<10600432828822367105><br><br><a\x20href='javascrip
-SF:t:history\.back\(\);'>\[Go\x20Back\]</body></html>");
+SF:-Cookie:\x20BIGipServerpool-dreets2\.cegedim\.cloud-HTTP=!/q\+/8Xw9ANd4
+SF:fm5Eb0fFdwp3a2v5lgev0H8aHeqhYd\+isaMY65AIphvnLARO9Ml5bM/JXW2ENRgUEohEF4
+SF:R\+snWXYJQ=;\x20path=/;\x20Httponly;\x20Secure\r\nStrict-Transport-Secu
+SF:rity:\x20max-age=31536000;\x20includeSubDomains\r\n\r\n<!DOCTYPE\x20htm
+SF:l>\n<html\x20class='ltr\x20fr\x20no-js'\x20xmlns='http://www\.w3\.org/1
+SF:999/xhtml'\x20lang='fr'\x20dir='ltr'>\n<head>\n<title>Site\x20en\x20tra
+SF:vaux</title>\n<meta\x20name=\"viewport\"\x20content=\"width=device-widt
+SF:h\"\x20/>\n<style\x20type='text/css'>:root\x20{--minipage-color-theme--
+SF:h:\x200;--minipage-color-theme--s:\x200%;--minipage-color-theme--l:\x20
+SF:60%;}\n:root\x20{\n\t/\*\n\tD\xc3\xa9finie\x20par\x20d\xc3\xa9faut\x20p
+SF:ar\x20m")%r(HTTPOptions,281,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20
+SF:Sat,\x2014\x20Dec\x202024\x2014:23:46\x20GMT\r\nX-Frame-Options:\x20DEN
+SF:Y\r\nContent-Length:\x20199\r\nKeep-Alive:\x20timeout=5,\x20max=83\r\nC
+SF:onnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-
+SF:1\r\nSet-Cookie:\x20BIGipServerpool-dreets2\.cegedim\.cloud-HTTP=!g4a2N
+SF:2C9MyPYI1VEb0fFdwp3a2v5lpEg5p0R60lZoBJIeoRGLS9pVJOp\+mBpKQlJKNxdpbQ2Z4I
+SF:vindFt\+PkRTblH5k=;\x20path=/;\x20Httponly;\x20Secure\r\nStrict-Transpo
+SF:rt-Security:\x20max-age=31536000;\x20includeSubDomains\r\n\r\n<!DOCTYPE
+SF:\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><hea
+SF:d>\n<title>403\x20Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\
+SF:n<p>You\x20don't\x20have\x20permission\x20to\x20access\x20this\x20resou
+SF:rce\.</p>\n</body></html>\n")%r(FourOhFourRequest,1EE,"HTTP/1\.1\x20200
+SF:\x20OK\r\nCache-Control:\x20no-store,\x20must-revalidate,\x20no-cache\r
+SF:\nPragma:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/
+SF:html\r\nContent-Length:\x20245\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-X
+SF:SS-Protection:\x201;\x20mode=block\r\nX-Content-Type-Options:\x20nosnif
+SF:f\r\n\r\n<html><head><title>Request\x20Rejected</title></head><body>The
+SF:\x20requested\x20URL\x20was\x20rejected\.\x20Please\x20consult\x20with\
+SF:x20your\x20administrator\.<br><br>Your\x20support\x20ID\x20is:\x20<1085
+SF:3012110694146861><br><br><a\x20href='javascript:history\.back\(\);'>\[G
+SF:o\x20Back\]</body></html>");
+Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Thu Nov 14 14:20:55 2024 -- 1 IP address (1 host up) scanned in 155.28 seconds
+# Nmap done at Sat Dec 14 14:26:01 2024 -- 1 IP address (1 host up) scanned in 158.29 seconds

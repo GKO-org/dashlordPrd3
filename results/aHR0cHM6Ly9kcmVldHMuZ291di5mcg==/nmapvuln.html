@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln dreets.gouv.fr</pre>
-<p class="lead">Thu Nov 14 14:18:20 2024 – Thu Nov 14 14:20:55 2024<br>1 hosts scanned.
+<p class="lead">Sat Dec 14 14:23:23 2024 – Sat Dec 14 14:26:01 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -111,8 +111,8 @@
 <td title="Port">80</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">tcpwrapped</td>
-<td title="Product"></td>
+<td title="Service">http-proxy</td>
+<td title="Product">F5 BIG-IP load balancer http proxy</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
@@ -150,19 +150,22 @@
     Connection: close
     Content-Type: text/html
     Content-Length: 245
-    &lt;html&gt;&lt;head&gt;&lt;title&gt;Request Rejected&lt;/title&gt;&lt;/head&gt;&lt;body&gt;The requested URL was rejected. Please consult with your administrator.&lt;br&gt;&lt;br&gt;Your support ID is: &lt;10600432828822367105&gt;&lt;br&gt;&lt;br&gt;&lt;a href='javascript:history.back();'&gt;[Go Back]&lt;/body&gt;&lt;/html&gt;
+    X-Frame-Options: SAMEORIGIN
+    X-XSS-Protection: 1; mode=block
+    X-Content-Type-Options: nosniff
+    &lt;html&gt;&lt;head&gt;&lt;title&gt;Request Rejected&lt;/title&gt;&lt;/head&gt;&lt;body&gt;The requested URL was rejected. Please consult with your administrator.&lt;br&gt;&lt;br&gt;Your support ID is: &lt;10853012110694146861&gt;&lt;br&gt;&lt;br&gt;&lt;a href='javascript:history.back();'&gt;[Go Back]&lt;/body&gt;&lt;/html&gt;
   GetRequest: 
     HTTP/1.1 503 Service Unavailable
-    Date: Thu, 14 Nov 2024 14:18:39 GMT
+    Date: Sat, 14 Dec 2024 14:23:45 GMT
     Expires: 0
     Cache-Control: no-cache, must-revalidate
     Pragma: no-cache
     X-Frame-Options: DENY
-    Last-Modified: Thu, 14 Nov 2024 14:18:39 GMT
+    Last-Modified: Sat, 14 Dec 2024 14:23:45 GMT
     X-Content-Type-Options: nosniff
     Connection: close
     Content-Type: text/html; charset=utf-8
-    Set-Cookie: BIGipServerpool-dreets2.cegedim.cloud-HTTP=!UfOXPxYTLR6EhGBWDPlD0yXzT0UGhgiSPZy72NwMRAOD3hewRi8wTwe6WE2oZN0t5TH6nk1Uh6jVNy3Gm76w/bGaRDE=; path=/; Httponly; Secure
+    Set-Cookie: BIGipServerpool-dreets2.cegedim.cloud-HTTP=!/q+/8Xw9ANd4fm5Eb0fFdwp3a2v5lgev0H8aHeqhYd+isaMY65AIphvnLARO9Ml5bM/JXW2ENRgUEohEF4R+snWXYJQ=; path=/; Httponly; Secure
     Strict-Transport-Security: max-age=31536000; includeSubDomains
     &lt;!DOCTYPE html&gt;
     &lt;html class='ltr fr no-js' xmlns='http://www.w3.org/1999/xhtml' lang='fr' dir='ltr'&gt;
@@ -175,13 +178,13 @@
     faut par m
   HTTPOptions: 
     HTTP/1.1 403 Forbidden
-    Date: Thu, 14 Nov 2024 14:18:39 GMT
+    Date: Sat, 14 Dec 2024 14:23:46 GMT
     X-Frame-Options: DENY
     Content-Length: 199
-    Keep-Alive: timeout=5, max=89
+    Keep-Alive: timeout=5, max=83
     Connection: close
     Content-Type: text/html; charset=iso-8859-1
-    Set-Cookie: BIGipServerpool-dreets2.cegedim.cloud-HTTP=!a51/AC0TQFxIk6ZWDPlD0yXzT0UGhuin7tC59sIVgGmN+aAsArH2k87gpBTqa1blnXnVFnJY2Xfl6HrsJjmZHwMCejU=; path=/; Httponly; Secure
+    Set-Cookie: BIGipServerpool-dreets2.cegedim.cloud-HTTP=!g4a2N2C9MyPYI1VEb0fFdwp3a2v5lpEg5p0R60lZoBJIeoRGLS9pVJOp+mBpKQlJKNxdpbQ2Z4IvindFt+PkRTblH5k=; path=/; Httponly; Secure
     Strict-Transport-Security: max-age=31536000; includeSubDomains
     &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
     &lt;html&gt;&lt;head&gt;
@@ -212,8 +215,8 @@
 <td>185.194.83.84 - dreets.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
-<td>tcpwrapped</td>
-<td></td>
+<td>http-proxy</td>
+<td>F5 BIG-IP load balancer http proxy</td>
 <td></td>
 <td></td>
 <td></td>
