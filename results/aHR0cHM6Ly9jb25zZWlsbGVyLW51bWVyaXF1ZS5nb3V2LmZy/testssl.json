@@ -1,1466 +1,6 @@
 [
          {
               "id"           : "service",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "HTTP"
-          }
-,         {
-              "id"           : "pre_128cipher",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "No 128 cipher limit bug"
-          }
-,         {
-              "id"           : "SSLv2",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "not offered"
-          }
-,         {
-              "id"           : "SSLv3",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "not offered"
-          }
-,         {
-              "id"           : "TLS1",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "offered (deprecated)"
-          }
-,         {
-              "id"           : "TLS1_1",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "offered (deprecated)"
-          }
-,         {
-              "id"           : "TLS1_2",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "offered"
-          }
-,         {
-              "id"           : "TLS1_3",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "offered with final"
-          }
-,         {
-              "id"           : "ALPN_HTTP2",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "h2"
-          }
-,         {
-              "id"           : "ALPN",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "http/1.1"
-          }
-,         {
-              "id"           : "cipherlist_NULL",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "cwe"          : "CWE-327",
-              "finding"      : "not offered"
-          }
-,         {
-              "id"           : "cipherlist_aNULL",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "cwe"          : "CWE-327",
-              "finding"      : "not offered"
-          }
-,         {
-              "id"           : "cipherlist_EXPORT",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "cwe"          : "CWE-327",
-              "finding"      : "not offered"
-          }
-,         {
-              "id"           : "cipherlist_LOW",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "cwe"          : "CWE-327",
-              "finding"      : "not offered"
-          }
-,         {
-              "id"           : "cipherlist_3DES_IDEA",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "cwe"          : "CWE-310",
-              "finding"      : "not offered"
-          }
-,         {
-              "id"           : "cipherlist_OBSOLETED",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "cwe"          : "CWE-310",
-              "finding"      : "offered"
-          }
-,         {
-              "id"           : "cipherlist_STRONG_NOFS",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "offered"
-          }
-,         {
-              "id"           : "cipherlist_STRONG_FS",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "offered"
-          }
-,         {
-              "id"           : "cipher_order-tls1",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "server"
-          }
-,         {
-              "id"           : "cipherorder_TLSv1",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "ECDHE-RSA-AES128-SHA"
-          }
-,         {
-              "id"           : "cipher_order-tls1_1",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "server"
-          }
-,         {
-              "id"           : "cipherorder_TLSv1_1",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "ECDHE-RSA-AES128-SHA"
-          }
-,         {
-              "id"           : "cipher_order-tls1_2",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "server"
-          }
-,         {
-              "id"           : "cipherorder_TLSv1_2",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "ECDHE-ECDSA-AES128-GCM-SHA256"
-          }
-,         {
-              "id"           : "cipher_order",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "server -- TLS 1.3 client determined"
-          }
-,         {
-              "id"           : "FS",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "offered"
-          }
-,         {
-              "id"           : "FS_ciphers",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA256 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA384 ECDHE-ECDSA-AES256-SHA ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA"
-          }
-,         {
-              "id"           : "FS_ECDHE_curves",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "prime256v1"
-          }
-,         {
-              "id"           : "TLS_extensions",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'status request/#5' 'next protocol/#13172' 'key share/#51' 'supported versions/#43' 'extended master secret/#23' 'application layer protocol negotiation/#16' 'compress_certificate/#27'"
-          }
-,         {
-              "id"           : "TLS_session_ticket",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "valid for 64800 seconds only (<daily)"
-          }
-,         {
-              "id"           : "SSL_sessionID_support",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "yes"
-          }
-,         {
-              "id"           : "sessionresumption_ticket",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "supported"
-          }
-,         {
-              "id"           : "sessionresumption_ID",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "not supported"
-          }
-,         {
-              "id"           : "TLS_timestamp",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "off by 0 seconds from your localtime"
-          }
-,         {
-              "id"           : "certificate_compression",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "0002/Brotli"
-          }
-,         {
-              "id"           : "clientAuth",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "none"
-          }
-,         {
-              "id"           : "cert_numbers",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "2"
-          }
-,         {
-              "id"           : "cert_signatureAlgorithm <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "SHA256 with RSA"
-          }
-,         {
-              "id"           : "cert_keySize <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "RSA 2048 bits (exponent is 65537)"
-          }
-,         {
-              "id"           : "cert_keyUsage <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Digital Signature, Key Encipherment"
-          }
-,         {
-              "id"           : "cert_extKeyUsage <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLS Web Server Authentication"
-          }
-,         {
-              "id"           : "cert_serialNumber <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "C247A980E25AF0780D58E20A83C330B2"
-          }
-,         {
-              "id"           : "cert_serialNumberLen <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "16"
-          }
-,         {
-              "id"           : "cert_fingerprintSHA1 <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "31E68E7500725F1C1A95DD5D3AD35479E28F362F"
-          }
-,         {
-              "id"           : "cert_fingerprintSHA256 <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "6BE18D53E40EB7F3C09A386C5AFC6ECC408C1726EB2ED27B9ADF1279FA08D6AE"
-          }
-,         {
-              "id"           : "cert <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFZTCCBE2gAwIBAgIRAMJHqYDiWvB4DVjiCoPDMLIwDQYJKoZIhvcNAQELBQAwOzELMAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczEMMAoGA1UEAxMDV1IxMB4XDTI0MTAzMTE0MDgyOVoXDTI1MDEyOTE1MDgyM1owJzElMCMGA1UEAxMcY29uc2VpbGxlci1udW1lcmlxdWUuZ291di5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAO0i9eVJ1Li5rwuWV036yoErJEuR4W/8K71lG8zVNfyA/R6wG1ELyYrufCKvnEnWgwUnLJ+WPc6AESmloNT0tmsnLJ0IMRqs5+DA45h9PHnaLup5b5vfV1IZV53UyD5q3ZciSN4qdLv3X981wdtlzfCsphkTgiDiTYg9Krfjxubp8hXZbmyKAg2N82hT1jUzj1nI2nsVCdXk1nj8Bc4730dD+qZP9kHssVJE7LTgn8D1YZKi/eFlMg/h5fBsQjBLERsfXrO2SvVXHfzzGE6YIl23arSTWUh9W+ukMwfca97Wqex1tuoa2xKCRMqEykkTmq9cDqzPt1CmLkPa5gMBez8CAwEAAaOCAnYwggJyMA4GA1UdDwEB/wQEAwIFoDATBgNVHSUEDDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBTitMUJu4MA/pwF8Hpnoaqh/jMDfzAfBgNVHSMEGDAWgBRmaUnU3iqckQPPiQ4kuA4wA26ILjBeBggrBgEFBQcBAQRSMFAwJwYIKwYBBQUHMAGGG2h0dHA6Ly9vLnBraS5nb29nL3Mvd3IxL3drYzAlBggrBgEFBQcwAoYZaHR0cDovL2kucGtpLmdvb2cvd3IxLmNydDBHBgNVHREEQDA+ghxjb25zZWlsbGVyLW51bWVyaXF1ZS5nb3V2LmZygh4qLmNvbnNlaWxsZXItbnVtZXJpcXVlLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2MucGtpLmdvb2cvd3IxL1NYZG9rYjRyVFR3LmNybDCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB2AM8RVu7VLnyv84db2Wkum+kacWdKsBfsrAHSW3fOzDsIAAABkuMe9pgAAAQDAEcwRQIgP+eDIzZZ+O7Juw12dqN4otF1hwtnYYPZNc2oEnh2PsICIQDXWjna/+0wmIH6ZPcqIlyYtR4qvD6r+EqLeefuriv96wB3AObSMWNAd4zBEEEG13G5zsHSQPaWhIb7uocyHf0eN45QAAABkuMe+mIAAAQDAEgwRgIhAMf3CLKqfPdY/pE8+iuO7WqlZPbbLkKIIhoyFz3/JzIEAiEAl1ydTa7K9RPmFImzjDk+ZdmpYgtP10iZJTHZY1pQVeMwDQYJKoZIhvcNAQELBQADggEBAHXgc8qBJnu4HUTizubBKaUdcA2jOpHaQvWg0JvXc/M0NH14CD1sYNI9KaVHN0y2xvazpa8tExx1B/4Z1GXPakRofgVtjnv7gBcCss3FkFb0Kg1WO0GsLbUO06+fdcFQ9+7hNDIAYFEbwgeXQ2V1RSbueHLVbH8f+3Dfh74s9kf1nzaxZunTSCL82q9VEIXtgmiKqTO8bPI2LeWD45dkahVcXeKy6Z3r31gGFZ+H5TMJ0f9ICs2whgLBWrwYfYgeYwaJimSznniVZA8v7OAR8PDyCamtWxI0kUS9erc+b9PjON07WaiBhBBI/LxD8tuIIEQ8JsoSBV4cKDQ/MgJFPTE=\n-----END CERTIFICATE-----"
-          }
-,         {
-              "id"           : "cert_commonName <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "conseiller-numerique.gouv.fr"
-          }
-,         {
-              "id"           : "cert_commonName_wo_SNI <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "request w/o SNI didn't succeed"
-          }
-,         {
-              "id"           : "cert_subjectAltName <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "conseiller-numerique.gouv.fr *.conseiller-numerique.gouv.fr"
-          }
-,         {
-              "id"           : "cert_trust <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "Ok via SAN and CN (SNI mandatory)"
-          }
-,         {
-              "id"           : "cert_chain_of_trust <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "passed."
-          }
-,         {
-              "id"           : "cert_certificatePolicies_EV <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "no"
-          }
-,         {
-              "id"           : "cert_expirationStatus <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "76 >= 60 days"
-          }
-,         {
-              "id"           : "cert_notBefore <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "2024-10-31 14:08"
-          }
-,         {
-              "id"           : "cert_notAfter <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "2025-01-29 15:08"
-          }
-,         {
-              "id"           : "cert_extlifeSpan <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "certificate has no extended life time according to browser forum"
-          }
-,         {
-              "id"           : "cert_eTLS <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "not present"
-          }
-,         {
-              "id"           : "cert_crlDistributionPoints <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "http://c.pki.goog/wr1/SXdokb4rTTw.crl"
-          }
-,         {
-              "id"           : "cert_ocspURL <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "http://o.pki.goog/s/wr1/wkc"
-          }
-,         {
-              "id"           : "OCSP_stapling <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "offered"
-          }
-,         {
-              "id"           : "cert_ocspRevoked <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "not revoked"
-          }
-,         {
-              "id"           : "cert_mustStapleExtension <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "--"
-          }
-,         {
-              "id"           : "DNS_CAArecord <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "--"
-          }
-,         {
-              "id"           : "certificate_transparency <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "yes (certificate extension)"
-          }
-,         {
-              "id"           : "certs_countServer <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "3"
-          }
-,         {
-              "id"           : "certs_list_ordering_problem <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "no"
-          }
-,         {
-              "id"           : "cert_caIssuers <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "WR1 (Google Trust Services from US)"
-          }
-,         {
-              "id"           : "intermediate_cert <#1> <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFCzCCAvOgAwIBAgIQf9niwtIEigR0tieibQhopzANBgkqhkiG9w0BAQsFADBHMQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExMQzEUMBIGA1UEAxMLR1RTIFJvb3QgUjEwHhcNMjMxMjEzMDkwMDAwWhcNMjkwMjIwMTQwMDAwWjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMQwwCgYDVQQDEwNXUjEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDPbjYWircr7kaYAx1TcA937qNLoHK+jyMtwkfGj1yN+T3mGo7uMyINyRFIuLBizvRpDXICfd7VJg/DbpvPfg7XIM/GkDujggbaOp3/bFa/3OlhlEXkabxPD8kTwK1hRHIggdAPK55oamJqj4oiV3lpK+IkM352YyxdvFFpfiMHsf92gfHuuFi1azUV76HmSCg5lzHZBx+Vp56uz5i8no2KA+Gwl01Qb5NMSh/4233xkJkVf+OW7e4xgepyPVId3yVkpQtwqp7oqLlHyKdaECVgb0Lh1z/njwzwwoNGMyDmS3cEdqFop10VGO/YKHc1rQ6tRuRibuKq+MzvN34PJrMHAgMBAAGjgf4wgfswDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBRmaUnU3iqckQPPiQ4kuA4wA26ILjAfBgNVHSMEGDAWgBTkrysmcRorSCeFL1JmLO/wiRNxPjA0BggrBgEFBQcBAQQoMCYwJAYIKwYBBQUHMAKGGGh0dHA6Ly9pLnBraS5nb29nL3IxLmNydDArBgNVHR8EJDAiMCCgHqAchhpodHRwOi8vYy5wa2kuZ29vZy9yL3IxLmNybDATBgNVHSAEDDAKMAgGBmeBDAECATANBgkqhkiG9w0BAQsFAAOCAgEATuazCBEgkWAn+VGQTQIY7rjBidUihJfm1t/mTjo7KQR+3iDx4o2L06oeF0Q3wpKYpQgI/TeMqUlYMWQmZbWPE0PX8pfsVAE5E5tVOjh34bNAJwDPVnsZVJwzN3nw5BGQ7sxRspFzIcM/qbbTpNeXf9II4Wsk2+Tv6FSVFZUL3/0uHradbruDWjRQ4IZ7mYqKiEqk08dpOZ+TmBzwykEGy1/IXberb6Ap1SSnn2+RI7t6N/fqPCrwwFjp8kg1G6etRATGBaPYCx+GjJMFPX+k97Alvoj3/98SvqdegLPYEPjvxUclHpiKLD63NMmVarVQddIL6kOvTe5k0pnxRnR+mndGHIQc77TLbcZFeja56PynlSqmer578c7CBrPqo1BVmPyWUK+v6sGuzs7Mq7QQaxVs4710cI/MpPp1ovxMVt17ENKxLk34LpEKAKVmqwnzbHHRjhXNeCC984XDOwLEp0K4MzHl8ZOWJQAakCdVlFC+PyA3GP2JX/QLoqWNHGuN9c9vLObDhHVs/L+65De+OdnnjpFGI9xxtsNyRsyaHdFAf5z7ulOoXDXkHCCej/Ehs5docReNt16W2xbH/EBuirJrOzFE2rtALxksl1TdEjOfIKXOJfUqQeVI5+hA7V+n1+A/n7Npg0S+5ODytWh5XW54ccN1drJnMK54ttozh0c=\n-----END CERTIFICATE-----"
-          }
-,         {
-              "id"           : "intermediate_cert_fingerprintSHA256 <#1> <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "B10B6F00E609509E8700F6D34687A2BFCE38EA05A8FDF1CDC40C3A2A0D0D0E45"
-          }
-,         {
-              "id"           : "intermediate_cert_notBefore <#1> <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "2023-12-13 09:00"
-          }
-,         {
-              "id"           : "intermediate_cert_notAfter <#1> <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "2029-02-20 14:00"
-          }
-,         {
-              "id"           : "intermediate_cert_expiration <#1> <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "ok > 40 days"
-          }
-,         {
-              "id"           : "intermediate_cert_chain <#1> <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "WR1 <-- GTS Root R1"
-          }
-,         {
-              "id"           : "intermediate_cert <#2> <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFYjCCBEqgAwIBAgIQd70NbNs2+RrqIQ/E8FjTDTANBgkqhkiG9w0BAQsFADBXMQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UECxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTIwMDYxOTAwMDA0MloXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMCVVMxIjAgBgNVBAoTGUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNVBAMTC0dUUyBSb290IFIxMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAthECix7joXebO9y/lD63ladAPKH9gvl9MgaCcfb2jH/76Nu8ai6Xl6OMS/kr9rH5zoQdsfnFl97vufKj6bwSiV6nqlKr+CMny6SxnGPb15l+8Ape62im9MZaRw1NEDPjTrETo8gYbEvs/AmQ351kKSUjB6G00j0uYODP0gmHu81I8E3CwnqIiru6z1kZ1q+PsAewnjHxgsHA3y6mbWwZDrXYfiYaRQM9sHmklCitD38m5agI/pboPGiUU+6DOogrFZYJsuB6jC511pzrp1Zkj5ZPaK49l8KEj8C8QMALXL32h7M1bKwYUH+E4EzNktMg6TO8UpmvMrUpsyUqtEj5cuHKZPfmghCN6J3Cioj6OGaK/GP5Afl4/Xtcd/p2h/rs37EOeZVXtL0m79YB0esWCruOC7XFxYpVq9Os6pFLKcwZpDIlTirxZUTQAs6qzkm06p98g7BAe+dDq6dso499iYH6TKX/1Y7DzkvgtdizjkXPdsDtQCv9Uw+wp9U7DbGKogPeMa3Md+pvez7W35EiEua++tgy/BBjFFFy3l3WFpO9KWgz7zpm7AeKJt8T11dleCfeXkkUAKIAf5qoIbapsZWwpbkNFhHax2xIPEDgfg1azVY80ZcFuctL7TlLnMQ/0lUTbiSw1nH69MG6zO0b9f6BQdgAmD06yK56mDcYBZUCAwEAAaOCATgwggE0MA4GA1UdDwEB/wQEAwIBhjAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBTkrysmcRorSCeFL1JmLO/wiRNxPjAfBgNVHSMEGDAWgBRge2YaRQ2XyolQL30EzTSo//z9SzBgBggrBgEFBQcBAQRUMFIwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnBraS5nb29nL2dzcjEwKQYIKwYBBQUHMAKGHWh0dHA6Ly9wa2kuZ29vZy9nc3IxL2dzcjEuY3J0MDIGA1UdHwQrMCkwJ6AloCOGIWh0dHA6Ly9jcmwucGtpLmdvb2cvZ3NyMS9nc3IxLmNybDA7BgNVHSAENDAyMAgGBmeBDAECATAIBgZngQwBAgIwDQYLKwYBBAHWeQIFAwIwDQYLKwYBBAHWeQIFAwMwDQYJKoZIhvcNAQELBQADggEBADSkHrEoo9C0dhemMXoh6dFSPsjbdBZBiLg9NR3t5P+T4Vxfq7vqfM/b5A3Ri1fyJm9bvhdGaJQ3b2t6yMAYN/olUazsaL+yyEn9WprKASOshIArAoyZl+tJaox118fessmXn1hIVw41oeQa1v1vg4Fv74zPl6/AhSrw9U5pCZEt4Wi4wStz6dTZ/CLANx8LZh1J7QJVj2fhMtfTJr9w4z30Z209fOU0iOMy+qduBmpvvYuR7hZL6Dupszfnw0Skfths18dG9ZKb59UhvmaSGZRVbNQpsg3BZlvid0lIKO2d1xozclOzgjXPYovJJIultzkMu34qQb9Sz/yilrbCgj8=\n-----END CERTIFICATE-----"
-          }
-,         {
-              "id"           : "intermediate_cert_fingerprintSHA256 <#2> <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "3EE0278DF71FA3C125C4CD487F01D774694E6FC57E0CD94C24EFD769133918E5"
-          }
-,         {
-              "id"           : "intermediate_cert_notBefore <#2> <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "2020-06-19 00:00"
-          }
-,         {
-              "id"           : "intermediate_cert_notAfter <#2> <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "2028-01-28 00:00"
-          }
-,         {
-              "id"           : "intermediate_cert_expiration <#2> <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "ok > 40 days"
-          }
-,         {
-              "id"           : "intermediate_cert_chain <#2> <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "GTS Root R1 <-- GlobalSign Root CA"
-          }
-,         {
-              "id"           : "intermediate_cert_badOCSP <hostCert#1>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "intermediate certificate(s) is/are ok"
-          }
-,         {
-              "id"           : "cert_signatureAlgorithm <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "ECDSA with SHA256"
-          }
-,         {
-              "id"           : "cert_keySize <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "EC 256 bits (curve P-256)"
-          }
-,         {
-              "id"           : "cert_keyUsage <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Digital Signature"
-          }
-,         {
-              "id"           : "cert_extKeyUsage <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLS Web Server Authentication"
-          }
-,         {
-              "id"           : "cert_serialNumber <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "D5177BAB4679326E0D7D6FD7BA0C12DB"
-          }
-,         {
-              "id"           : "cert_serialNumberLen <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "16"
-          }
-,         {
-              "id"           : "cert_fingerprintSHA1 <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "D768164ED1DC02234000C37B1370F7E95C4B90CF"
-          }
-,         {
-              "id"           : "cert_fingerprintSHA256 <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "D1377E801373C1EA96B09B581AA67FB5EEEAB2E3F2C1FBE89B9B25D63767BDCC"
-          }
-,         {
-              "id"           : "cert <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIID2TCCA36gAwIBAgIRANUXe6tGeTJuDX1v17oMEtswCgYIKoZIzj0EAwIwOzELMAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczEMMAoGA1UEAxMDV0UxMB4XDTI0MTAzMTE0MDgzOFoXDTI1MDEyOTE1MDgzNVowJzElMCMGA1UEAxMcY29uc2VpbGxlci1udW1lcmlxdWUuZ291di5mcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABFrOuJNoLejkTIPCxoBeoC87lAvM6GRzd8yDoaLQdJZ+KpeLuJb+jTa1X7RE2cqIV8fnewmLm8x1/l17vHdTDFqjggJ1MIICcTAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUabZPevaz0rGILj5JUIg9Bh5cBCcwHwYDVR0jBBgwFoAUkHeSNWfE/6jMqeZ72YB5e8yT+TgwXgYIKwYBBQUHAQEEUjBQMCcGCCsGAQUFBzABhhtodHRwOi8vby5wa2kuZ29vZy9zL3dlMS8xUmMwJQYIKwYBBQUHMAKGGWh0dHA6Ly9pLnBraS5nb29nL3dlMS5jcnQwRwYDVR0RBEAwPoIcY29uc2VpbGxlci1udW1lcmlxdWUuZ291di5mcoIeKi5jb25zZWlsbGVyLW51bWVyaXF1ZS5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMDYGA1UdHwQvMC0wK6ApoCeGJWh0dHA6Ly9jLnBraS5nb29nL3dlMS9KV1czR2o1NlpkNC5jcmwwggEEBgorBgEEAdZ5AgQCBIH1BIHyAPAAdQDPEVbu1S58r/OHW9lpLpvpGnFnSrAX7KwB0lt3zsw7CAAAAZLjHxr3AAAEAwBGMEQCIEAugL6Hi7MEGYyuSeDX5N3vtTu2ZnHS0+vw882cyDL/AiBr1tuJ/9wale8Gt7jV+sUDM7aQXTBU3ohkFvDOFnAYLgB3AObSMWNAd4zBEEEG13G5zsHSQPaWhIb7uocyHf0eN45QAAABkuMfGtsAAAQDAEgwRgIhAP88EiFOF0Ss/0M5fGUMtcr4wOmQocl4bpRfWK1Ge5xgAiEAyOPPNELYcK1xUvUlgVr/N52qld7NeyyoQ22KG+gvQc4wCgYIKoZIzj0EAwIDSQAwRgIhAMoZpI4A2XmCoRjGuCuK0aDCpHoNu6eidfm5HXainWNyAiEAx18EJ9tP0IBJdnv6HgmMl8Lv8dildXQrb/qWwg7QcRc=\n-----END CERTIFICATE-----"
-          }
-,         {
-              "id"           : "cert_commonName <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "conseiller-numerique.gouv.fr"
-          }
-,         {
-              "id"           : "cert_commonName_wo_SNI <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "request w/o SNI didn't succeed, usual for EC certificates"
-          }
-,         {
-              "id"           : "cert_subjectAltName <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "conseiller-numerique.gouv.fr *.conseiller-numerique.gouv.fr"
-          }
-,         {
-              "id"           : "cert_trust <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "Ok via SAN and CN (SNI mandatory)"
-          }
-,         {
-              "id"           : "cert_chain_of_trust <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "passed."
-          }
-,         {
-              "id"           : "cert_certificatePolicies_EV <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "no"
-          }
-,         {
-              "id"           : "cert_expirationStatus <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "76 >= 60 days"
-          }
-,         {
-              "id"           : "cert_notBefore <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "2024-10-31 14:08"
-          }
-,         {
-              "id"           : "cert_notAfter <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "2025-01-29 15:08"
-          }
-,         {
-              "id"           : "cert_extlifeSpan <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "certificate has no extended life time according to browser forum"
-          }
-,         {
-              "id"           : "cert_eTLS <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "not present"
-          }
-,         {
-              "id"           : "cert_crlDistributionPoints <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "http://c.pki.goog/we1/JWW3Gj56Zd4.crl"
-          }
-,         {
-              "id"           : "cert_ocspURL <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "http://o.pki.goog/s/we1/1Rc"
-          }
-,         {
-              "id"           : "OCSP_stapling <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "offered"
-          }
-,         {
-              "id"           : "cert_ocspRevoked <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "not revoked"
-          }
-,         {
-              "id"           : "cert_mustStapleExtension <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "--"
-          }
-,         {
-              "id"           : "DNS_CAArecord <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "--"
-          }
-,         {
-              "id"           : "certificate_transparency <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "yes (certificate extension)"
-          }
-,         {
-              "id"           : "certs_countServer <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "3"
-          }
-,         {
-              "id"           : "certs_list_ordering_problem <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "no"
-          }
-,         {
-              "id"           : "cert_caIssuers <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "WE1 (Google Trust Services from US)"
-          }
-,         {
-              "id"           : "intermediate_cert <#1> <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIICnzCCAiWgAwIBAgIQf/MZd5csIkp2FV0TttaF4zAKBggqhkjOPQQDAzBHMQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExMQzEUMBIGA1UEAxMLR1RTIFJvb3QgUjQwHhcNMjMxMjEzMDkwMDAwWhcNMjkwMjIwMTQwMDAwWjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMQwwCgYDVQQDEwNXRTEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARvzTr+Z1dHTCEDhUDCR127WEcPQMFcF4XGGTfn1XzthkubgdnXGhOlCgP4mMTG6J7/EFmPLCaY9eYmJbsPAvpWo4H+MIH7MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQUkHeSNWfE/6jMqeZ72YB5e8yT+TgwHwYDVR0jBBgwFoAUgEzW63T/STaj1dj8tT7FavCUHYwwNAYIKwYBBQUHAQEEKDAmMCQGCCsGAQUFBzAChhhodHRwOi8vaS5wa2kuZ29vZy9yNC5jcnQwKwYDVR0fBCQwIjAgoB6gHIYaaHR0cDovL2MucGtpLmdvb2cvci9yNC5jcmwwEwYDVR0gBAwwCjAIBgZngQwBAgEwCgYIKoZIzj0EAwMDaAAwZQIxAOcCq1HW90OVznX+0RGU1cxAQXomvtgM8zItPZCuFQ8jSBJSjz5keROv9aYsAm5VsQIwJonMaAFi54mrfhfoFNZEfuNMSQ6/bIBiNLiyoX46FohQvKeIoJ99cx7sUkFN7uJW\n-----END CERTIFICATE-----"
-          }
-,         {
-              "id"           : "intermediate_cert_fingerprintSHA256 <#1> <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "1DFC1605FBAD358D8BC844F76D15203FAC9CA5C1A79FD4857FFAF2864FBEBF96"
-          }
-,         {
-              "id"           : "intermediate_cert_notBefore <#1> <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "2023-12-13 09:00"
-          }
-,         {
-              "id"           : "intermediate_cert_notAfter <#1> <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "2029-02-20 14:00"
-          }
-,         {
-              "id"           : "intermediate_cert_expiration <#1> <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "ok > 40 days"
-          }
-,         {
-              "id"           : "intermediate_cert_chain <#1> <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "WE1 <-- GTS Root R4"
-          }
-,         {
-              "id"           : "intermediate_cert <#2> <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDejCCAmKgAwIBAgIQf+UwvzMTQ77dghYQST2KGzANBgkqhkiG9w0BAQsFADBXMQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UECxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTIzMTExNTAzNDMyMVoXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMCVVMxIjAgBgNVBAoTGUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNVBAMTC0dUUyBSb290IFI0MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAE83Rzp2iLYK5DuDXFgTB7S0md+8FhzubeRr1r1WEYNa5A3XP3iZEwWus87oV8okB2O6nGuEfYKueSkWpz6bFyOZ8pn6KY019eWIZlD6GEZQbR3IvJx3PIjGov5cSr0R2Ko4H/MIH8MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUgEzW63T/STaj1dj8tT7FavCUHYwwHwYDVR0jBBgwFoAUYHtmGkUNl8qJUC99BM00qP/8/UswNgYIKwYBBQUHAQEEKjAoMCYGCCsGAQUFBzAChhpodHRwOi8vaS5wa2kuZ29vZy9nc3IxLmNydDAtBgNVHR8EJjAkMCKgIKAehhxodHRwOi8vYy5wa2kuZ29vZy9yL2dzcjEuY3JsMBMGA1UdIAQMMAowCAYGZ4EMAQIBMA0GCSqGSIb3DQEBCwUAA4IBAQAYQrsPBtYDh5bjP2OBDwmkoWhIDDkic574y04tfzHpn+cJodI2D4SseesQ6bDrarZ7C30ddLibZatoKiws3UL9xnELz4ct92vID24FfVbiI1hY+SW6FoVHkNeWIP0GCbaM4C6uVdF5dTUsMVs/ZbzNnIdCp5Gxmx5ejvEau8otR/CskGN+hr/W5GvT1tMBjgWKZ1i4//emhA1JG1BbPzoLJQvyEotc03lXjTaCzv8mEbep8RqZ7a2CPsgRbuvTPBwcOMBBmuFeU88+FSBX6+7iP0il8b4Z0QFqIwwMHfs/L6K1vepuoxtGzi4CZ68zJpiq1UvSqTbFJjtbD4seiMHl\n-----END CERTIFICATE-----"
-          }
-,         {
-              "id"           : "intermediate_cert_fingerprintSHA256 <#2> <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "76B27B80A58027DC3CF1DA68DAC17010ED93997D0B603E2FADBE85012493B5A7"
-          }
-,         {
-              "id"           : "intermediate_cert_notBefore <#2> <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "2023-11-15 03:43"
-          }
-,         {
-              "id"           : "intermediate_cert_notAfter <#2> <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "2028-01-28 00:00"
-          }
-,         {
-              "id"           : "intermediate_cert_expiration <#2> <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "ok > 40 days"
-          }
-,         {
-              "id"           : "intermediate_cert_chain <#2> <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "GTS Root R4 <-- GlobalSign Root CA"
-          }
-,         {
-              "id"           : "intermediate_cert_badOCSP <hostCert#2>",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "intermediate certificate(s) is/are ok"
-          }
-,         {
-              "id"           : "HTTP_status_code",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "200 OK ('/')"
-          }
-,         {
-              "id"           : "HTTP_clock_skew",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
-          }
-,         {
-              "id"           : "HTTP_headerTime",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "1731590431"
-          }
-,         {
-              "id"           : "HSTS",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "not offered"
-          }
-,         {
-              "id"           : "HPKP",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "No support for HTTP Public Key Pinning"
-          }
-,         {
-              "id"           : "banner_server",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "cloudflareserver-timing: cfL4;desc='?proto=TCP&rtt=6331&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3051&recv_bytes=751&delivery_rate=547231&cwnd=252&unsent_bytes=0&cid=6d52b2b89f43d73b&ts=287&x=0'"
-          }
-,         {
-              "id"           : "banner_application",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "No application banner found"
-          }
-,         {
-              "id"           : "cookie_count",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "0 at '/'"
-          }
-,         {
-              "id"           : "Cache-Control",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "max-age=60, private, proxy-revalidate"
-          }
-,         {
-              "id"           : "banner_reverseproxy",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "cwe"          : "CWE-200",
-              "finding"      : "--"
-          }
-,         {
-              "id"           : "heartbleed",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "cve"          : "CVE-2014-0160",
-              "cwe"          : "CWE-119",
-              "finding"      : "not vulnerable, no heartbeat extension"
-          }
-,         {
-              "id"           : "CCS",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "cve"          : "CVE-2014-0224",
-              "cwe"          : "CWE-310",
-              "finding"      : "not vulnerable"
-          }
-,         {
-              "id"           : "ticketbleed",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "cve"          : "CVE-2016-9244",
-              "cwe"          : "CWE-200",
-              "finding"      : "not vulnerable"
-          }
-,         {
-              "id"           : "ROBOT",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
-              "cwe"          : "CWE-203",
-              "finding"      : "not vulnerable"
-          }
-,         {
-              "id"           : "secure_renego",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "cwe"          : "CWE-310",
-              "finding"      : "supported"
-          }
-,         {
-              "id"           : "secure_client_renego",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "cve"          : "CVE-2011-1473",
-              "cwe"          : "CWE-310",
-              "finding"      : "not vulnerable"
-          }
-,         {
-              "id"           : "CRIME_TLS",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "cve"          : "CVE-2012-4929",
-              "cwe"          : "CWE-310",
-              "finding"      : "not vulnerable"
-          }
-,         {
-              "id"           : "BREACH",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "MEDIUM",
-              "cve"          : "CVE-2013-3587",
-              "cwe"          : "CWE-310",
-              "finding"      : "potentially VULNERABLE, br gzip HTTP compression detected  - only supplied '/' tested"
-          }
-,         {
-              "id"           : "POODLE_SSL",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "cve"          : "CVE-2014-3566",
-              "cwe"          : "CWE-310",
-              "finding"      : "not vulnerable, no SSLv3"
-          }
-,         {
-              "id"           : "fallback_SCSV",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "supported"
-          }
-,         {
-              "id"           : "SWEET32",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "cve"          : "CVE-2016-2183 CVE-2016-6329",
-              "cwe"          : "CWE-327",
-              "finding"      : "uses 64 bit block ciphers"
-          }
-,         {
-              "id"           : "FREAK",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "cve"          : "CVE-2015-0204",
-              "cwe"          : "CWE-310",
-              "finding"      : "not vulnerable"
-          }
-,         {
-              "id"           : "DROWN",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "cve"          : "CVE-2016-0800 CVE-2016-0703",
-              "cwe"          : "CWE-310",
-              "finding"      : "not vulnerable on this host and port"
-          }
-,         {
-              "id"           : "DROWN_hint",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "cve"          : "CVE-2016-0800 CVE-2016-0703",
-              "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=6BE18D53E40EB7F3C09A386C5AFC6ECC408C1726EB2ED27B9ADF1279FA08D6AE"
-          }
-,         {
-              "id"           : "LOGJAM",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "cve"          : "CVE-2015-4000",
-              "cwe"          : "CWE-310",
-              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
-          }
-,         {
-              "id"           : "LOGJAM-common_primes",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "cve"          : "CVE-2015-4000",
-              "cwe"          : "CWE-310",
-              "finding"      : "no DH key with <= TLS 1.2"
-          }
-,         {
-              "id"           : "BEAST_CBC_TLS1",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "MEDIUM",
-              "cve"          : "CVE-2011-3389",
-              "cwe"          : "CWE-20",
-              "finding"      : "ECDHE-RSA-AES128-SHA AES128-SHA ECDHE-RSA-AES256-SHA AES256-SHA DES-CBC3-SHA"
-          }
-,         {
-              "id"           : "BEAST",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "cve"          : "CVE-2011-3389",
-              "cwe"          : "CWE-20",
-              "finding"      : "VULNERABLE -- but also supports higher protocols  TLSv1.1 TLSv1.2 (likely mitigated)"
-          }
-,         {
-              "id"           : "LUCKY13",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "cve"          : "CVE-2013-0169",
-              "cwe"          : "CWE-310",
-              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
-          }
-,         {
-              "id"           : "winshock",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "cve"          : "CVE-2014-6321",
-              "cwe"          : "CWE-94",
-              "finding"      : "not vulnerable"
-          }
-,         {
-              "id"           : "RC4",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "OK",
-              "cve"          : "CVE-2013-2566 CVE-2015-2808",
-              "cwe"          : "CWE-310",
-              "finding"      : "not vulnerable"
-          }
-,         {
-              "id"           : "clientsimulation-android_60",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-android_70",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-android_81",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-android_90",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-android_X",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-android_11",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-android_12",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-chrome_79_win10",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-chrome_101_win10",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-firefox_66_win81",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-firefox_100_win10",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-ie_6_xp",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "No connection"
-          }
-,         {
-              "id"           : "clientsimulation-ie_8_win7",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.0 ECDHE-RSA-AES128-SHA"
-          }
-,         {
-              "id"           : "clientsimulation-ie_8_xp",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "No connection"
-          }
-,         {
-              "id"           : "clientsimulation-ie_11_win7",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-ie_11_win81",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-ie_11_winphone81",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-ie_11_win10",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-edge_15_win10",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-edge_101_win10_21h2",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-safari_121_ios_122",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-safari_130_osx_10146",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-safari_154_osx_1231",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-java_7u25",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.0 ECDHE-RSA-AES128-SHA"
-          }
-,         {
-              "id"           : "clientsimulation-java_8u161",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-java1102",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-java1703",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
-          }
-,         {
-              "id"           : "clientsimulation-go_1178",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-libressl_283",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-CHACHA20-POLY1305"
-          }
-,         {
-              "id"           : "clientsimulation-openssl_102e",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-openssl_110l",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-CHACHA20-POLY1305"
-          }
-,         {
-              "id"           : "clientsimulation-openssl_111d",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
-          }
-,         {
-              "id"           : "clientsimulation-openssl_303",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
-          }
-,         {
-              "id"           : "clientsimulation-apple_mail_16_0",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
-          }
-,         {
-              "id"           : "clientsimulation-thunderbird_91_9",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "rating_spec",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
-          }
-,         {
-              "id"           : "rating_doc",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
-          }
-,         {
-              "id"           : "protocol_support_score",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "95"
-          }
-,         {
-              "id"           : "protocol_support_score_weighted",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "28"
-          }
-,         {
-              "id"           : "key_exchange_score",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "90"
-          }
-,         {
-              "id"           : "key_exchange_score_weighted",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "27"
-          }
-,         {
-              "id"           : "cipher_strength_score",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "60"
-          }
-,         {
-              "id"           : "cipher_strength_score_weighted",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "24"
-          }
-,         {
-              "id"           : "final_score",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "79"
-          }
-,         {
-              "id"           : "overall_grade",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "B"
-          }
-,         {
-              "id"           : "grade_cap_reason_1",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Grade capped to B. TLS 1.1 offered"
-          }
-,         {
-              "id"           : "grade_cap_reason_2",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Grade capped to B. TLS 1.0 offered"
-          }
-,         {
-              "id"           : "grade_cap_reason_3",
-              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Grade capped to A. HSTS is not offered"
-          }
-,         {
-              "id"           : "service",
               "ip"           : "conseiller-numerique.gouv.fr/172.67.144.206",
               "port"         : "443",
               "severity"     : "INFO",
@@ -1694,7 +234,7 @@
               "ip"           : "conseiller-numerique.gouv.fr/172.67.144.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -1833,8 +373,8 @@
               "id"           : "cert_expirationStatus <hostCert#1>",
               "ip"           : "conseiller-numerique.gouv.fr/172.67.144.206",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "76 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (46)"
           }
 ,         {
               "id"           : "cert_notBefore <hostCert#1>",
@@ -1847,7 +387,7 @@
               "id"           : "cert_notAfter <hostCert#1>",
               "ip"           : "conseiller-numerique.gouv.fr/172.67.144.206",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2025-01-29 15:08"
           }
 ,         {
@@ -2134,8 +674,8 @@
               "id"           : "cert_expirationStatus <hostCert#2>",
               "ip"           : "conseiller-numerique.gouv.fr/172.67.144.206",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "76 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (46)"
           }
 ,         {
               "id"           : "cert_notBefore <hostCert#2>",
@@ -2148,7 +688,7 @@
               "id"           : "cert_notAfter <hostCert#2>",
               "ip"           : "conseiller-numerique.gouv.fr/172.67.144.206",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2025-01-29 15:08"
           }
 ,         {
@@ -2345,7 +885,7 @@
               "ip"           : "conseiller-numerique.gouv.fr/172.67.144.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1731590493"
+              "finding"      : "1734181332"
           }
 ,         {
               "id"           : "HSTS",
@@ -2366,7 +906,7 @@
               "ip"           : "conseiller-numerique.gouv.fr/172.67.144.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "cloudflareserver-timing: cfL4;desc='?proto=TCP&rtt=5222&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3051&recv_bytes=751&delivery_rate=570287&cwnd=252&unsent_bytes=0&cid=b1af5eac8b441938&ts=270&x=0'"
+              "finding"      : "cloudflareserver-timing: cfL4;desc='?proto=TCP&rtt=5343&min_rtt=5227&rtt_var=1539&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3052&recv_bytes=751&delivery_rate=546393&cwnd=252&unsent_bytes=0&cid=3e67eb87026e2502&ts=279&x=0'"
           }
 ,         {
               "id"           : "banner_application",
@@ -2920,8 +1460,1468 @@
               "finding"      : "Grade capped to A. HSTS is not offered"
           }
 ,         {
+              "id"           : "service",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "offered (deprecated)"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "offered (deprecated)"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "ALPN_HTTP2",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "h2"
+          }
+,         {
+              "id"           : "ALPN",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http/1.1"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_OBSOLETED",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_NOFS",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_FS",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order-tls1",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "cipher_order-tls1_1",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_1",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server -- TLS 1.3 client determined"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA256 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA384 ECDHE-ECDSA-AES256-SHA ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'status request/#5' 'next protocol/#13172' 'key share/#51' 'supported versions/#43' 'extended master secret/#23' 'application layer protocol negotiation/#16' 'compress_certificate/#27'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "valid for 64800 seconds only (<daily)"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "off by 0 seconds from your localtime"
+          }
+,         {
+              "id"           : "certificate_compression",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0002/Brotli"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SHA256 with RSA"
+          }
+,         {
+              "id"           : "cert_keySize <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA 2048 bits (exponent is 65537)"
+          }
+,         {
+              "id"           : "cert_keyUsage <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature, Key Encipherment"
+          }
+,         {
+              "id"           : "cert_extKeyUsage <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "C247A980E25AF0780D58E20A83C330B2"
+          }
+,         {
+              "id"           : "cert_serialNumberLen <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "16"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1 <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "31E68E7500725F1C1A95DD5D3AD35479E28F362F"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256 <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "6BE18D53E40EB7F3C09A386C5AFC6ECC408C1726EB2ED27B9ADF1279FA08D6AE"
+          }
+,         {
+              "id"           : "cert <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFZTCCBE2gAwIBAgIRAMJHqYDiWvB4DVjiCoPDMLIwDQYJKoZIhvcNAQELBQAwOzELMAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczEMMAoGA1UEAxMDV1IxMB4XDTI0MTAzMTE0MDgyOVoXDTI1MDEyOTE1MDgyM1owJzElMCMGA1UEAxMcY29uc2VpbGxlci1udW1lcmlxdWUuZ291di5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAO0i9eVJ1Li5rwuWV036yoErJEuR4W/8K71lG8zVNfyA/R6wG1ELyYrufCKvnEnWgwUnLJ+WPc6AESmloNT0tmsnLJ0IMRqs5+DA45h9PHnaLup5b5vfV1IZV53UyD5q3ZciSN4qdLv3X981wdtlzfCsphkTgiDiTYg9Krfjxubp8hXZbmyKAg2N82hT1jUzj1nI2nsVCdXk1nj8Bc4730dD+qZP9kHssVJE7LTgn8D1YZKi/eFlMg/h5fBsQjBLERsfXrO2SvVXHfzzGE6YIl23arSTWUh9W+ukMwfca97Wqex1tuoa2xKCRMqEykkTmq9cDqzPt1CmLkPa5gMBez8CAwEAAaOCAnYwggJyMA4GA1UdDwEB/wQEAwIFoDATBgNVHSUEDDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBTitMUJu4MA/pwF8Hpnoaqh/jMDfzAfBgNVHSMEGDAWgBRmaUnU3iqckQPPiQ4kuA4wA26ILjBeBggrBgEFBQcBAQRSMFAwJwYIKwYBBQUHMAGGG2h0dHA6Ly9vLnBraS5nb29nL3Mvd3IxL3drYzAlBggrBgEFBQcwAoYZaHR0cDovL2kucGtpLmdvb2cvd3IxLmNydDBHBgNVHREEQDA+ghxjb25zZWlsbGVyLW51bWVyaXF1ZS5nb3V2LmZygh4qLmNvbnNlaWxsZXItbnVtZXJpcXVlLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2MucGtpLmdvb2cvd3IxL1NYZG9rYjRyVFR3LmNybDCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB2AM8RVu7VLnyv84db2Wkum+kacWdKsBfsrAHSW3fOzDsIAAABkuMe9pgAAAQDAEcwRQIgP+eDIzZZ+O7Juw12dqN4otF1hwtnYYPZNc2oEnh2PsICIQDXWjna/+0wmIH6ZPcqIlyYtR4qvD6r+EqLeefuriv96wB3AObSMWNAd4zBEEEG13G5zsHSQPaWhIb7uocyHf0eN45QAAABkuMe+mIAAAQDAEgwRgIhAMf3CLKqfPdY/pE8+iuO7WqlZPbbLkKIIhoyFz3/JzIEAiEAl1ydTa7K9RPmFImzjDk+ZdmpYgtP10iZJTHZY1pQVeMwDQYJKoZIhvcNAQELBQADggEBAHXgc8qBJnu4HUTizubBKaUdcA2jOpHaQvWg0JvXc/M0NH14CD1sYNI9KaVHN0y2xvazpa8tExx1B/4Z1GXPakRofgVtjnv7gBcCss3FkFb0Kg1WO0GsLbUO06+fdcFQ9+7hNDIAYFEbwgeXQ2V1RSbueHLVbH8f+3Dfh74s9kf1nzaxZunTSCL82q9VEIXtgmiKqTO8bPI2LeWD45dkahVcXeKy6Z3r31gGFZ+H5TMJ0f9ICs2whgLBWrwYfYgeYwaJimSznniVZA8v7OAR8PDyCamtWxI0kUS9erc+b9PjON07WaiBhBBI/LxD8tuIIEQ8JsoSBV4cKDQ/MgJFPTE=\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "conseiller-numerique.gouv.fr"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "request w/o SNI didn't succeed"
+          }
+,         {
+              "id"           : "cert_subjectAltName <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "conseiller-numerique.gouv.fr *.conseiller-numerique.gouv.fr"
+          }
+,         {
+              "id"           : "cert_trust <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Ok via SAN and CN (SNI mandatory)"
+          }
+,         {
+              "id"           : "cert_chain_of_trust <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "passed."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (46)"
+          }
+,         {
+              "id"           : "cert_notBefore <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2024-10-31 14:08"
+          }
+,         {
+              "id"           : "cert_notAfter <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "2025-01-29 15:08"
+          }
+,         {
+              "id"           : "cert_extlifeSpan <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://c.pki.goog/wr1/SXdokb4rTTw.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://o.pki.goog/s/wr1/wkc"
+          }
+,         {
+              "id"           : "OCSP_stapling <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cert_ocspRevoked <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not revoked"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "certificate_transparency <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "3"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "WR1 (Google Trust Services from US)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1> <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFCzCCAvOgAwIBAgIQf9niwtIEigR0tieibQhopzANBgkqhkiG9w0BAQsFADBHMQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExMQzEUMBIGA1UEAxMLR1RTIFJvb3QgUjEwHhcNMjMxMjEzMDkwMDAwWhcNMjkwMjIwMTQwMDAwWjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMQwwCgYDVQQDEwNXUjEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDPbjYWircr7kaYAx1TcA937qNLoHK+jyMtwkfGj1yN+T3mGo7uMyINyRFIuLBizvRpDXICfd7VJg/DbpvPfg7XIM/GkDujggbaOp3/bFa/3OlhlEXkabxPD8kTwK1hRHIggdAPK55oamJqj4oiV3lpK+IkM352YyxdvFFpfiMHsf92gfHuuFi1azUV76HmSCg5lzHZBx+Vp56uz5i8no2KA+Gwl01Qb5NMSh/4233xkJkVf+OW7e4xgepyPVId3yVkpQtwqp7oqLlHyKdaECVgb0Lh1z/njwzwwoNGMyDmS3cEdqFop10VGO/YKHc1rQ6tRuRibuKq+MzvN34PJrMHAgMBAAGjgf4wgfswDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBRmaUnU3iqckQPPiQ4kuA4wA26ILjAfBgNVHSMEGDAWgBTkrysmcRorSCeFL1JmLO/wiRNxPjA0BggrBgEFBQcBAQQoMCYwJAYIKwYBBQUHMAKGGGh0dHA6Ly9pLnBraS5nb29nL3IxLmNydDArBgNVHR8EJDAiMCCgHqAchhpodHRwOi8vYy5wa2kuZ29vZy9yL3IxLmNybDATBgNVHSAEDDAKMAgGBmeBDAECATANBgkqhkiG9w0BAQsFAAOCAgEATuazCBEgkWAn+VGQTQIY7rjBidUihJfm1t/mTjo7KQR+3iDx4o2L06oeF0Q3wpKYpQgI/TeMqUlYMWQmZbWPE0PX8pfsVAE5E5tVOjh34bNAJwDPVnsZVJwzN3nw5BGQ7sxRspFzIcM/qbbTpNeXf9II4Wsk2+Tv6FSVFZUL3/0uHradbruDWjRQ4IZ7mYqKiEqk08dpOZ+TmBzwykEGy1/IXberb6Ap1SSnn2+RI7t6N/fqPCrwwFjp8kg1G6etRATGBaPYCx+GjJMFPX+k97Alvoj3/98SvqdegLPYEPjvxUclHpiKLD63NMmVarVQddIL6kOvTe5k0pnxRnR+mndGHIQc77TLbcZFeja56PynlSqmer578c7CBrPqo1BVmPyWUK+v6sGuzs7Mq7QQaxVs4710cI/MpPp1ovxMVt17ENKxLk34LpEKAKVmqwnzbHHRjhXNeCC984XDOwLEp0K4MzHl8ZOWJQAakCdVlFC+PyA3GP2JX/QLoqWNHGuN9c9vLObDhHVs/L+65De+OdnnjpFGI9xxtsNyRsyaHdFAf5z7ulOoXDXkHCCej/Ehs5docReNt16W2xbH/EBuirJrOzFE2rtALxksl1TdEjOfIKXOJfUqQeVI5+hA7V+n1+A/n7Npg0S+5ODytWh5XW54ccN1drJnMK54ttozh0c=\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1> <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "B10B6F00E609509E8700F6D34687A2BFCE38EA05A8FDF1CDC40C3A2A0D0D0E45"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1> <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2023-12-13 09:00"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1> <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2029-02-20 14:00"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1> <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1> <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "WR1 <-- GTS Root R1"
+          }
+,         {
+              "id"           : "intermediate_cert <#2> <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFYjCCBEqgAwIBAgIQd70NbNs2+RrqIQ/E8FjTDTANBgkqhkiG9w0BAQsFADBXMQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UECxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTIwMDYxOTAwMDA0MloXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMCVVMxIjAgBgNVBAoTGUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNVBAMTC0dUUyBSb290IFIxMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAthECix7joXebO9y/lD63ladAPKH9gvl9MgaCcfb2jH/76Nu8ai6Xl6OMS/kr9rH5zoQdsfnFl97vufKj6bwSiV6nqlKr+CMny6SxnGPb15l+8Ape62im9MZaRw1NEDPjTrETo8gYbEvs/AmQ351kKSUjB6G00j0uYODP0gmHu81I8E3CwnqIiru6z1kZ1q+PsAewnjHxgsHA3y6mbWwZDrXYfiYaRQM9sHmklCitD38m5agI/pboPGiUU+6DOogrFZYJsuB6jC511pzrp1Zkj5ZPaK49l8KEj8C8QMALXL32h7M1bKwYUH+E4EzNktMg6TO8UpmvMrUpsyUqtEj5cuHKZPfmghCN6J3Cioj6OGaK/GP5Afl4/Xtcd/p2h/rs37EOeZVXtL0m79YB0esWCruOC7XFxYpVq9Os6pFLKcwZpDIlTirxZUTQAs6qzkm06p98g7BAe+dDq6dso499iYH6TKX/1Y7DzkvgtdizjkXPdsDtQCv9Uw+wp9U7DbGKogPeMa3Md+pvez7W35EiEua++tgy/BBjFFFy3l3WFpO9KWgz7zpm7AeKJt8T11dleCfeXkkUAKIAf5qoIbapsZWwpbkNFhHax2xIPEDgfg1azVY80ZcFuctL7TlLnMQ/0lUTbiSw1nH69MG6zO0b9f6BQdgAmD06yK56mDcYBZUCAwEAAaOCATgwggE0MA4GA1UdDwEB/wQEAwIBhjAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBTkrysmcRorSCeFL1JmLO/wiRNxPjAfBgNVHSMEGDAWgBRge2YaRQ2XyolQL30EzTSo//z9SzBgBggrBgEFBQcBAQRUMFIwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnBraS5nb29nL2dzcjEwKQYIKwYBBQUHMAKGHWh0dHA6Ly9wa2kuZ29vZy9nc3IxL2dzcjEuY3J0MDIGA1UdHwQrMCkwJ6AloCOGIWh0dHA6Ly9jcmwucGtpLmdvb2cvZ3NyMS9nc3IxLmNybDA7BgNVHSAENDAyMAgGBmeBDAECATAIBgZngQwBAgIwDQYLKwYBBAHWeQIFAwIwDQYLKwYBBAHWeQIFAwMwDQYJKoZIhvcNAQELBQADggEBADSkHrEoo9C0dhemMXoh6dFSPsjbdBZBiLg9NR3t5P+T4Vxfq7vqfM/b5A3Ri1fyJm9bvhdGaJQ3b2t6yMAYN/olUazsaL+yyEn9WprKASOshIArAoyZl+tJaox118fessmXn1hIVw41oeQa1v1vg4Fv74zPl6/AhSrw9U5pCZEt4Wi4wStz6dTZ/CLANx8LZh1J7QJVj2fhMtfTJr9w4z30Z209fOU0iOMy+qduBmpvvYuR7hZL6Dupszfnw0Skfths18dG9ZKb59UhvmaSGZRVbNQpsg3BZlvid0lIKO2d1xozclOzgjXPYovJJIultzkMu34qQb9Sz/yilrbCgj8=\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#2> <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "3EE0278DF71FA3C125C4CD487F01D774694E6FC57E0CD94C24EFD769133918E5"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#2> <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2020-06-19 00:00"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#2> <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2028-01-28 00:00"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#2> <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#2> <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "GTS Root R1 <-- GlobalSign Root CA"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP <hostCert#1>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ECDSA with SHA256"
+          }
+,         {
+              "id"           : "cert_keySize <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "EC 256 bits (curve P-256)"
+          }
+,         {
+              "id"           : "cert_keyUsage <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature"
+          }
+,         {
+              "id"           : "cert_extKeyUsage <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "D5177BAB4679326E0D7D6FD7BA0C12DB"
+          }
+,         {
+              "id"           : "cert_serialNumberLen <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "16"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1 <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "D768164ED1DC02234000C37B1370F7E95C4B90CF"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256 <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "D1377E801373C1EA96B09B581AA67FB5EEEAB2E3F2C1FBE89B9B25D63767BDCC"
+          }
+,         {
+              "id"           : "cert <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIID2TCCA36gAwIBAgIRANUXe6tGeTJuDX1v17oMEtswCgYIKoZIzj0EAwIwOzELMAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczEMMAoGA1UEAxMDV0UxMB4XDTI0MTAzMTE0MDgzOFoXDTI1MDEyOTE1MDgzNVowJzElMCMGA1UEAxMcY29uc2VpbGxlci1udW1lcmlxdWUuZ291di5mcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABFrOuJNoLejkTIPCxoBeoC87lAvM6GRzd8yDoaLQdJZ+KpeLuJb+jTa1X7RE2cqIV8fnewmLm8x1/l17vHdTDFqjggJ1MIICcTAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUabZPevaz0rGILj5JUIg9Bh5cBCcwHwYDVR0jBBgwFoAUkHeSNWfE/6jMqeZ72YB5e8yT+TgwXgYIKwYBBQUHAQEEUjBQMCcGCCsGAQUFBzABhhtodHRwOi8vby5wa2kuZ29vZy9zL3dlMS8xUmMwJQYIKwYBBQUHMAKGGWh0dHA6Ly9pLnBraS5nb29nL3dlMS5jcnQwRwYDVR0RBEAwPoIcY29uc2VpbGxlci1udW1lcmlxdWUuZ291di5mcoIeKi5jb25zZWlsbGVyLW51bWVyaXF1ZS5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMDYGA1UdHwQvMC0wK6ApoCeGJWh0dHA6Ly9jLnBraS5nb29nL3dlMS9KV1czR2o1NlpkNC5jcmwwggEEBgorBgEEAdZ5AgQCBIH1BIHyAPAAdQDPEVbu1S58r/OHW9lpLpvpGnFnSrAX7KwB0lt3zsw7CAAAAZLjHxr3AAAEAwBGMEQCIEAugL6Hi7MEGYyuSeDX5N3vtTu2ZnHS0+vw882cyDL/AiBr1tuJ/9wale8Gt7jV+sUDM7aQXTBU3ohkFvDOFnAYLgB3AObSMWNAd4zBEEEG13G5zsHSQPaWhIb7uocyHf0eN45QAAABkuMfGtsAAAQDAEgwRgIhAP88EiFOF0Ss/0M5fGUMtcr4wOmQocl4bpRfWK1Ge5xgAiEAyOPPNELYcK1xUvUlgVr/N52qld7NeyyoQ22KG+gvQc4wCgYIKoZIzj0EAwIDSQAwRgIhAMoZpI4A2XmCoRjGuCuK0aDCpHoNu6eidfm5HXainWNyAiEAx18EJ9tP0IBJdnv6HgmMl8Lv8dildXQrb/qWwg7QcRc=\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "conseiller-numerique.gouv.fr"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "request w/o SNI didn't succeed, usual for EC certificates"
+          }
+,         {
+              "id"           : "cert_subjectAltName <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "conseiller-numerique.gouv.fr *.conseiller-numerique.gouv.fr"
+          }
+,         {
+              "id"           : "cert_trust <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Ok via SAN and CN (SNI mandatory)"
+          }
+,         {
+              "id"           : "cert_chain_of_trust <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "passed."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (46)"
+          }
+,         {
+              "id"           : "cert_notBefore <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2024-10-31 14:08"
+          }
+,         {
+              "id"           : "cert_notAfter <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "2025-01-29 15:08"
+          }
+,         {
+              "id"           : "cert_extlifeSpan <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://c.pki.goog/we1/JWW3Gj56Zd4.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://o.pki.goog/s/we1/1Rc"
+          }
+,         {
+              "id"           : "OCSP_stapling <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cert_ocspRevoked <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not revoked"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "certificate_transparency <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "3"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "WE1 (Google Trust Services from US)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1> <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIICnzCCAiWgAwIBAgIQf/MZd5csIkp2FV0TttaF4zAKBggqhkjOPQQDAzBHMQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExMQzEUMBIGA1UEAxMLR1RTIFJvb3QgUjQwHhcNMjMxMjEzMDkwMDAwWhcNMjkwMjIwMTQwMDAwWjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMQwwCgYDVQQDEwNXRTEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARvzTr+Z1dHTCEDhUDCR127WEcPQMFcF4XGGTfn1XzthkubgdnXGhOlCgP4mMTG6J7/EFmPLCaY9eYmJbsPAvpWo4H+MIH7MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQUkHeSNWfE/6jMqeZ72YB5e8yT+TgwHwYDVR0jBBgwFoAUgEzW63T/STaj1dj8tT7FavCUHYwwNAYIKwYBBQUHAQEEKDAmMCQGCCsGAQUFBzAChhhodHRwOi8vaS5wa2kuZ29vZy9yNC5jcnQwKwYDVR0fBCQwIjAgoB6gHIYaaHR0cDovL2MucGtpLmdvb2cvci9yNC5jcmwwEwYDVR0gBAwwCjAIBgZngQwBAgEwCgYIKoZIzj0EAwMDaAAwZQIxAOcCq1HW90OVznX+0RGU1cxAQXomvtgM8zItPZCuFQ8jSBJSjz5keROv9aYsAm5VsQIwJonMaAFi54mrfhfoFNZEfuNMSQ6/bIBiNLiyoX46FohQvKeIoJ99cx7sUkFN7uJW\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1> <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1DFC1605FBAD358D8BC844F76D15203FAC9CA5C1A79FD4857FFAF2864FBEBF96"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1> <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2023-12-13 09:00"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1> <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2029-02-20 14:00"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1> <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1> <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "WE1 <-- GTS Root R4"
+          }
+,         {
+              "id"           : "intermediate_cert <#2> <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDejCCAmKgAwIBAgIQf+UwvzMTQ77dghYQST2KGzANBgkqhkiG9w0BAQsFADBXMQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UECxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTIzMTExNTAzNDMyMVoXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMCVVMxIjAgBgNVBAoTGUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNVBAMTC0dUUyBSb290IFI0MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAE83Rzp2iLYK5DuDXFgTB7S0md+8FhzubeRr1r1WEYNa5A3XP3iZEwWus87oV8okB2O6nGuEfYKueSkWpz6bFyOZ8pn6KY019eWIZlD6GEZQbR3IvJx3PIjGov5cSr0R2Ko4H/MIH8MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUgEzW63T/STaj1dj8tT7FavCUHYwwHwYDVR0jBBgwFoAUYHtmGkUNl8qJUC99BM00qP/8/UswNgYIKwYBBQUHAQEEKjAoMCYGCCsGAQUFBzAChhpodHRwOi8vaS5wa2kuZ29vZy9nc3IxLmNydDAtBgNVHR8EJjAkMCKgIKAehhxodHRwOi8vYy5wa2kuZ29vZy9yL2dzcjEuY3JsMBMGA1UdIAQMMAowCAYGZ4EMAQIBMA0GCSqGSIb3DQEBCwUAA4IBAQAYQrsPBtYDh5bjP2OBDwmkoWhIDDkic574y04tfzHpn+cJodI2D4SseesQ6bDrarZ7C30ddLibZatoKiws3UL9xnELz4ct92vID24FfVbiI1hY+SW6FoVHkNeWIP0GCbaM4C6uVdF5dTUsMVs/ZbzNnIdCp5Gxmx5ejvEau8otR/CskGN+hr/W5GvT1tMBjgWKZ1i4//emhA1JG1BbPzoLJQvyEotc03lXjTaCzv8mEbep8RqZ7a2CPsgRbuvTPBwcOMBBmuFeU88+FSBX6+7iP0il8b4Z0QFqIwwMHfs/L6K1vepuoxtGzi4CZ68zJpiq1UvSqTbFJjtbD4seiMHl\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#2> <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "76B27B80A58027DC3CF1DA68DAC17010ED93997D0B603E2FADBE85012493B5A7"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#2> <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2023-11-15 03:43"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#2> <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2028-01-28 00:00"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#2> <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#2> <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "GTS Root R4 <-- GlobalSign Root CA"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP <hostCert#2>",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "200 OK ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 seconds from localtime"
+          }
+,         {
+              "id"           : "HTTP_headerTime",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1734181394"
+          }
+,         {
+              "id"           : "HSTS",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "cloudflareserver-timing: cfL4;desc='?proto=TCP&rtt=5279&min_rtt=5201&rtt_var=1543&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3050&recv_bytes=751&delivery_rate=549125&cwnd=252&unsent_bytes=0&cid=d0ec10a681bfc597&ts=276&x=0'"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 at '/'"
+          }
+,         {
+              "id"           : "Cache-Control",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "max-age=60, private, proxy-revalidate"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable, no heartbeat extension"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially VULNERABLE, br gzip HTTP compression detected  - only supplied '/' tested"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "uses 64 bit block ciphers"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=6BE18D53E40EB7F3C09A386C5AFC6ECC408C1726EB2ED27B9ADF1279FA08D6AE"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
+          }
+,         {
+              "id"           : "BEAST_CBC_TLS1",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "ECDHE-RSA-AES128-SHA AES128-SHA ECDHE-RSA-AES256-SHA AES256-SHA DES-CBC3-SHA"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "VULNERABLE -- but also supports higher protocols  TLSv1.1 TLSv1.2 (likely mitigated)"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_60",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_11",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_12",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_79_win10",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_101_win10",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_66_win81",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_100_win10",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_6_xp",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.0 ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_xp",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_121_ios_122",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_130_osx_10146",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.0 ECDHE-RSA-AES128-SHA"
+          }
+,         {
+              "id"           : "clientsimulation-java_8u161",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1102",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1703",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_283",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-CHACHA20-POLY1305"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_110l",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-CHACHA20-POLY1305"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_303",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "95"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "28"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "90"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "27"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "60"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "24"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "79"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "B"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to B. TLS 1.1 offered"
+          }
+,         {
+              "id"           : "grade_cap_reason_2",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to B. TLS 1.0 offered"
+          }
+,         {
+              "id"           : "grade_cap_reason_3",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS is not offered"
+          }
+,         {
               "id"           : "scanTime",
-              "ip"           : "conseiller-numerique.gouv.fr/172.67.144.206",
+              "ip"           : "conseiller-numerique.gouv.fr/104.21.71.120",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "125"
