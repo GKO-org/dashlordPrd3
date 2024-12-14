@@ -374,7 +374,7 @@
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "321 >= 60 days"
+              "finding"      : "291 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -570,14 +570,14 @@
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-2 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1731593335"
+              "finding"      : "1734185400"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -647,7 +647,7 @@
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "default-src 'self' https://documentation-administrative.gouv.fr https://www.documentation-administrative.gouv.fr https://piwik-hal.ccsd.cnrs.fr ;       frame-src  'self' https://www.documentation-administrative.gouv.fr https://documentation-administrative.gouv.fr https://static.addtoany.com ;       img-src 'self' https://documentation-administrative.gouv.fr https://www.documentation-administrative.gouv.fr https://thumb.ccsd.cnrs.fr/ data: ;       script-src 'self' 'unsafe-inline' 'unsafe-eval' https://documentation-administrative.gouv.fr https://www.documentation-administrative.gouv.fr https://cdnjs.cloudflare.com https://unpkg.com https://leaflet.github.io https://www.gstatic.com https://static.addtoany.com https://code.jquery.com/ https://piwik-hal.ccsd.cnrs.fr/ ;       style-src  'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://unpkg.com https://fonts.googleapis.com  https://www.gstatic.com/ ;       font-src  'self' https://documentation-administrative.gouv.fr https://www.documentation-administrative.gouv.fr https://fonts.gstatic.com ;"
+              "finding"      : "default-src 'self' https://documentation-administrative.gouv.fr https://www.documentation-administrative.gouv.fr https://piwik-hal.ccsd.cnrs.fr ;       media-src  'self' https://streaming.ccsd.cnrs.fr/;       frame-src  'self' https://www.documentation-administrative.gouv.fr https://documentation-administrative.gouv.fr https://static.addtoany.com ;       img-src 'self' https://documentation-administrative.gouv.fr https://www.documentation-administrative.gouv.fr https://thumb.ccsd.cnrs.fr/ data: ;       script-src 'self' 'unsafe-inline' 'unsafe-eval' https://documentation-administrative.gouv.fr https://www.documentation-administrative.gouv.fr https://cdnjs.cloudflare.com https://unpkg.com https://leaflet.github.io https://www.gstatic.com https://static.addtoany.com https://code.jquery.com/ https://piwik-hal.ccsd.cnrs.fr/ ;       style-src  'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://unpkg.com https://fonts.googleapis.com  https://www.gstatic.com/ ;       font-src  'self' https://documentation-administrative.gouv.fr https://www.documentation-administrative.gouv.fr https://fonts.gstatic.com data: ;"
           }
 ,         {
               "id"           : "Cache-Control",
@@ -1168,6 +1168,6 @@
               "ip"           : "documentation-administrative.gouv.fr/193.48.96.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "63"
+              "finding"      : "116"
           }
 ]
