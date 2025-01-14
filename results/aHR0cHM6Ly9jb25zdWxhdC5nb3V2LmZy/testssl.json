@@ -374,7 +374,7 @@
               "ip"           : "consulat.gouv.fr/51.254.177.49",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "88 >= 30 days"
+              "finding"      : "57 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -535,7 +535,7 @@
               "ip"           : "consulat.gouv.fr/51.254.177.49",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1734181882"
+              "finding"      : "1736859610"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1140,6 +1140,6 @@
               "ip"           : "consulat.gouv.fr/51.254.177.49",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "115"
+              "finding"      : "117"
           }
 ]
