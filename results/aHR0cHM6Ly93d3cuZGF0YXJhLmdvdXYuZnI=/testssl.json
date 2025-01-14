@@ -269,7 +269,7 @@
               "ip"           : "www.datara.gouv.fr/89.234.131.147",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "04AEFD07BC753D9CD16680CB35DF7E233094"
+              "finding"      : "0348A7FFA4C5DF8DDF4B70EB5101E1CE7680"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "www.datara.gouv.fr/89.234.131.147",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "97BE681B21EE7FBE0BDABFE59DF55B3D232A0597"
+              "finding"      : "DD662BC85AFB7359C36895E70E2C4244FDF976D0"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "www.datara.gouv.fr/89.234.131.147",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "9146DD767528D3A2F401ED0DFC7D37075EF66D78CFEEB50923D882B5C5EFD8F5"
+              "finding"      : "E7D875D04D9925B80D8088F5271B5CF0A720D0A5E7DD543AE93DAD38E4F730E9"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "www.datara.gouv.fr/89.234.131.147",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIF8zCCBNugAwIBAgISA0in/6TF343fS3DrUQHhznaAMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTEwHhcNMjUwMTA0MjI0MTAzWhcNMjUwNDA0MjI0MTAyWjAdMRswGQYDVQQDExJ3d3cuZGF0YXJhLmdvdXYuZnIwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDIK0/a4MFlYNvpL9cLpS1SVs713xI2TlwjyNLtRPOXgg8sox0WRkPaRkACdb2eVcvFQskKQRmHCSlDxF670BB6XbYA7KoRReCHyq9pvQzEm/qytP2OhXKywleZOZy9nZ9yVXD8bWYBm2pCHx1GVH3TvsX9iJtoEHNxAyKT/69GLIw7zSOXnA0IyPs5+zG7kqzAfRNpYJU+AvrPN8osISQ4GgX1i4rrkhY+WDD0l8tCvfFO5xbcCon9K1RnPIDpe8yQZPhCFLimn871gyi9okP0THPNwdOFjErotWhdd1QvxZqH5Hl88GGGg+ksdgnaOk1guahhX1ZvciTFgqnootU9ZbpwN+As1mvT1Xq+y+G5/1uuf87DYT8CWuHkA6YakYm6LHo0zoEypKMCJ/+aj1NGlyMuHzKKYnbisTDnzKQX6sTYpUWyblxQC+aCfCYw231LAiuomaYGYPqfIufgiRBg9PTcspWgzcRKDL21d+V2VUn7NmUdvdoD6pxWcVz5V/kFWATRt/Z3yttMoELLaWFrDQpDH18Xpt84m2YOr8ft12JCV2T7lNMlqc8Nxh2lrwoU1ZPfEFJ2GXI24dtOu9rtQEb7ydQqoBzR6s4POk6VP7Xy+RSSkla0s/dr6f5ujBzKhCh3aeKijhdRUU5I+v2SZjhZhykKKGfq64Z5hYr0KQIDAQABo4ICFTCCAhEwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBSyUJYBaQEafIn7S2WopU3XydHMmzAfBgNVHSMEGDAWgBTFz0ak6vTDwHpslcQtsF6SLybjuTBXBggrBgEFBQcBAQRLMEkwIgYIKwYBBQUHMAGGFmh0dHA6Ly9yMTEuby5sZW5jci5vcmcwIwYIKwYBBQUHMAKGF2h0dHA6Ly9yMTEuaS5sZW5jci5vcmcvMB0GA1UdEQQWMBSCEnd3dy5kYXRhcmEuZ291di5mcjATBgNVHSAEDDAKMAgGBmeBDAECATCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB1AN6FgddQJHxrzcuvVjfF54HGTORu1hdjn480pybJ4r03AAABlDOwNXsAAAQDAEYwRAIgWM6zYJlgVDtV9YvuWojpf9/KIpSeLYMUx28QrdlrCa4CIC/ZONoXjufubWrIgjPMb2Qsb8hp5gHFKG0NBL/Q07ltAHYAzPsPaoVxCWX+lZtTzumyfCLphVwNl422qX5UwP5MDbAAAAGUM7A1iwAABAMARzBFAiAhnoIs4eMcS8qRToTJDODcRhrJ33y6biy1waWogry5OgIhAKSe7KOyHw8Thf3LWWrnIJkgqVoUf8SVl7mLiXMdMhJBMA0GCSqGSIb3DQEBCwUAA4IBAQBTuexoWZXh+b9/xt88iukTiaYKDq9xvQMa0vl0n6+DTY7cSyf4bl6Up7X6Qx3gwtd+NfQfAdzmatI1tve2tbtNphgRSXD3EaoqMpyVyo7CLG62bme8NKnAll0ut9bRxQ1HKOUQWRcS0/VZ5Cv0c5SN/5a6i+gfDc2PaF0AYdKBcswRw63ZXHOt8Gj+84CLsXnB0ipF9flbrUVgZZIVTv2BZqLw8IQTL8BeJCGPQDFKtrmjB+fs5gYso1OPiukmOCHJGYKrHv2rZ384UiQRHRvl+RuTAvnDEw6lAx2W5unE7tLLN26H78cYD5mxoHaL0+exAvuxzyUxR/HWhSSDlrj1\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -346,21 +346,21 @@
               "ip"           : "www.datara.gouv.fr/89.234.131.147",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "81 >= 30 days"
+              "finding"      : "80 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "www.datara.gouv.fr/89.234.131.147",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-11-05 22:42"
+              "finding"      : "2025-01-04 22:41"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "www.datara.gouv.fr/89.234.131.147",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2025-02-03 22:42"
+              "finding"      : "2025-04-04 22:41"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -514,7 +514,7 @@
               "ip"           : "www.datara.gouv.fr/89.234.131.147",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1731592351"
+              "finding"      : "1736861345"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -722,7 +722,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=9146DD767528D3A2F401ED0DFC7D37075EF66D78CFEEB50923D882B5C5EFD8F5"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=E7D875D04D9925B80D8088F5271B5CF0A720D0A5E7DD543AE93DAD38E4F730E9"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1098,6 +1098,6 @@
               "ip"           : "www.datara.gouv.fr/89.234.131.147",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "118"
+              "finding"      : "82"
           }
 ]
