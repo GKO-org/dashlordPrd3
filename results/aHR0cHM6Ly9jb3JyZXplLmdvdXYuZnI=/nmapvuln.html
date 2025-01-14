@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln correze.gouv.fr</pre>
-<p class="lead">Sat Dec 14 13:15:49 2024 – Sat Dec 14 13:16:27 2024<br>1 hosts scanned.
+<p class="lead">Tue Jan 14 13:04:51 2025 – Tue Jan 14 13:05:42 2025<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -122,9 +122,9 @@
 <tr><td colspan="7">
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest, HTTPOptions: 
+  FourOhFourRequest: 
     HTTP/1.1 403 Forbidden
-    date: Sat, 14 Dec 2024 13:16:04 GMT
+    date: Tue, 14 Jan 2025 13:05:10 GMT
     cache-control: no-cache
     content-type: text/html
     age: 0
@@ -135,11 +135,24 @@
     &lt;/body&gt;&lt;/html&gt;
   GetRequest: 
     HTTP/1.1 403 Forbidden
-    date: Sat, 14 Dec 2024 13:16:03 GMT
+    date: Tue, 14 Jan 2025 13:05:09 GMT
     cache-control: no-cache
     content-type: text/html
     age: 0
     x-cache: Miss
+    connection: close
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
+    Request forbidden by administrative rules.
+    &lt;/body&gt;&lt;/html&gt;
+  HTTPOptions: 
+    HTTP/1.1 403 Forbidden
+    date: Tue, 14 Jan 2025 13:05:09 GMT
+    cache-control: no-cache
+    content-type: text/html
+    age: 0
+    x-cache: Miss
+    content-length: 94
+    keep-alive: timeout=5, max=100
     connection: close
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
@@ -153,7 +166,7 @@
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Sat, 14 Dec 2024 13:16:04 GMT
+    date: Tue, 14 Jan 2025 13:05:10 GMT
     content-length: 226
     content-type: text/html; charset=iso-8859-1
     connection: close
@@ -178,13 +191,37 @@
 <tr><td colspan="7">
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest, GetRequest, HTTPOptions: 
+  FourOhFourRequest: 
     HTTP/1.1 403 Forbidden
-    date: Sat, 14 Dec 2024 13:16:10 GMT
+    date: Tue, 14 Jan 2025 13:05:17 GMT
     cache-control: no-cache
     content-type: text/html
     age: 0
     x-cache: Miss
+    connection: close
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
+    Request forbidden by administrative rules.
+    &lt;/body&gt;&lt;/html&gt;
+  GetRequest: 
+    HTTP/1.1 403 Forbidden
+    date: Tue, 14 Jan 2025 13:05:16 GMT
+    cache-control: no-cache
+    content-type: text/html
+    age: 0
+    x-cache: Miss
+    connection: close
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
+    Request forbidden by administrative rules.
+    &lt;/body&gt;&lt;/html&gt;
+  HTTPOptions: 
+    HTTP/1.1 403 Forbidden
+    date: Tue, 14 Jan 2025 13:05:16 GMT
+    cache-control: no-cache
+    content-type: text/html
+    age: 0
+    x-cache: Miss
+    content-length: 94
+    keep-alive: timeout=5, max=100
     connection: close
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
@@ -198,7 +235,7 @@
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Sat, 14 Dec 2024 13:16:16 GMT
+    date: Tue, 14 Jan 2025 13:05:24 GMT
     content-length: 226
     content-type: text/html; charset=iso-8859-1
     connection: close
