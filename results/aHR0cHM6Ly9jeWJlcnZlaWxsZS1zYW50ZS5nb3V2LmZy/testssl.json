@@ -304,7 +304,7 @@
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "www.cyberveille-sante.gouv.fr"
+              "finding"      : "*.ans.kleegroup.ovh"
           }
 ,         {
               "id"           : "cert_subjectAltName",
@@ -318,7 +318,14 @@
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "Ok via SAN (same w/o SNI)"
+              "finding"      : "Ok via SAN (SNI mandatory)"
+          }
+,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
           }
 ,         {
               "id"           : "cert_chain_of_trust",
@@ -339,7 +346,7 @@
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "207 >= 60 days"
+              "finding"      : "176 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1091,6 +1098,6 @@
               "ip"           : "cyberveille-sante.gouv.fr/37.59.27.107",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "66"
+              "finding"      : "102"
           }
 ]
