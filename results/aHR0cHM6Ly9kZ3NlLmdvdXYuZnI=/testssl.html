@@ -10,7 +10,7 @@
 <pre>
 <span style="font-weight:bold;">
 #####################################################################</span>
-  <span style="font-weight:bold;">testssl.sh</span> version <span style="font-weight:bold;">3.2rc3</span> from <a href="https://testssl.sh/dev/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/dev/</a>
+  <span style="font-weight:bold;">testssl.sh</span> version <span style="font-weight:bold;">3.2rc4</span> from <a href="https://testssl.sh/dev/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/dev/</a>
 <span style="font-weight:bold;">
   This program is free software. Distribution and modification under
   GPLv2 permitted. USAGE w/o ANY WARRANTY. USE IT AT YOUR OWN RISK!</span>
@@ -20,9 +20,9 @@
 #####################################################################</span>
 
   Using <i>OpenSSL 1.0.2-bad </i>  [~183 ciphers]
-  on fv-az1719-471:/home/testssl/bin/openssl.Linux.x86_64
+  on fv-az1959-206:/home/testssl/bin/openssl.Linux.x86_64
 
-<span style="color:white;background-color:black;"> Start 2025-01-14 13:32:26                --&gt;&gt; 107.154.50.81:443 (dgse.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2025-02-14 13:33:31                --&gt;&gt; 107.154.50.81:443 (dgse.gouv.fr) &lt;&lt;--</span>
 
  rDNS (107.154.50.81):   mx.cnmosis.dirisi.defense.gouv.fr.
  Service detected:       HTTP
@@ -97,9 +97,11 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>dgse.gouv.fr </i> (CN in response to request w/o SNI: <i>*.cnmosis.dirisi.defense.gouv.fr </i>)
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>www.dgse.gouv.fr dgse.gouv.fr </i>
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
+                              <span style="color:#a86437;">wildcard certificate</span> could be problematic, see other hosts at
+                              https://search.censys.io/search?resource=hosts&amp;virtual_hosts=INCLUDE&amp;q=441CA443A5461F36067D11E1FE3FBAE72636445A3885AA1C58720DFCBC166722
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">310 &gt;= 60 days</span> (2024-12-05 23:00 --&gt; 2025-11-20 22:59)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">279 &gt;= 60 days</span> (2024-12-05 23:00 --&gt; 2025-11-20 22:59)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>http://crl.dhimyotis.com/servicesca.crl
                               http://crl.certigna.fr/servicesca.crl
@@ -118,11 +120,20 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing HTTP header response @ &quot;/&quot; </span>
 
-<span style="font-weight:bold;"> HTTP Status Code           </span><span style="color:#cd00cd;"> likely HTTP header requests failed (#lines: 0)</span>
-Rerun with DEBUG&gt;=1 and inspect /tmp/testssl.cLN467/107.154.50.81.http_header.txt
-
-<span style="color:#be32d0;font-weight:bold;">HTTP header was repeatedly zero.</span>
-Skipping complete HTTP header section.
+<span style="font-weight:bold;"> HTTP Status Code           </span>  301 Moved Permanently, redirecting to &quot;<a href="http://dgse.gouv.fr/fr" style="color:black;text-decoration:none;">http://dgse.gouv.fr/fr</a>&quot;<span style="color:#e52207;"> -- Redirect to insecure URL (NOT ok)</span>
+<span style="font-weight:bold;"> HTTP clock skew              </span>-153625 sec from localtime
+<span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#008817;">365 days</span>=31536000 s<span style="color:#008817;">, includeSubDomains</span>
+<span style="font-weight:bold;"> Public Key Pinning           </span>--
+<span style="font-weight:bold;"> Server banner                </span>(no &quot;Server&quot; line in header, interesting!)
+<span style="font-weight:bold;"> Application banner           </span>--
+<span style="font-weight:bold;"> Cookie(s)                    </span>1 issued: <span style="color:#c05600;">NOT</span> secure, <span style="color:#008817;">1/1</span> HttpOnly -- maybe better try target URL of 30x
+                              Encrypted F5 cookie named <i>lifekeeper</i> detected
+<span style="font-weight:bold;"> Security headers             </span><span style="color:#008817;">X-Frame-Options</span>: SAMEORIGIN, SAMEORIGIN
+                              <span style="color:#008817;">X-Content-Type-Options</span>: nosniff
+                              X-XSS-Protection: 1
+                              Referrer-Policy: no-referrer
+                              X-UA-Compatible: IE=edge
+<span style="font-weight:bold;"> Reverse Proxy banner         </span>--
 
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing vulnerabilities </span>
@@ -200,7 +211,7 @@ Skipping complete HTTP header section.
 <span style="font-weight:bold;"> Final Score                  </span>81
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A+</span>
 
-<span style="color:white;background-color:black;"> Done 2025-01-14 13:35:03 [ 160s] --&gt;&gt; 107.154.50.81:443 (dgse.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2025-02-14 13:35:06 [  99s] --&gt;&gt; 107.154.50.81:443 (dgse.gouv.fr) &lt;&lt;--</span>
 
 
 </pre>
