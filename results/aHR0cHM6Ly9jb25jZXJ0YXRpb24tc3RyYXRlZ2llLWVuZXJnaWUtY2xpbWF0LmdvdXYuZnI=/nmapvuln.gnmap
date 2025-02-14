@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Tue Jan 14 12:53:15 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln concertation-strategie-energie-climat.gouv.fr
+# Nmap 7.92 scan initiated Fri Feb 14 12:57:55 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln concertation-strategie-energie-climat.gouv.fr
 Host: 79.137.76.37 (vps381334.ovh.net)	Status: Up
-Host: 79.137.76.37 (vps381334.ovh.net)	Ports: 80/open/tcp//http?///, 443/open/tcp//https?///	Ignored State: filtered (998)
-# Nmap done at Tue Jan 14 12:53:49 2025 -- 1 IP address (1 host up) scanned in 33.65 seconds
+Host: 79.137.76.37 (vps381334.ovh.net)	Ports: 80/open/tcp//tcpwrapped///, 443/open/tcp//tcpwrapped///
+# Nmap done at Fri Feb 14 13:03:49 2025 -- 1 IP address (1 host up) scanned in 354.52 seconds
