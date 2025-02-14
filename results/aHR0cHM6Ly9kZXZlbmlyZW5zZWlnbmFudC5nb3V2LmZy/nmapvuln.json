@@ -1,0 +1,1 @@
+{"host":"devenirenseignant.gouv.fr","protocol":"tcp","closed_ports":"917","open_ports":[{"service":{"name":"tcpwrapped","id":"80","vulnerabilities":[]}}],"grade":"A"}
